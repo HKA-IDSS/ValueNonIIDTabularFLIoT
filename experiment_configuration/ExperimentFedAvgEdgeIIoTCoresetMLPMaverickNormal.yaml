@@ -1,0 +1,19 @@
+strategy: FedAvg
+dataset: edge-iot-coreset
+model: mlp
+partition: manual
+name: EdgeIIOT_Maverick_OnlyNormal
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 30
+
+rounds: 50
+
+# At the moment, we are assuming that all the clients can always connect.
+data_split: [ 20, 20, 20, 20, 20 ]
+
+metrics:
+  - F1Score
+  - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

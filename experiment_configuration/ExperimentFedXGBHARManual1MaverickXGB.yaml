@@ -1,0 +1,13 @@
+strategy: FedXGB
+dataset: har
+partition: manual
+name: HAR_1_Maverick_1_label_skew
+model: xgboost
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 30
+
+rounds: 100
+
+metrics:
+  - F1Score

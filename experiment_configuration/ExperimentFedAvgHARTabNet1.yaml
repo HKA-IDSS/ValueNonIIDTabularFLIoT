@@ -1,0 +1,11 @@
+strategy: FedAvg
+dataset: har
+model: tabnet
+alpha: 1
+seed: 1
+
+batch_size: 32
+rounds: 20
+
+# At the moment, we are assuming that all the clients can always connect.
+data_split: [ 16,16,16,16,16,16 ]

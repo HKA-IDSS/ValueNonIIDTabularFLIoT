@@ -1,0 +1,16 @@
+strategy: FedAvg
+dataset: har
+partition: manual
+name: HAR_1_Maverick_1_LessLabels
+model: mlp
+
+hyperparameter_search: false
+hyperparameter_search_rounds: 30
+
+rounds: 50
+
+metrics:
+  - F1Score
+  - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

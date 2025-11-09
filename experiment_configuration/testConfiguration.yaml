@@ -1,0 +1,95 @@
+strategy: FedXGB
+metrics: [F1Score, F1Score]
+dataset: adult
+dataset_description: Common adult dataset
+dataset_features:
+- name: age
+  type: integer
+  valid_values: [18, 100]
+  order_in_dataset: 1
+- name: workclass
+  type: string
+  valid_values: [State-gov, private, Self-emp-not-inc, Federal-gov, Local-gov]
+  order_in_dataset: 2
+- name: fnlwgt
+  type: integer
+  valid_values: [10000, 1000000]
+  order_in_dataset: 3
+- name: education
+  type: string
+  valid_values: [Bachelors, HS-grad, 11th, Masters, 9th, Some-college, Assoc-acdm,
+    Assoc-voc, 7th-8th, Doctorate, Prof-school, 5th-6th, 10th, 1st-4th, Preschool,
+    12th]
+  order_in_dataset: 4
+- name: education-num
+  type: integer
+  valid_values: [1, 17]
+  order_in_dataset: 5
+- name: marital-Status
+  type: string
+  valid_values: [Never-married, Married-civ-spouse, Divorced, Married-spouse-absent,
+    Separated, Married-AF-spouse, Widowed]
+  order_in_dataset: 6
+- name: Occupation
+  type: string
+  valid_values: [Adm-clerical, Exec-managerial, Handlers-cleaners, Prof-specialty,
+    Other-service, Sales, Craft-repair, Transport-moving, Farming-fishing, Machine-op-inspct,
+    Tech-support, Protective-serv, Armed-Forces, Priv-house-serv]
+  order_in_dataset: 7
+- name: relationship
+  type: string
+  valid_values: [Not-in-family, Husband, Wife, Own-child, Unmarried, Other-relative]
+  order_in_dataset: 8
+- name: race
+  type: string
+  valid_values: [White, Black, Asian-Pac-Islander, Amer-Indian-Eskimo, Other]
+  order_in_dataset: 9
+- name: Sex
+  type: string
+  valid_values: [Male, Female]
+  order_in_dataset: 10
+- name: capital-gain
+  type: integer
+  valid_values: [0, 100000]
+  order_in_dataset: 11
+- name: capital-loss
+  type: integer
+  valid_values: [0, 10000]
+  order_in_dataset: 12
+- name: hours-per-week
+  type: integer
+  valid_values: [0, 100]
+  order_in_dataset: 13
+- name: native-country
+  type: string
+  valid_values: [United-States, Cuba, Jamaica, India, Mexico, South, Puerto-Rico,
+    Honduras, England, Canada, Germany, Iran, Philippines, Italy, Poland, Columbia,
+    Cambodia, Thailand, Ecuador, Laos, Taiwan, Haiti, Portugal, Dominican-Republic,
+    El-Salvador, France, Guatemala, China, Japan, Yugoslavia, Peru, Outlying-US(Guam-USVI-etc),
+    Scotland, Trinadad&Tobago, Greece, Nicaragua, Vietnam, Hong, Ireland, Hungary,
+    Holand-Netherlands]
+  order_in_dataset: 14
+- name: label
+  type: string
+  valid_values: [<=50K, '>50K']
+  order_in_dataset: 15
+dataset_input_size: 15
+model: xgboost
+hyperparameter_search: true
+hyperparameter_search_rounds: 2
+hyper_parameter:
+  tree_method: hist
+  booster: gbtree
+  eta: [0.01, 0.2]
+  max_depth: [2, 10]
+  gamma: [0, 0.2]
+  subsample: 1
+  max_delta_step: [0, 10]
+  lambda: [0, 2]
+  min_child_weight: [1, 6]
+
+seed: 1
+partition: dirichlet
+alpha: 1
+rounds: 20
+data_split: [50, 50]

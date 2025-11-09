@@ -1,0 +1,57 @@
+# This file represents all the possible values for experiments.
+# It is not prepared to be used. Please, prepare a second file for the config.
+# See example: ExperimentFedAvgCoverTypeMLP1.yaml
+
+# The order is irrelevant.
+
+strategy:
+  - FedAvg
+  - FedKD
+  - FedLF #Experimental strategy
+  - FedGKD
+  - FedDKD
+  - FedDGKD #Experimental strategy
+  - FedXGBoostBagging # Experimental strategy
+
+dataset:
+  # - wine
+  # - iris
+  - har
+  - adult
+  - covertype
+  - heart
+  - binary_heart
+
+model:
+  - mlp
+  - tabnet
+
+partition_type:
+  - dirichlet
+  - manual
+  - feature_skew
+
+# Either if hyperparameter search is run or not.
+# One round is required at least if the experiment has not been run before.
+hyperparameter_search: false
+hyperparameter_search_rounds: 100
+
+# With dirichlet
+alpha: [ 0.01, 0.1, 1, 10, 100 ]
+
+# With manual
+name: name_of_partition
+
+# With feature_skew
+n_clients: number_of_clients
+
+rounds: Specify_number_of_rounds
+
+# At the moment, we are assuming that all the clients can always connect.
+# Only with dirichlet
+data_split: [ 33,34,33 ]
+
+metrics:
+  - F1Score
+  - WeightedF1Score
+  - MCC

@@ -1,0 +1,13 @@
+strategy: FedAvg
+dataset: har
+partition: manual
+name: HAR_FullNonIID
+model: mlp
+
+batch_size: 32
+rounds: 20
+
+metrics:
+  - F1Score
+  - WeightedF1Score
+  - MCC

@@ -1,0 +1,17 @@
+strategy: FedXGB
+dataset: har
+model: xgboost
+partition: dirichlet
+alpha: 100
+seed: 1
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 20
+
+rounds: 20
+
+# At the moment, we are assuming that all the clients can always connect.
+data_split: [ 16,16,16,16,16,16 ]
+
+metrics:
+  - F1Score

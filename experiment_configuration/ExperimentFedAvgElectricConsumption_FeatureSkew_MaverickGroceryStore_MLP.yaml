@@ -1,0 +1,19 @@
+strategy: FedAvg
+dataset: electric-consumption
+model: mlp
+partition: manual
+name: ElectricConsumption_FeatureSkew_MaverickGroceryStore
+
+hyperparameter_search: false
+hyperparameter_search_rounds: 30
+
+rounds: 50
+
+# At the moment, we are assuming that all the clients can always connect.
+data_split: [ 25,25,25,25 ]
+
+metrics:
+  - RMSE
+  - MAE
+  - R2
+  - RSE

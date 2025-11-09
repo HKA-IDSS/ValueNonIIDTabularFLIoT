@@ -1,0 +1,80 @@
+strategy:
+  - FedAvg
+
+dataset:
+  - har
+  - adult
+  - covertype
+  - heart
+  - binary_heart
+
+partition_type:
+  - dirichlet
+  - manual
+  - feature_skew
+
+# Either if hyperparameter search is run or not.
+# One round is required at least if the experiment has not been run before.
+hyperparameter_search: true
+hyperparameter_search_rounds: 100
+
+# With dirichlet
+alpha: [ 0.01, 0.1, 1, 10, 100 ]
+
+# With manual
+name:
+  adult:
+    - Adult_FeatureSkew_Occupation
+    - Adult_FeatureSkew_Studies
+    - Adult_FeatureSkew_WorldRegion
+  har:
+    - HAR_1_Maverick_label_skew
+    - HAR_1_Maverick_1_LessLabels
+    - HAR_1_Maverick_1_MissingTwoLabels
+    - HAR_FullNonIID
+  covertype:
+    - Covertype_FS_WildernessArea
+#  heart:
+#    - Heart_FS_Location
+  binary_heart:
+    - HeartBinary_FS_Location
+
+# With feature_skew
+n_clients:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+
+model:
+  - mlp
+  - tabnet
+
+rounds: 20
+
+# At the moment, we are assuming that all the clients can always connect.
+# Only with dirichlet
+data_split:
+  har:
+    - [ 33,34,33 ]
+    - [16, 16, 16, 16, 16, 16]
+  adult:
+    - [ 33,34,33 ]
+    - [50, 50]
+  covertype:
+    - [50, 50]
+    - [ 33,34,33 ]
+    - [ 25,25,25,25 ]
+  heart:
+    - [ 50, 50 ]
+    - [ 33,34,33 ]
+    - [ 25,25,25,25 ]
+  binary_heart:
+    - [ 50, 50 ]
+    - [ 33,34,33 ]
+
+metrics:
+  - F1Score
+  - WeightedF1Score
+  - MCC

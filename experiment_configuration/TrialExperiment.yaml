@@ -1,0 +1,19 @@
+strategy: FedAvg
+dataset: adult
+model: mlp
+partition: manual
+name: Adult_trial
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 2
+
+rounds: 50
+
+## At the moment, we are assuming that all the clients can always connect.
+#data_split: [ 50,50 ]
+
+metrics:
+  - F1Score
+  - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

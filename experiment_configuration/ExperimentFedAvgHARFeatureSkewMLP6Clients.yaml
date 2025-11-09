@@ -1,0 +1,17 @@
+strategy: FedAvg
+dataset: har
+model: mlp
+partition: feature_skew
+n_clients: 6
+
+
+batch_size: 32
+rounds: 20
+
+## At the moment, we are assuming that all the clients can always connect.
+#data_split: [ 16,16,16,16,16,16 ]
+
+metrics:
+  - F1Score
+  - WeightedF1Score
+  - MCC

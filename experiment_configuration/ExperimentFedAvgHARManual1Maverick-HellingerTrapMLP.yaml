@@ -1,0 +1,17 @@
+strategy: FedAvg
+dataset: har
+partition: manual
+name: HAR_1_Maverick_1_HellingerTrap
+model: mlp
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 30
+
+rounds: 50
+
+metrics:
+  - CrossEntropyLoss
+  - Accuracy
+  - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

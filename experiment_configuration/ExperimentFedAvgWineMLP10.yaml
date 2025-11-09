@@ -1,0 +1,17 @@
+strategy: FedAvg
+dataset: wine
+model: mlp
+partition: dirichlet
+alpha: 10
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 30
+
+rounds: 20
+
+# At the moment, we are assuming that all the clients can always connect.
+data_split: [ 33,34,33 ]
+
+metrics:
+  - F1Score
+  - MCC

@@ -1,0 +1,48 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql:8.4
+    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
+    # (this is just an example, not intended to be a production configuration)
+    command: --mysql-native-password=ON
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_USER: optuna_user
+      MYSQL_PASSWORD: optuna_password
+    volumes:
+      - mysql_volume:/var/lib/mysql
+    networks:
+      - flower_network
+
+#  adminer:S
+#    image: adminer
+#    restart: always
+#    ports:
+#      - 8080:8080
+#    networks:
+#      - flower_network
+
+#  flower:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    command: tail -F anything
+#    volumes:
+#      - flower_volume:/flower_experimentation_framework
+#    ports:
+#      - 9100:9100
+#    networks:
+#      - flower_network
+
+networks:
+  flower_network:
+
+volumes:
+  mysql_volume:
+  flower_volume:

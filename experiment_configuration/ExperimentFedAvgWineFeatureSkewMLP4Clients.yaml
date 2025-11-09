@@ -1,0 +1,16 @@
+strategy: FedAvg
+dataset: wine
+partition: feature_skew
+n_clients: 4
+model: mlp
+
+hyperparameter_search: true
+hyperparameter_search_rounds: 2
+
+rounds: 20
+
+metrics:
+  - F1Score
+  - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro
