@@ -4,7 +4,7 @@ model: mlp
 partition: manual
 name: Wine_Maverick
 
-hyperparameter_search: false
+hyperparameter_search: true
 hyperparameter_search_rounds: 30
 
 rounds: 20
@@ -13,6 +13,8 @@ rounds: 20
 data_split: [ 33,34,33 ]
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
   - MCC
   - F1ScoreMacro

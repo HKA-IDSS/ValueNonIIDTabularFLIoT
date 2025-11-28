@@ -4,10 +4,16 @@ partition: manual
 name: HAR_FullNonIID
 model: mlp
 
-batch_size: 32
-rounds: 20
+hyperparameter_search: true
+hyperparameter_search_rounds: 30
+
+rounds: 50
+
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
-  - WeightedF1Score
   - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

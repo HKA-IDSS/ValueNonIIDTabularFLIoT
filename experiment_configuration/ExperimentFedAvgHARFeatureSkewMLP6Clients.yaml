@@ -12,6 +12,9 @@ rounds: 20
 #data_split: [ 16,16,16,16,16,16 ]
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
-  - WeightedF1Score
   - MCC
+  - F1ScoreMacro
+  - F1ScoreMicro

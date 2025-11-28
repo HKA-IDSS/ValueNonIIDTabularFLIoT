@@ -4,12 +4,14 @@ partition: manual
 name: HAR_1_Maverick_Balanced_Laying_5
 model: mlp
 
-hyperparameter_search: false
+hyperparameter_search: true
 hyperparameter_search_rounds: 30
 
 rounds: 50
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
   - MCC
   - F1ScoreMacro

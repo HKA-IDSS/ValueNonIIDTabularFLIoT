@@ -13,6 +13,8 @@ rounds: 50
 data_split: [ 20, 20, 20, 20, 20 ]
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
   - MCC
   - F1ScoreMacro

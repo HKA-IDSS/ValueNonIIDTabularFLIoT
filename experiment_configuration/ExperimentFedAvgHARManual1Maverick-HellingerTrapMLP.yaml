@@ -12,6 +12,7 @@ rounds: 50
 metrics:
   - CrossEntropyLoss
   - Accuracy
+  - F1Score
   - MCC
   - F1ScoreMacro
   - F1ScoreMicro

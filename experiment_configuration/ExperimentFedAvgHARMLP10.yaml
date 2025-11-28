@@ -5,7 +5,7 @@ partition: dirichlet
 alpha: 10
 seed: 1
 
-hyperparameter_search: false
+hyperparameter_search: true
 hyperparameter_search_rounds: 30
 
 rounds: 50
@@ -14,6 +14,8 @@ rounds: 50
 data_split: [ 16,16,16,16,16,16 ]
 
 metrics:
+  - CrossEntropyLoss
+  - Accuracy
   - F1Score
   - MCC
   - F1ScoreMacro
