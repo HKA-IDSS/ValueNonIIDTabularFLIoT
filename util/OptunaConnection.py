@@ -2,16 +2,16 @@ import optuna
 import pymysql
 
 # Optuna url for connection within the docker-compose cluster.
-# optuna_studies_url = "mysql+pymysql://root:example@db:3306/optuna_studies"
+# optuna_studies_url = "mysql+pymysql://optuna_user:optuna_password@db:3306/optuna_studies"
 
 # Optuna url for connection locally.
-optuna_studies_url = "mysql+pymysql://root:dg-connection@localhost:3306/optuna_studies"
+optuna_studies_url = "mysql+pymysql://root:example@localhost:3306/optuna_studies"
 
 
 def optuna_create_study(name, direction):
     conn = pymysql.connect(host='localhost',
                            user='root',
-                           password='dg-connection')
+                           password='example')
     # conn.cursor().execute("drop database if exists {};".format(name))
     conn.cursor().execute("create database if not exists optuna_studies")
     try:
