@@ -54,7 +54,7 @@ def get_evaluate_config_func(compute_shapley_values, num_rounds):
 # The `evaluate` function will be called after every round
 # It needs to be positioned here, as it needs to have the model defined before.
 def get_evaluate_function(data_route, model: Union[KerasModel | XGBoostModel], model_selected, metric_list, study,
-                          trial, load_best_trial):
+                          trial, load_best_trial, max_number_of_rounds):
     def evaluate(
             server_round: int, parameters: Optional[Parameters | bytes], config: Dict[str, Scalar]
     ) -> Optional[Tuple[float, Dict[str, Scalar]]]:
@@ -79,7 +79,7 @@ def get_evaluate_function(data_route, model: Union[KerasModel | XGBoostModel], m
         else:
             loss = evaluation_results.get_value_of_metric("CrossEntropyLoss")
 
-        if server_round == 20 and load_best_trial == 0:
+        if server_round == max_number_of_rounds and load_best_trial == 0:
             study.tell(trial, loss)
 
         return loss, evaluation_results.return_flower_dict()
@@ -206,7 +206,7 @@ def generate_server_strategy(strategy_selected,
         min_available_clients=number_of_clients,
         initial_parameters=parameters,
         eval_fn=get_evaluate_function(directory_of_data, model, model_selected, metric_list,
-                                      study, trial, load_best_trial),
+                                      study, trial, load_best_trial, number_of_rounds),
         on_fit_config_fn=get_fit_config_func(parameters_dict),
         on_evaluate_config_fn=get_evaluate_config_func(compute_shapley_values, number_of_rounds),
         model_final_name=model_final_name,
