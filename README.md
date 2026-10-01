@@ -1,5 +1,8 @@
 # Flower_Experimentation_Framework
 
+**(Comment: We will upload on 01.10.2026/02.10.2026 a revised version of the repository, with the times for SV and a refactored version of
+the code. We kindly request for you patience.)**
+
 Experimentation setup for the paper *On the Utility of Non-i.i.d. Tabular IoT Data for Federated Learning*. 
 The setup works by encapsulating the [Flower Federated Learning framework](https://flower.ai/), and extending it with functionality
 for simulation of different scenarios and data quality measurements. We also provide the results obtained in our
