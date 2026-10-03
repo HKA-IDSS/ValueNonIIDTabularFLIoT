@@ -1,5 +1,8 @@
+from logging import INFO
+
 import optuna
 import pymysql
+from flwr.common import log
 
 # Optuna url for connection within the docker-compose cluster.
 # optuna_studies_url = "mysql+pymysql://optuna_user:optuna_password@db:3306/optuna_studies"
@@ -8,7 +11,7 @@ import pymysql
 optuna_studies_url = "mysql+pymysql://root:example@localhost:3306/optuna_studies"
 
 
-def optuna_create_study(name, direction):
+def optuna_create_study(name, direction='minimize'):
     conn = pymysql.connect(host='localhost',
                            user='root',
                            password='example')
@@ -19,7 +22,7 @@ def optuna_create_study(name, direction):
             storage=optuna_studies_url,  # Specify the storage
             # URL here.
             study_name=name,
-            directions=direction,
+            direction=direction,
             load_if_exists=False
         )
     except optuna.exceptions.DuplicatedStudyError:
@@ -29,7 +32,7 @@ def optuna_create_study(name, direction):
             storage=optuna_studies_url,  # Specify the storage
             # URL here.
             study_name=name,
-            directions=direction
+            direction=direction
         )
     return study
 
@@ -39,6 +42,9 @@ def load_study(name_study):
         study_name=name_study,
         storage=optuna_studies_url
     )
+    if study is None:
+        raise Exception(404, "No study with a centralized dataset was found. Remember to run the Search"
+                         "in the Optuna Notebook")
     return study
 
 # Command to run:

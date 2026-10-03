@@ -1,7 +1,7 @@
 import functools
 import itertools
 import os
-from typing import Tuple, List, Union
+from typing import Tuple, List, Union, Optional
 
 import numpy as np
 import pandas as pd
@@ -12,7 +12,7 @@ from sklearn.datasets import load_wine, load_iris
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
+from sklearn.preprocessing import MinMaxScaler, OneHotEncoder, StandardScaler
 from sklearn.compose import make_column_selector
 
 from Definitions import ROOT_DIR
@@ -81,6 +81,8 @@ class Dataset:
     x_train: DataFrame
     y_train: Union[Series, DataFrame]
     labels: List[str]
+    _original_values_of_categories_of_interest_train: Optional[pd.DataFrame] = None
+    _original_values_of_categories_of_interest_test: Optional[pd.DataFrame] = None
 
     def get_dataset(self) -> Tuple[DataFrame, Union[Series, DataFrame]]:
         return self.X, self.y
@@ -103,6 +105,11 @@ class Dataset:
 
     def get_labels(self):
         return self.labels
+
+    def get_subpopulation_of_interest(self, columns_of_interest):
+        assert self._original_values_of_categories_of_interest_test is not None
+        return (self._original_values_of_categories_of_interest_train[columns_of_interest],
+                self._original_values_of_categories_of_interest_test[columns_of_interest])
 
     # def get_number_of_classes(self):
     #     return self.y.shape[1]
@@ -304,16 +311,38 @@ class HeartDataset(Dataset):
 
         y_train, y_test, self.labels = encode_training_and_test_y_data(y_train, y_test)
 
-        categorical_features = ['sex', 'location', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']
+        # CA could be considered categorical feature or numerical. It is a count of distinct values.
         continuous_features = ["age", "trestbps", "chol", "thalach", "oldpeak"]
 
-        min_max_scaler = MinMaxScaler()
-        min_max_scaler.fit(x_train[continuous_features])
-        x_train[continuous_features] = min_max_scaler.transform(x_train[continuous_features])
-        x_test[continuous_features] = min_max_scaler.transform(x_test[continuous_features])
+        categorical_string =['sex', 'location', 'cp', 'restecg', 'exang', 'slope', 'thal']
+        categorical_numerical = ['fbs', 'ca']
 
-        ct = ColumnTransformer([("categorical_preprocess", OneHotEncoder(), categorical_features)],
-                               remainder="passthrough")
+        x_train.drop(categorical_numerical, axis=1, inplace=True)
+        x_test.drop(categorical_numerical, axis=1, inplace=True)
+
+        numerical_pipeline = Pipeline(steps=[('imputer_numerical',
+                                              SimpleImputer(strategy='mean')),
+                                             ('scaler', StandardScaler())])
+        # categorical_numerical_pipeline = Pipeline(steps=[('imputer_numerical_categorical',
+        #                                                   SimpleImputer(strategy='constant', fill_value=0.0)),
+        #                                      ('scaler', MinMaxScaler())])
+        categorical_string_pipeline = Pipeline(steps=[('imputer_string_categorical',
+                                                       SimpleImputer(strategy='most_frequent')),
+                                               ('onehot', OneHotEncoder(handle_unknown='ignore'))])
+
+        ct = ColumnTransformer(
+            [('numerical_pipeline', numerical_pipeline, continuous_features),
+             # ('categorical_numerical_pipeline', categorical_numerical_pipeline, categorical_numerical),
+             ('categorical_string_pipeline', categorical_string_pipeline, categorical_string)],
+            remainder="passthrough", verbose_feature_names_out=False)
+
+        # ct = ColumnTransformer([("categorical_preprocess", OneHotEncoder(), categorical_features)],
+        #                        remainder="passthrough")
+
+        # min_max_scaler = MinMaxScaler()
+        # min_max_scaler.fit(x_train[continuous_features])
+        # x_train[continuous_features] = min_max_scaler.transform(x_train[continuous_features])
+        # x_test[continuous_features] = min_max_scaler.transform(x_test[continuous_features])
 
         encoder_ct = ct.fit(x_train)
         x_train = pd.DataFrame(encoder_ct.transform(x_train), index=x_train.index,
@@ -321,8 +350,8 @@ class HeartDataset(Dataset):
         x_test = pd.DataFrame(encoder_ct.transform(x_test), index=x_test.index,
                               columns=encoder_ct.get_feature_names_out())
 
-        x_train[np.isnan(x_train)] = 0
-        x_test[np.isnan(x_test)] = 0
+        # x_train[np.isnan(x_train)] = 0
+        # x_test[np.isnan(x_test)] = 0
 
         x_train_size = len(x_train)
         x_test_size = len(x_test)
@@ -345,11 +374,11 @@ class HeartDataset(Dataset):
 class HeartDatasetBinary(HeartDataset):
     def __init__(self):
         super().__init__()
-        # self.y_train["1"][(self.y_train["2"] == 1) | (self.y_train["3"] == 1) | (self.y_train["4"] == 1)] = 1
-        # self.y_train.drop(["2", "3", "4"], axis=1, inplace=True)
-        # self.y_test["1"][(self.y_test["2"] == 1) | (self.y_test["3"] == 1) | (self.y_test["4"] == 1)] = 1
-        # self.y_test.drop(["2", "3", "4"], axis=1, inplace=True)
-        # self.y_train.loc["1", self.y_train[(self.y_train["2"] == 1) | (self.y_train["3"] == 1) | (self.y_train["4"] == 1)]] = 1
+        self.y_train.loc[(self.y_train["2"] == 1) | (self.y_train["3"] == 1) | (self.y_train["4"] == 1), "1"] = 1
+        self.y_train.drop(["2", "3", "4"], axis=1, inplace=True)
+        self.y_test.loc[(self.y_test["2"] == 1) | (self.y_test["3"] == 1) | (self.y_test["4"] == 1), "1"] = 1
+        self.y_test.drop(["2", "3", "4"], axis=1, inplace=True)
+        # self.y_train["1", self.y_train[(self.y_train["2"] == 1) | (self.y_train["3"] == 1) | (self.y_train["4"] == 1)]] = 1
         # self.y_train.drop(["2", "3", "4"], axis=1, inplace=True)
         # self.y_test["1", (self.y_test["2"] == 1) | (self.y_test["3"] == 1) | (self.y_test["4"] == 1)] = 1
         # self.y_test.drop(["2", "3", "4"], axis=1, inplace=True)
@@ -535,6 +564,115 @@ class ElectricConsumptionDataset(Dataset):
         self.x_test = x_test
         self.y_train = y_train
         self.y_test = y_test
+
+from sklearn.model_selection import GroupShuffleSplit
+
+class WidsEnergyDataset(Dataset):
+    GROUP_COLS = ['State_Factor', 'building_class', 'facility_type', 'floor_area', 'year_built']
+
+    def __init__(self, random_seed=1, test_size=0.3):
+        df = pd.read_csv(directory_of_data + os.sep + "ElectricConsumption" + os.sep + "train.csv")
+        df = df.reset_index(drop=True)
+
+        # --- 1. row-local weather compression: pure per-row function, safe pre-split ---
+        df = self._add_weather_row_stats(df)
+
+        # --- 2. synthetic building id, used both for the split and later for FL partitioning ---
+        df['building_group'] = df[self.GROUP_COLS].astype(str).agg('_'.join, axis=1)
+
+        # --- 3. GROUP-safe split: a building's full row history goes entirely to one side ---
+        splitter = GroupShuffleSplit(n_splits=1, test_size=test_size, random_state=random_seed)
+        train_idx, test_idx = next(splitter.split(df, groups=df['building_group']))
+
+        df_train = df.iloc[train_idx].sort_values(self.GROUP_COLS + ['Year_Factor']).copy()
+        df_test  = df.iloc[test_idx].sort_values(self.GROUP_COLS + ['Year_Factor']).copy()
+
+        self._original_values_of_categories_of_interest_train = df_train[['State_Factor', 'building_class', 'facility_type']].copy()
+        self._original_values_of_categories_of_interest_test = df_test[['State_Factor', 'building_class', 'facility_type']].copy()
+
+        # --- 4. lag/delta features, computed independently per split (groups never cross the split) ---
+        df_train = self._add_lag_delta_features(df_train)
+        df_test  = self._add_lag_delta_features(df_test)
+
+        # --- 5. cohort (weather-station) stats: FIT on train, TRANSFORM test ---
+        df_train, df_test = self._fit_transform_cohort_stats(df_train, df_test)
+
+        # keep raw (pre-encoding) group keys for manual FL partitioning later
+        self.groups_train = df_train['building_group'].copy()
+        self.groups_test  = df_test['building_group'].copy()
+        self.state_train  = df_train['State_Factor'].copy()
+        self.state_test   = df_test['State_Factor'].copy()
+
+        df_train.drop(columns=['id', 'building_group'], inplace=True, errors='ignore')
+        df_test.drop(columns=['id', 'building_group'], inplace=True, errors='ignore')
+
+        y_train = df_train.pop('site_eui')
+        y_test  = df_test.pop('site_eui')
+        x_train, x_test = df_train, df_test
+
+        # --- 6. standard impute/scale/one-hot, fit on train only ---
+        numerical_pipeline = Pipeline(steps=[('inputer_numerical', SimpleImputer(strategy='mean')),
+                                              ('scaler', MinMaxScaler())])
+        categorical_pipeline = Pipeline(steps=[('imputer_categorical', SimpleImputer(strategy='most_frequent')),
+                                                ('onehot', OneHotEncoder(handle_unknown='ignore'))])
+        ct = ColumnTransformer(
+            [('numerical_pipeline', numerical_pipeline, make_column_selector(dtype_include=["int", "float"])),
+             ('categorical_pipeline', categorical_pipeline, make_column_selector(dtype_include=["object", "category"]))],
+            remainder="passthrough", verbose_feature_names_out=False)
+
+        encoder = ct.fit(x_train)
+        x_train = pd.DataFrame(encoder.transform(x_train), index=x_train.index, columns=encoder.get_feature_names_out())
+        x_test  = pd.DataFrame(encoder.transform(x_test),  index=x_test.index,  columns=encoder.get_feature_names_out())
+
+        x_train.sort_index(inplace=True); x_test.sort_index(inplace=True)
+        y_train.sort_index(inplace=True); y_test.sort_index(inplace=True)
+
+        self.x_train, self.x_test, self.y_train, self.y_test = x_train, x_test, y_train, y_test
+
+    @staticmethod
+    def _add_weather_row_stats(df):
+        min_temp = [c for c in df.columns if 'min_temp' in c]
+        max_temp = [c for c in df.columns if 'max_temp' in c]
+        avg_temp = [c for c in df.columns if 'avg_temp' in c]
+        for prefix, cols in [('min_temp', min_temp), ('max_temp', max_temp), ('avg_temp', avg_temp)]:
+            df[f'{prefix}1'] = df[cols].min(axis=1)
+            df[f'{prefix}2'] = df[cols].max(axis=1)
+            df[f'{prefix}3'] = df[cols].mean(axis=1)
+            df[f'{prefix}4'] = df[cols].std(axis=1)
+            df[f'{prefix}5'] = df[cols].skew(axis=1)
+        df.attrs['min_temp_cols'] = min_temp
+        return df
+
+    @classmethod
+    def _add_lag_delta_features(cls, df_split):
+        df_split = df_split.copy()
+        for i in [1, 2, 3]:
+            df_split[f'site_eui_lag{i}']           = df_split.groupby(cls.GROUP_COLS)['site_eui'].shift(i)
+            df_split[f'energy_star_rating_lag{i}'] = df_split.groupby(cls.GROUP_COLS)['energy_star_rating'].shift(i)
+            df_split[f'delta_energy{i}'] = np.where(
+                df_split['energy_star_rating'].notnull() & df_split[f'energy_star_rating_lag{i}'].notnull(),
+                (df_split['energy_star_rating'] - df_split[f'energy_star_rating_lag{i}']) / df_split['energy_star_rating'],
+                np.nan)
+        return df_split
+
+    @staticmethod
+    def _fit_transform_cohort_stats(df_train, df_test):
+        min_temp = df_train.attrs['min_temp_cols']
+        grp1 = df_train.groupby(min_temp, as_index=True).agg({
+            "floor_area": ['mean', 'max', 'min', 'sum'],
+            "year_built": ['mean', 'median', 'max', 'min'],
+            "energy_star_rating": ['min', 'max', 'mean', 'median'],
+            "id": "count"
+        })
+        grp1.columns = ["_".join(x) for x in grp1.columns.ravel()]
+        # fit on train, apply to both — test rows whose station-cohort wasn't seen in train get NaN,
+        # which the numerical imputer downstream will handle
+        df_train_index, df_test_index = df_train.index, df_test.index  # NEW
+        df_train = df_train.merge(grp1, on=min_temp, how='left')
+        df_train.index = df_train_index  # NEW — restore pre-merge row labels
+        df_test = df_test.merge(grp1, on=min_temp, how='left')
+        df_test.index = df_test_index  # NEW
+        return df_train, df_test
 
 
 class TimeSeriesDataset:

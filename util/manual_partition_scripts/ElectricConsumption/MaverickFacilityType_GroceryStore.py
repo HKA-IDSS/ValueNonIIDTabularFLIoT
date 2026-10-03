@@ -1,12 +1,14 @@
+import os
+
 import pandas as pd
 
 from experiment_parameters.TrainerFactory import dataset_model_dictionary
 from util.manual_partition_scripts.ManualSamplerUtil import store_datasets, divide_by_categorical_feature
 
-if __name__ == "__main__":
+def partition_1_maverick_facility_type_grocery_store(random_seed):
     x_train, y_train = dataset_model_dictionary["electric-consumption"]().get_dataset().get_training_data()
     x_test, y_test = dataset_model_dictionary["electric-consumption"]().get_dataset().get_test_data()
-    partition_name = "ElectricConsumption_FeatureSkew_MaverickGroceryStore"
+    partition_name = "partition_1_maverick_facility_type_grocery_store" + os.sep + str(random_seed)
 
     slice_training_function_1 = (x_train["facility_type_Grocery_store_or_food_market"] == 0)
     slice_test_function_1 = (x_test["facility_type_Grocery_store_or_food_market"] == 0)
@@ -18,8 +20,11 @@ if __name__ == "__main__":
     slice_test_functions = [slice_test_function_1]
 
     X_training_dataframe, y_training_dataframe = divide_by_categorical_feature(x_train, y_train, slice_train_functions,
-                                                                               5)
-    X_test_dataframe, y_test_dataframe = divide_by_categorical_feature(x_test, y_test, slice_test_functions, 5)
+                                                                               4,
+                                                                               random_state=random_seed)
+    X_test_dataframe, y_test_dataframe = divide_by_categorical_feature(x_test, y_test, slice_test_functions,
+                                                                       4,
+                                                                       random_state=random_seed)
 
     x_training_category_dataset = x_train[slice_training_function_2]
     X_training_dataframe[-1] = pd.concat([X_training_dataframe[-1], x_training_category_dataset])

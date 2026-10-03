@@ -7,6 +7,13 @@ from sklearn.cluster import MiniBatchKMeans
 from Definitions import ROOT_DIR
 
 sample_directory = ROOT_DIR + os.sep + "data" + os.sep + "partitioned_training_data" + os.sep + "manual"
+#
+# def sample_data(X, y, label, amount, random_state):
+#     filter_by_label = y[y[label] == 1.0]
+#     filter_X_by_label = X[X.index.isin(filter_by_label.index)]
+#     X_samples = filter_X_by_label.sample(amount, random_state=random_state)
+#     y_samples = y[y.index.isin(X_samples.index)]
+#     return X_samples, y_samples
 
 
 def return_dataframes_by_label_distribution(X, y, labels, label_distribution, random_state=1):
@@ -55,24 +62,65 @@ def store_datasets(clients,
 
 """ Functions for feature skew """
 
-
-def divide_by_categorical_feature(X_dataset, y_dataset, slice_functions, n_clients_sharing_partition=1):
+def divide_by_categorical_feature(X_dataset,
+                                  y_dataset,
+                                  slice_functions,
+                                  n_clients_sharing_partition=1,
+                                  random_state=1,
+                                  groups=None):
     X_datasets, y_datasets = [], []
     for slice_function in slice_functions:
         X_sliced_dataset = X_dataset[slice_function]
         if n_clients_sharing_partition > 1:
-            # for client in range(n_clients_sharing_partition):
-            shuffled = X_sliced_dataset.sample(frac=1)
-            partitioned_dataframes = np.array_split(shuffled, n_clients_sharing_partition)
-            for dataframe in partitioned_dataframes:
-                X_datasets.append(dataframe)
-                y_datasets.append(y_dataset.loc[list(dataframe.index.values)])
+            if groups is not None:
+                # group-safe: split unique groups, not individual rows, so a
+                # building's full history never gets scattered across sub-clients
+                sliced_groups = groups.loc[X_sliced_dataset.index]
+                unique_groups = sliced_groups.unique()
+                rng = np.random.RandomState(random_state)
+                shuffled_groups = rng.permutation(unique_groups)
+                group_chunks = np.array_split(shuffled_groups, n_clients_sharing_partition)
+
+                for group_chunk in group_chunks:
+                    chunk_mask = sliced_groups.isin(group_chunk)
+                    dataframe = X_sliced_dataset[chunk_mask]
+                    X_datasets.append(dataframe)
+                    y_datasets.append(y_dataset.loc[dataframe.index.values])
+            else:
+                # original row-level behaviour, unchanged, for ungrouped data
+                shuffled = X_sliced_dataset.sample(frac=1, random_state=random_state)
+                partitioned_dataframes = np.array_split(shuffled, n_clients_sharing_partition)
+                for dataframe in partitioned_dataframes:
+                    X_datasets.append(dataframe)
+                    y_datasets.append(y_dataset.loc[list(dataframe.index.values)])
         else:
             y_sliced_dataset = y_dataset.loc[list(X_sliced_dataset.index.values)]
             X_datasets.append(X_sliced_dataset)
             y_datasets.append(y_sliced_dataset)
 
     return X_datasets, y_datasets
+
+# def divide_by_categorical_feature(X_dataset,
+#                                   y_dataset,
+#                                   slice_functions,
+#                                   n_clients_sharing_partition=1,
+#                                   random_state=1):
+#     X_datasets, y_datasets = [], []
+#     for slice_function in slice_functions:
+#         X_sliced_dataset = X_dataset[slice_function]
+#         if n_clients_sharing_partition > 1:
+#             # for client in range(n_clients_sharing_partition):
+#             shuffled = X_sliced_dataset.sample(frac=1, random_state=random_state)
+#             partitioned_dataframes = np.array_split(shuffled, n_clients_sharing_partition)
+#             for dataframe in partitioned_dataframes:
+#                 X_datasets.append(dataframe)
+#                 y_datasets.append(y_dataset.loc[list(dataframe.index.values)])
+#         else:
+#             y_sliced_dataset = y_dataset.loc[list(X_sliced_dataset.index.values)]
+#             X_datasets.append(X_sliced_dataset)
+#             y_datasets.append(y_sliced_dataset)
+#
+#     return X_datasets, y_datasets
 
 
 def divide_by_clustering(X_dataset, y_dataset, n_clusters):
@@ -91,3 +139,46 @@ def divide_by_clustering(X_dataset, y_dataset, n_clusters):
             y_datasets[cluster_label] = pd.concat([y_datasets[cluster_label], partial_cluster_y_dataframe])
 
     return X_datasets, y_datasets
+
+
+# Mavericks utility
+
+mav_data_excluded_string = "_mav_data_excluded"
+
+def indexes_special_class_samples(y_train, y_test, class_label):
+    indexes_to_remove_train = list(y_train[y_train[class_label] == 1].index)
+    indexes_to_remove_test = list(y_test[y_test[class_label] == 1].index)
+    return indexes_to_remove_train, indexes_to_remove_test
+
+def remove_samples(X_train, y_train, X_test, y_test, indexes_to_remove_train, indexes_to_remove_test):
+    X_train.drop(indexes_to_remove_train, axis=0, inplace=True)
+    y_train.drop(indexes_to_remove_train, axis=0, inplace=True)
+    X_test.drop(indexes_to_remove_test, axis=0, inplace=True)
+    y_test.drop(indexes_to_remove_test, axis=0, inplace=True)
+    return X_train, y_train, X_test, y_test
+
+def store_maverick_removed_data(X_train,
+                                y_train,
+                                X_test,
+                                y_test,
+                                partition_name,
+                                client_number,
+                                indexes_to_remove_train,
+                                indexes_to_remove_test):
+    final_directory = sample_directory + os.sep + partition_name
+    remove_samples(X_train, y_train, X_test, y_test, indexes_to_remove_train, indexes_to_remove_test)
+    X_train.to_csv(final_directory + os.sep + f"client_{client_number}_mav_data_excluded_X_training.csv")
+    y_train.to_csv(final_directory + os.sep + f"client_{client_number}_mav_data_excluded_y_training.csv")
+    X_test.to_csv(final_directory + os.sep + f"client_{client_number}_mav_data_excluded_X_test.csv")
+    y_test.to_csv(final_directory + os.sep + f"client_{client_number}_mav_data_excluded_y_test.csv")
+
+
+# Mavericks for categorical data
+def indexes_special_category_samples(raw_train, raw_test, column, category_value):
+    """
+    Same purpose as indexes_special_class_samples, but the exclusive trait
+    lives in a feature column (X) rather than a label column (y).
+    """
+    indexes_to_remove_train = list(raw_train[raw_train[column] == category_value].index)
+    indexes_to_remove_test = list(raw_test[raw_test[column] == category_value].index)
+    return indexes_to_remove_train, indexes_to_remove_test

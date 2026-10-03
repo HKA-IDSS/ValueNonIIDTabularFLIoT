@@ -1,25 +1,34 @@
+import gc
 import os
+import pickle
 from logging import INFO
 from typing import Dict, Optional, Tuple, Union
 
 import flwr as fl
+import numpy as np
+import optuna
 import pandas as pd
 import ray
-import tensorflow as tf
+import torch
 from flwr.common import Scalar, Parameters
 from flwr.common.logger import log
+from torch.utils.data import DataLoader
+from xgboost import DMatrix
 
 from experiment_parameters.TrainerFactory import strategies_dictionary, dataset_model_dictionary, factory_return_model
 from experiment_parameters.model_builder.Model import XGBoostModel, KerasModel
 from experiment_parameters.model_builder.ModelBuilder import get_training_configuration, Director
-from metrics.Evaluator import evaluator
+from metrics.Evaluator import evaluator, partial_computation
 from metrics.GradientRewards import GradientRewards
-from metrics.Metrics import return_default_dict_of_metrics
-from metrics.Shapley_Values import ShapleyValuesNN, ShapleyValuesDT
+from metrics.Metrics import return_default_dict_of_metrics, AggregatableMeasuresClassification, \
+    return_default_partial_computations
+from metrics.Shapley_Values import ShapleyValuesDT, ShapleyValuesNN
 from util import OptunaConnection
 from util.Util import get_test_data
 
 pd.set_option('display.float_format', lambda x: '%.15f' % x)
+
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 
 # Try to use the config for sending the parameters.
@@ -53,15 +62,16 @@ def get_evaluate_config_func(compute_shapley_values, num_rounds):
 
 # The `evaluate` function will be called after every round
 # It needs to be positioned here, as it needs to have the model defined before.
-def get_evaluate_function(data_route, model: Union[KerasModel | XGBoostModel], model_selected, metric_list, study,
-                          trial, load_best_trial, max_number_of_rounds):
+def get_evaluate_function(evaluation_data, y_test, columns, model: Union[KerasModel | XGBoostModel], model_selected,
+                          metric_list, x_data_subpopulations=None):
     def evaluate(
             server_round: int, parameters: Optional[Parameters | bytes], config: Dict[str, Scalar]
     ) -> Optional[Tuple[float, Dict[str, Scalar]]]:
         log(INFO, "Server round in evaluate: {}".format(server_round))
         log(INFO, "Metric list: {}".format(metric_list))
-        x_test, y_test = get_test_data(data_route)
+        # x_test, y_test = get_test_data(data_route)
         if model_selected == "xgboost" and server_round == 0:
+            partial_computation_result = return_default_partial_computations(columns)
             evaluation_results = return_default_dict_of_metrics(metric_list, y_test.shape[1])
         else:
             # log(INFO, "Set Model")
@@ -71,18 +81,23 @@ def get_evaluate_function(data_route, model: Union[KerasModel | XGBoostModel], m
             #     parameters = parameters.tensors[0]
             model.set_model(parameters)
             log(INFO, "Evaluation")
-            evaluation_results = evaluator(x_test, y_test, model, metric_list)
+            predictions = model.predict(evaluation_data)
+            partial_computation_result = partial_computation(predictions, y_test, columns, x_data_subpopulations)
+            evaluation_results = evaluator(partial_computation_result, metric_list)
             # evaluation_results = evaluate_tree_model(x_test, y_test, parameters, metric_list)
 
-        if "RMSE" in metric_list:
-            loss = evaluation_results.get_value_of_metric("RMSE")
+        if "MSE" in metric_list:
+            if x_data_subpopulations is not None:
+                loss = evaluation_results.get_global().get_value_of_metric("MSE")
+            else:
+                loss = evaluation_results.get_value_of_metric("MSE")
         else:
-            loss = evaluation_results.get_value_of_metric("CrossEntropyLoss")
+            if x_data_subpopulations is not None:
+                loss = evaluation_results.get_global().get_value_of_metric("CrossEntropyLoss")
+            else:
+                loss = evaluation_results.get_value_of_metric("CrossEntropyLoss")
 
-        if server_round == max_number_of_rounds and load_best_trial == 0:
-            study.tell(trial, loss)
-
-        return loss, evaluation_results.return_flower_dict()
+        return loss, {"partial_computation_result": pickle.dumps(partial_computation_result)}
 
     return evaluate
 
@@ -94,20 +109,29 @@ def generate_server_strategy(strategy_selected,
                              number_of_rounds,
                              metric_list,
                              model_final_name,
+                             optuna_search_experiment,
                              load_best_trial,
                              compute_shapley_values,
-                             result_path):
-    study = OptunaConnection.load_study(model_final_name)
+                             result_path,
+                             experiment_name,
+                             exclude_maverick=False,
+                             maverick_number=None,
+                             x_data_subpopulations=None):
+    log(INFO, "Generate server strategy")
+
+    study = OptunaConnection.load_study(optuna_search_experiment)
+
+    log(INFO, "After load study")
 
     if load_best_trial == 0:
         trial = study.ask()
         parameters_dict = get_training_configuration(trial, model_selected)
         log(INFO, "Trying Hyperparameter Optimization")
 
-    elif load_best_trial == 1:
-        trial = None  # Quickfix. Not so nicely programmed.
-        trial_with_best_ce_loss = study.best_trial
-        parameters_dict = get_training_configuration(trial_with_best_ce_loss, model_selected)
+    else:
+        # trial = None  # Quickfix. Not so nicely programmed.
+        trial: optuna.Trial = study.best_trial
+        parameters_dict = get_training_configuration(trial, model_selected)
         log(INFO, "Loading best combination")
     # Dataset factory. In this case, because the dataset is not used directly in this file,
     # it is not instantiated. This factory is used by the strategy, to pass the data for
@@ -134,8 +158,12 @@ def generate_server_strategy(strategy_selected,
                 y_train = pd.concat([y_train, pd.read_csv(directory_of_data + os.sep + file, index_col=0)],
                                     ignore_index=True)
 
-    X_test, y_test = get_test_data(directory_of_data)
+    X_test, y_test = get_test_data(directory_of_data, number_of_clients, exclude_maverick, maverick_number)
 
+    if x_data_subpopulations is not None:
+        x_data_subpopulations = x_data_subpopulations.loc[X_test.index]
+
+    columns = list(y_train.columns)
     # X_train, y_train = dataset_factory.get_dataset().get_training_data()
     # X_test, y_test = dataset_factory.get_dataset().get_test_data()
 
@@ -156,8 +184,15 @@ def generate_server_strategy(strategy_selected,
 
         parameters = fl.common.ndarrays_to_parameters(weights)
 
-        shapley_values = ShapleyValuesNN(X_test, y_test, number_of_rounds, metric_list)
+        shapley_values = ShapleyValuesNN(number_of_rounds, metric_list, y_test.shape[1])
         gradient_rewards = GradientRewards(number_of_clients)
+
+        test_dataset = torch.utils.data.TensorDataset(
+            torch.from_numpy(X_test.to_numpy()), torch.from_numpy(y_test.to_numpy())
+        )
+        test_data = torch.utils.data.DataLoader(
+            test_dataset, batch_size=512, shuffle=False, pin_memory=True
+        )
 
     else:
         model = XGBoostModel()
@@ -165,12 +200,14 @@ def generate_server_strategy(strategy_selected,
 
         xgboost_training_params = director.create_xgboost(X_test.shape[1], shape, parameters_dict)
 
-        model.fit(xgboost_training_params,
-                  x_train=X_train,
-                  x_test=X_test,
-                  y_train=y_train,
-                  y_test=y_test,
-                  num_local_rounds=1)
+        test_data = DMatrix(X_test, label=np.argmax(y_test, axis=1))
+
+        # model.fit(xgboost_training_params,
+        #           x_train=X_train,
+        #           x_test=X_test,
+        #           y_train=y_train,
+        #           y_test=y_test,
+        #           num_local_rounds=1)
 
         shapley_values = ShapleyValuesDT(X_test, y_test, number_of_rounds, metric_list)
         gradient_rewards = GradientRewards(number_of_clients)
@@ -193,31 +230,38 @@ def generate_server_strategy(strategy_selected,
     strategy = strategy_type(
         # ... other fedavg arguments
         max_round=number_of_rounds,
-        directory_of_data=directory_of_data,
+        strategy_aggregation=strategy_selected,
+        data_loader_evaluation=test_data,
+        y_test=y_test,
+        x_test_subpopulation_values=x_data_subpopulations,
         model=model,
         final_training=load_best_trial,
         compute_shapley_values=compute_shapley_values,
         shapley_values=shapley_values,
         gradient_rewards=gradient_rewards,
         metric_list=metric_list,
+        result_path=result_path,
+        experiment_name=experiment_name,
+        study=study,
+        trial=trial,
         min_fit_clients=number_of_clients,
         min_eval_clients=number_of_clients,
         fraction_eval=0.2,
         min_available_clients=number_of_clients,
         initial_parameters=parameters,
-        eval_fn=get_evaluate_function(directory_of_data, model, model_selected, metric_list,
-                                      study, trial, load_best_trial, number_of_rounds),
+        # eval_fn=get_evaluate_function(directory_of_data, model, model_selected, metric_list,
+        #                               study, trial, load_best_trial, number_of_rounds),
+        eval_fn=get_evaluate_function(test_data, y_test, columns, model, model_selected, metric_list, x_data_subpopulations),
         on_fit_config_fn=get_fit_config_func(parameters_dict),
         on_evaluate_config_fn=get_evaluate_config_func(compute_shapley_values, number_of_rounds),
         model_final_name=model_final_name,
-        result_path=result_path
     )
 
     return strategy
 
 
 #@ray.remote
-@ray.remote(num_gpus=0.1)
+@ray.remote(num_gpus=0)
 def start_server(strategy_selected,
                  directory_of_data,
                  model_selected,
@@ -225,16 +269,22 @@ def start_server(strategy_selected,
                  number_of_rounds,
                  metric_list,
                  model_final_name,
+                 optuna_search_experiment,
                  load_best_trial,
                  compute_shapley_values,
-                 result_path):
-    print(f"Ray GPUS: {ray.get_gpu_ids()}")
-    gpus = tf.config.experimental.list_physical_devices('GPU')
-    try:
-        for gpu in gpus:
-            tf.config.experimental.set_memory_growth(gpu, True)
-    except RuntimeError as e:
-        print(e)
+                 result_path,
+                 experiment_name,
+                 is_maverick=False,
+                 maverick_number=None,
+                 x_data_subpopulations=None):
+    # print(f"Ray GPUS: {ray.get_gpu_ids()}")
+    # gpus = tf.config.experimental.list_physical_devices('GPU')
+    # try:
+    #     for gpu in gpus:
+    #         tf.config.experimental.set_memory_growth(gpu, True)
+    # except RuntimeError as e:
+    #     print(e)
+    log(INFO, "Server.py loaded before strategy")
     strategy = generate_server_strategy(strategy_selected,
                                         directory_of_data,
                                         model_selected,
@@ -242,10 +292,16 @@ def start_server(strategy_selected,
                                         number_of_rounds,
                                         metric_list,
                                         model_final_name,
+                                        optuna_search_experiment,
                                         load_best_trial,
                                         compute_shapley_values,
-                                        result_path)
+                                        result_path,
+                                        experiment_name,
+                                        is_maverick,
+                                        maverick_number,
+                                        x_data_subpopulations)
 
+    log(INFO, "Server.py loaded")
     # Start Flower server
     fl.server.start_server(
         server_address="localhost:54080",
@@ -253,6 +309,7 @@ def start_server(strategy_selected,
         strategy=strategy
     )
 
+    gc.collect()
     return None
 
 

@@ -1,11 +1,13 @@
+import os
+
 from experiment_parameters.TrainerFactory import dataset_model_dictionary
 from util.manual_partition_scripts.ManualSamplerUtil import return_dataframes_by_label_distribution, store_datasets
 
-if __name__ == "__main__":
+def partition_har_1_maverick_1_missingtwolabels(random_state):
     clients = ["client_0", "client_1", "client_2", "client_3", "client_4", "client_5"]
     X_training, y_training = dataset_model_dictionary["har"]().get_dataset().get_training_data()
     X_test, y_test = dataset_model_dictionary["har"]().get_dataset().get_test_data()
-    partition_name = "HAR_1_Maverick_1_MissingTwoLabels"
+    partition_name = "HAR_1_Maverick_1_MissingTwoLabels" + os.sep + str(random_state)
 
     labels = y_training.columns
     total_label_distribution_training = [len(y_training[y_training[label] == 1.0]) for label in labels]
@@ -39,9 +41,10 @@ if __name__ == "__main__":
         return_dataframes_by_label_distribution(X_training,
                                                 y_training,
                                                 labels,
-                                                label_distribution_client_training)
+                                                label_distribution_client_training,
+                                                random_state)
     X_dataframes_test, y_dataframes_test = \
-        return_dataframes_by_label_distribution(X_test, y_test, labels, label_distribution_client_test)
+        return_dataframes_by_label_distribution(X_test, y_test, labels, label_distribution_client_test, random_state)
 
     store_datasets(clients,
                    X_dataframes_training,
@@ -49,3 +52,7 @@ if __name__ == "__main__":
                    X_dataframes_test,
                    y_dataframes_test,
                    partition_name)
+
+# if __name__ == "__main__":
+#     random_state = 1
+
