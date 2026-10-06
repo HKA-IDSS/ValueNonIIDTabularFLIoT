@@ -1,4 +1,5 @@
 import math
+import os
 
 import numpy as np
 
@@ -10,7 +11,7 @@ if __name__ == "__main__":
     clients = ["client_0", "client_1", "client_2", "client_3", "client_4", "client_5"]
     X_train, y_train = dataset_model_dictionary["har"]().get_dataset().get_training_data()
     X_test, y_test = dataset_model_dictionary["har"]().get_dataset().get_test_data()
-    partition_name = "HAR_1_Maverick_1_HellingerTrap"
+    partition_name = "HAR_1_Maverick_1_HellingerTrap" + os.sep + str(random_state)
 
     labels = y_train.columns
     total_label_distribution_train = [len(y_train[y_train[label] == 1.0]) for label in labels]

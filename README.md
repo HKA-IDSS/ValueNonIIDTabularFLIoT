@@ -1,12 +1,15 @@
-# Flower_Experimentation_Framework
+# Value NonIID Tabular FL IoT data
 
-**(Comment: We will upload on 01.10.2026/02.10.2026 a revised version of the repository, with the times for SV and a refactored version of
-the code. We kindly request for you patience.)**
+**(Comment: We will upload on 05.10.2026/06.10.2026 a revised version of the repository, with the times for SV and a refactored version of
+the code. We would like to request you for your kind patience.)**
 
 Experimentation setup for the paper *On the Utility of Non-i.i.d. Tabular IoT Data for Federated Learning*. 
 The setup works by encapsulating the [Flower Federated Learning framework](https://flower.ai/), and extending it with functionality
 for simulation of different scenarios and data quality measurements. We also provide the results obtained in our
 experiments within the repository.
+
+**Note**: Folder otdd, in metrics/otdd belongs to [FedBary](https://github.com/muz1lee/MOTdata). We use their work with minor
+adaptations to FL with tabular data and missing classes.
 
 ## Requirements
 

@@ -5,17 +5,20 @@ import keras
 from experiment_parameters.data_preparation.Dataset import WineDataset
 from experiment_parameters.model_builder.Model import KerasModel, XGBoostModel, MLPModel, LSTMModel
 
-from tensorflow.keras import layers, models, applications, Input, Model
+from keras import layers, models, applications, Input, Model
 
 
 def get_training_configuration(trial, model_type):
     dict_parameters = {}
 
-    if model_type == "mlp" or model_type == "tabnet":
+    if model_type == "mlp" or model_type == "lstm":
         dict_parameters["batch_size"] = trial.suggest_int("batch_size", 64, 512, log=True)
-        dict_parameters["learning_rate_init"] = trial.suggest_float("learning_rate_init", 1e-5, 1e-2, log=True)
+        dict_parameters["learning_rate_init"] = trial.suggest_float("learning_rate_init", 1e-5, 0.1, log=True)
         dict_parameters["decay_steps"] = trial.suggest_int('decay_steps', 500, 2000, step=500)
         dict_parameters["decay_rate"] = trial.suggest_float('decay_rate', 0.8, 0.95, step=0.05)
+
+        # FedProx makes no sense if you keep it into one local epoch.
+        dict_parameters["mu_prox"] = trial.suggest_categorical('mu_prox', [0.001, 0.01, 0.1, 1])
 
         if model_type == "mlp":
             num_layers = trial.suggest_int("num_layers", 1, 4)
@@ -49,7 +52,7 @@ def get_training_configuration(trial, model_type):
         dict_parameters["alpha"] = trial.suggest_float("alpha", 0, 1)
         dict_parameters["min_child_weight"] = trial.suggest_int('min_child_weight', 0, 3)
         dict_parameters["seed"] = 1
-        dict_parameters["num_local_rounds"] = trial.suggest_int('num_local_rounds', 1, 2)
+        dict_parameters["num_local_rounds"] = trial.suggest_int('num_local_rounds', 1, 1)
 
     return dict_parameters
 
@@ -81,6 +84,8 @@ class KerasModelBuilder(ModelBuilder):
 
 
 class NNBuilder(KerasModelBuilder):
+    # _optimizer: keras.optimizers.Optimizer
+    # _loss: keras.losses.Loss
     def define_model_hyperparameters(self, num_classes, parameters):
         lr = keras.optimizers.schedules.ExponentialDecay(
             initial_learning_rate=parameters["learning_rate_init"],
@@ -90,37 +95,44 @@ class NNBuilder(KerasModelBuilder):
         )
 
         # TODO: Adapt the compiler for different problems.
-        adam = keras.optimizers.Adam(lr)
+        self.ml_model._optimizer = keras.optimizers.Adam(lr)
         if num_classes == 1:
-            self.ml_model.get_model().compile(adam,
-                                              loss=keras.losses.MeanSquaredError(),
-                                              metrics=[keras.metrics.MeanSquaredError()])
+            # self.ml_model.get_model().compile(adam,
+            #                                   loss=keras.losses.MeanSquaredError(),
+            #                                   metrics=[keras.metrics.MeanSquaredError()])
+            self.ml_model._loss = keras.losses.MeanSquaredError()
         else:
-            self.ml_model.get_model().compile(adam,
-                                              loss=keras.losses.CategoricalCrossentropy(),
-                                              metrics=[keras.metrics.CategoricalAccuracy()])
+            # self.ml_model.get_model().compile(adam,
+            #                                   loss=keras.losses.CategoricalCrossentropy(),
+            #                                   metrics=[keras.metrics.CategoricalAccuracy()])
+            self.ml_model._loss = keras.losses.CategoricalCrossentropy()
 
 
 class MLPBuilder(NNBuilder):
     def define_model_architecture(self, input_parameters, num_classes, parameters):
-        ml_model = keras.Sequential()
-        ml_model.add(keras.Input(shape=(input_parameters,)))  # Not really sure why, but Keras request a tuple
+        # ml_model = keras.Model()
+        inputs = keras.Input(shape=(input_parameters,))  # Not really sure why, but Keras request a tuple
         for layer in range(1, parameters["num_layers"] + 1):
-            ml_model.add(keras.layers.Dense(parameters["n_units_l" + str(layer)],
+            if layer == 1:
+                dense_layer = keras.layers.Dense(parameters["n_units_l" + str(layer)],
+                                                activation=parameters["activation_l" + str(layer)],
+                                                kernel_initializer=keras.initializers.HeNormal(seed=1))(inputs)
+            else:
+                dense_layer = keras.layers.Dense(parameters["n_units_l" + str(layer)],
                                             activation=parameters["activation_l" + str(layer)],
-                                            kernel_initializer=keras.initializers.HeNormal(seed=1)))
-            ml_model.add(keras.layers.Dropout(parameters["dropout_l" + str(layer)]))
+                                            kernel_initializer=keras.initializers.HeNormal(seed=1))(dropout)
+            dropout = keras.layers.Dropout(parameters["dropout_l" + str(layer)])(dense_layer)
 
         if num_classes == 1:
-            ml_model.add(keras.layers.Dense(1,
+            output = keras.layers.Dense(1,
                                             activation="linear",
-                                            kernel_initializer=keras.initializers.Zeros()))
+                                            kernel_initializer=keras.initializers.Zeros())(dropout)
         else:
-            ml_model.add(keras.layers.Dense(num_classes,
+            output = keras.layers.Dense(num_classes,
                                             activation="softmax",
-                                            kernel_initializer=keras.initializers.HeNormal(seed=1)))
+                                            kernel_initializer=keras.initializers.HeNormal(seed=1))(dropout)
 
-        self.ml_model = MLPModel(ml_model)
+        self.ml_model = MLPModel(keras.Model(inputs=inputs, outputs=output))
 
 
 class LSTMBuilder(NNBuilder):
@@ -226,18 +238,18 @@ class Director:
         # self.model_builder.build_model()
         return self.model_builder.return_model()
 
-
-def wine_optimization(trial):
-    x_train, y_train = WineDataset().get_training_data()
-    x_test, y_test = WineDataset().get_test_data()
-    parameters = get_training_configuration(trial=trial, model_type="mlp")
-    director = Director()
-    ml_model = director.create_mlp(input_parameters=x_train.shape[1], num_classes=y_train.shape[1],
-                                   parameters=parameters).get_model()
-    ml_model.fit(x_train, y_train, epochs=20, batch_size=parameters["batch_size"])
-    loss, accuracy = ml_model.evaluate(x_test, y_test)
-
-    return loss  # , accuracy, mcc_result
+#
+# def wine_optimization(trial):
+#     x_train, y_train = WineDataset().get_training_data()
+#     x_test, y_test = WineDataset().get_test_data()
+#     parameters = get_training_configuration(trial=trial, model_type="mlp")
+#     director = Director()
+#     ml_model = director.create_mlp(input_parameters=x_train.shape[1], num_classes=y_train.shape[1],
+#                                    parameters=parameters).get_model()
+#     ml_model.fit(x_train, y_train, epochs=20, batch_size=parameters["batch_size"])
+#     loss, accuracy = ml_model.evaluate(x_test, y_test)
+#
+#     return loss  # , accuracy, mcc_result
 
 
 if __name__ == "__main__":

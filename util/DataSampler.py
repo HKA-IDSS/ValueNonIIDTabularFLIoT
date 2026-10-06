@@ -32,8 +32,8 @@ def datasets_division(X_train, y_train, X_test, y_test, percentage_data_particip
     """
     label_distribution_by_client_training, label_distribution_by_client_testing = \
         dirichlet_division(y_train, y_test, percentage_data_participant, alpha, seed)
-    log(INFO, f"Label_distribution_by_client_training: {label_distribution_by_client_training}")
-    log(INFO, f"label_distribution_by_client_testing: {label_distribution_by_client_testing}")
+    # log(INFO, f"Label_distribution_by_client_training: {label_distribution_by_client_training}")
+    # log(INFO, f"label_distribution_by_client_testing: {label_distribution_by_client_testing}")
     training_dataset_per_client = []
     test_dataset_per_client = []
 
@@ -62,8 +62,8 @@ def datasets_division(X_train, y_train, X_test, y_test, percentage_data_particip
         for label, position_of_label in zip(labels, range(len(labels))):
             filter_by_label = y_test[y_test[label] == 1.0]
             filter_X_by_label = X_test[X_test.index.isin(filter_by_label.index)]
-            log(INFO, f"Filter_X_by_label: {filter_X_by_label}")
-            log(INFO, f"Client_position_of_label: {int(client[position_of_label])}")
+            # log(INFO, f"Filter_X_by_label: {filter_X_by_label}")
+            # log(INFO, f"Client_position_of_label: {int(client[position_of_label])}")
             X_samples = filter_X_by_label.sample(min(len(filter_X_by_label), int(client[position_of_label])),
                                                  random_state=1)
             y_samples = y_test[y_test.index.isin(X_samples.index)]
@@ -102,7 +102,7 @@ def dirichlet_division(y_train, y_test, percentage_data_participant, alpha, seed
     Returns: list[list[int]]: It contains an array per participant, with the number of labels of each type. Example:
     [[15,13,16], [14,17,15]]
     """
-    np.random.seed(seed)  # Remove comment if you want to control the randomness of the dirichlet function.
+    rng = np.random.default_rng(seed)  # Remove comment if you want to control the randomness of the dirichlet function.
 
     # With this function, I extract the amount of labels per class. This is reflected in the variable counts.
     labels_train, counts_train = np.unique(np.argmax(np.asarray(y_train), axis=1), return_counts=True)
@@ -136,7 +136,7 @@ def dirichlet_division(y_train, y_test, percentage_data_participant, alpha, seed
         # the three participants all the labels for only one class, the function is written by only accepting
         # one participant.
         dirichlet_distribution_labels = \
-            np.random.dirichlet(np.multiply(classes_percentages_training, dirichlet_alpha_array), 1)[0]
+            rng.dirichlet(np.multiply(classes_percentages_training, dirichlet_alpha_array), 1)[0]
         while (remaining_instances_training > 0).any() and sum(classes_assigned_training) < classes_client:
             classes_to_assign_training = classes_client - sum(classes_assigned_training)
             classes_to_assign_test = classes_test_client - sum(classes_assigned_test)
@@ -167,7 +167,7 @@ def dirichlet_division(y_train, y_test, percentage_data_participant, alpha, seed
 
             if all([int(actual_instance) == 0 for actual_instance in actual_instances_assigned_training]):
                 dirichlet_distribution_labels = \
-                    np.random.dirichlet(np.multiply(classes_percentages_training, dirichlet_alpha_array), 1)[0]
+                    rng.dirichlet(np.multiply(classes_percentages_training, dirichlet_alpha_array), 1)[0]
                 instances_assigned_per_class_training = [1 if label > 0 else 0 for label in
                                                          dirichlet_distribution_labels]
                 actual_instances_assigned_training = [min(instance_assigned, remaining_instance)
@@ -177,7 +177,7 @@ def dirichlet_division(y_train, y_test, percentage_data_participant, alpha, seed
 
             if all([int(actual_instance) == 0 for actual_instance in actual_instances_assigned_test]):
                 dirichlet_distribution_labels = \
-                    np.random.dirichlet(np.multiply(classes_percentages_test, dirichlet_alpha_array), 1)[0]
+                    rng.dirichlet(np.multiply(classes_percentages_test, dirichlet_alpha_array), 1)[0]
                 instances_assigned_per_class_test = [1 if label > 0 else 0 for label in dirichlet_distribution_labels]
                 actual_instances_assigned_test = [min(instance_assigned, remaining_instance)
                                                   for instance_assigned, remaining_instance
@@ -223,9 +223,10 @@ def prepare_datasets(name_dataset, percentage_data_participant, alpha, seed):
         seed (int): Seed in the case that it is needed to control the randomness of the dirichlet function.
     """
     num_participants = len(percentage_data_participant)
-    X_train, y_train = dataset_model_dictionary[name_dataset]().get_dataset().get_training_data()
-    X_test, y_test = dataset_model_dictionary[name_dataset]().get_dataset().get_test_data()
-    labels = dataset_model_dictionary[name_dataset]().get_dataset().get_labels()
+    dataset_class = dataset_model_dictionary[name_dataset]()
+    X_train, y_train = dataset_class.get_dataset().get_training_data()
+    X_test, y_test = dataset_class.get_dataset().get_test_data()
+    labels = dataset_class.get_dataset().get_labels()
     dataset_per_client_training, dataset_per_client_testing = datasets_division(X_train, y_train, X_test, y_test,
                                                                                 percentage_data_participant, alpha,
                                                                                 seed, labels)
@@ -237,7 +238,8 @@ def prepare_datasets(name_dataset, percentage_data_participant, alpha, seed):
     final_directory = (directory_for_data +
                        os.sep + "dirichlet" +
                        os.sep + "dataset_" + name_dataset +
-                       os.sep + "alpha_" + str(alpha))
+                       os.sep + "alpha_" + str(alpha) +
+                       os.sep + str(seed))
 
     os.makedirs(final_directory, exist_ok=True)
 
@@ -254,7 +256,8 @@ def sample_data_dirichlet(name_dataset, percentages_data_clients, alpha, seed):
     if not os.path.exists(directory_for_data +
                           os.sep + "dirichlet" +
                           os.sep + "dataset_" + name_dataset +
-                          os.sep + "alpha_" + str(alpha)):
+                          os.sep + "alpha_" + str(alpha) +
+                          os.sep + str(seed)):
         prepare_datasets(name_dataset, percentages_data_clients, alpha, seed)
 
 

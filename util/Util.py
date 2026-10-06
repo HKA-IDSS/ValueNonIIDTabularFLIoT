@@ -3,11 +3,10 @@ import pickle
 from logging import INFO
 from typing import Optional, Tuple, List, Dict
 
-import keras
 import numpy as np
 import pandas as pd
-import regex
-import tensorflow as tf
+# import regex
+import torch
 import yaml
 from flwr.common import NDArray, log
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
@@ -37,26 +36,64 @@ def return_to_single_label(y):
     return y
 
 
-def from_string_to_dict(string_to_parse):
-    splits = regex.findall(r'(\w*:\[.*?\])|(\w*:\D?\d*\.?\d*e?-?\d\d?)', string_to_parse)
-    splits = [''.join(regex_tuple) for regex_tuple in splits]
-    splits = [tuple(key_value.split(':')) for key_value in splits]
-    return {metric: value for metric, value in splits}
+# def from_string_to_dict(string_to_parse):
+#     splits = regex.findall(r'(\w*:\[.*?\])|(\w*:\D?\d*\.?\d*e?-?\d\d?)', string_to_parse)
+#     splits = [''.join(regex_tuple) for regex_tuple in splits]
+#     splits = [tuple(key_value.split(':')) for key_value in splits]
+#     return {metric: value for metric, value in splits}
 
 
-def get_test_data(directory_of_data):
+def get_test_data(directory_of_data, num_clients, exclude_maverick, maverick_number):
     X_test, y_test = pd.DataFrame(), pd.DataFrame()
 
-    for file in os.listdir(directory_of_data):
-        if "test" in file:
-            if "_X_" in file:
-                X_test = pd.concat([X_test, pd.read_csv(directory_of_data + os.sep + file, index_col=0)])
-            elif "_y_" in file:
-                y_test = pd.concat([y_test, pd.read_csv(directory_of_data + os.sep + file, index_col=0)])
+    for client in range(num_clients):
+        if exclude_maverick is True and maverick_number is not None and client == maverick_number:
+            X_test = pd.concat([X_test, pd.read_csv(directory_of_data + os.sep + f"client_{client}_mav_data_excluded_X_test.csv", index_col=0)])
+            y_test = pd.concat([y_test, pd.read_csv(directory_of_data + os.sep + f"client_{client}_mav_data_excluded_y_test.csv", index_col=0)])
+        else:
+            X_test = pd.concat([X_test, pd.read_csv(directory_of_data + os.sep + f"client_{client}_X_test.csv", index_col=0)])
+            y_test = pd.concat([y_test, pd.read_csv(directory_of_data + os.sep + f"client_{client}_y_test.csv", index_col=0)])
+    # for file in os.listdir(directory_of_data):
+    #      and str(maverick_number) in file:
+    #         if "mav_data_excluded" in file and "test" in file:
+    #             log(INFO, "Loading file: {}".format(file))
+    #             if "_X_" in file:
+    #
+    #             elif "_y_" in file:
+    #
+    #     else:
+    #         if "test" in file:
+    #             log(INFO, "Loading file: {}".format(file))
+    #             if "_X_" in file:
+    #                 X_test = pd.concat([X_test, pd.read_csv(directory_of_data + os.sep + file, index_col=0)])
+    #             elif "_y_" in file:
+    #                 y_test = pd.concat([y_test, pd.read_csv(directory_of_data + os.sep + file, index_col=0)])
 
     X_test.sort_index(inplace=True)
     y_test.sort_index(inplace=True)
     return X_test, y_test
+
+# For Gradient Rewards
+def flatten(grad_update):
+    return torch.cat([update.data.view(-1) for update in grad_update])
+
+
+def unflatten(flattened, normal_shape):
+    grad_update = []
+    for param in normal_shape:
+        n_params = len(param.view(-1))
+        grad_update.append(torch.as_tensor(flattened[:n_params]).reshape(param.size())  )
+        flattened = flattened[n_params:]
+
+    return grad_update
+
+
+def add_gradient_updates(grad_update_1, grad_update_2, weight=1.0):
+    assert len(grad_update_1) == len(
+        grad_update_2), "Lengths of the two grad_updates not equal"
+
+    for param_1, param_2 in zip(grad_update_1, grad_update_2):
+        param_1.data += param_2.data * weight
 
 """ Evaluate ensemble model with given weights
 
@@ -67,47 +104,47 @@ All losses and the accuracy will be returned.
 """
 
 
-def evaluate_synthetic_ensemble(dataset, model, ensemble: List[List[NDArray]]) -> Optional[Tuple[float, float]]:
-    # Load data and model here to avoid the overhead of doing it in `evaluate` itself
-    x_test, y_test = dataset.get_test_data()
+# def evaluate_synthetic_ensemble(dataset, model, ensemble: List[List[NDArray]]) -> Optional[Tuple[float, float]]:
+#     # Load data and model here to avoid the overhead of doing it in `evaluate` itself
+#     x_test, y_test = dataset.get_test_data()
 
-    min_max_scaler = MinMaxScaler()
-    x_scaled = min_max_scaler.fit_transform(x_test)
-    x_test = pd.DataFrame(x_scaled, columns=x_test.columns)
-    x_test.fillna(0, inplace=True)
+#     min_max_scaler = MinMaxScaler()
+#     x_scaled = min_max_scaler.fit_transform(x_test)
+#     x_test = pd.DataFrame(x_scaled, columns=x_test.columns)
+#     x_test.fillna(0, inplace=True)
 
-    y_reshaped = np.reshape(y_test.values, (-1, 1))
-    encoder_result = OneHotEncoder().fit_transform(y_reshaped)
-    y_one_hot_encoded = pd.DataFrame(encoder_result.toarray(), index=y_test.index)
+#     y_reshaped = np.reshape(y_test.values, (-1, 1))
+#     encoder_result = OneHotEncoder().fit_transform(y_reshaped)
+#     y_one_hot_encoded = pd.DataFrame(encoder_result.toarray(), index=y_test.index)
 
-    num_of_models = len(ensemble)
-    ensemble_predictions = []
-    for weights_of_model in ensemble:
-        model.set_weights(weights_of_model)
-        logits = model.predict(x_test)
-        predictions = tf.nn.softmax(logits)
-        ensemble_predictions.append(predictions)
+#     num_of_models = len(ensemble)
+#     ensemble_predictions = []
+#     for weights_of_model in ensemble:
+#         model.set_weights(weights_of_model)
+#         logits = model.predict(x_test)
+#         predictions = tf.nn.softmax(logits)
+#         ensemble_predictions.append(predictions)
 
-    # TODO: Probably, this can be written in a better way.
-    first_array = ensemble_predictions.pop(0)
-    for remaining_array in ensemble_predictions:
-        first_array = np.add(first_array, remaining_array)
-    ensemble_predictions_averaged = np.divide(first_array, num_of_models)
+#     # TODO: Probably, this can be written in a better way.
+#     first_array = ensemble_predictions.pop(0)
+#     for remaining_array in ensemble_predictions:
+#         first_array = np.add(first_array, remaining_array)
+#     ensemble_predictions_averaged = np.divide(first_array, num_of_models)
 
-    cce = tf.keras.losses.CategoricalCrossentropy()
-    loss = cce(y_one_hot_encoded, ensemble_predictions_averaged).numpy()
+#     cce = keras.losses.CategoricalCrossentropy()
+#     loss = cce(y_one_hot_encoded, ensemble_predictions_averaged).numpy()
 
-    accuracy_metric = tf.keras.metrics.Accuracy()
-    accuracy_metric.reset_state()
-    accuracy_metric.update_state(np.argmax(np.asarray(y_one_hot_encoded), axis=1),
-                                 np.argmax(np.asarray(ensemble_predictions_averaged), axis=1))
-    accuracy = accuracy_metric.result().numpy()
+#     accuracy_metric = keras.metrics.Accuracy()
+#     accuracy_metric.reset_state()
+#     accuracy_metric.update_state(np.argmax(np.asarray(y_one_hot_encoded), axis=1),
+#                                  np.argmax(np.asarray(ensemble_predictions_averaged), axis=1))
+#     accuracy = accuracy_metric.result().numpy()
 
-    # log(INFO, "Evaluate function running")
-    # model.set_weights(weights)  # Update model with the latest parameters
-    # loss, accuracy = model.evaluate(x_test, y_one_hot_encoded)
+#     # log(INFO, "Evaluate function running")
+#     # model.set_weights(weights)  # Update model with the latest parameters
+#     # loss, accuracy = model.evaluate(x_test, y_one_hot_encoded)
 
-    return loss, accuracy
+#     return loss, accuracy
 
 
 """Obtain prediction over ensemble model
@@ -137,6 +174,7 @@ def obtain_prediction_from_ensemble(model, model_ensemble, unlabeled_synthetic_d
 
 
 def save_data_on_pickle(path_file, data):
+    # os.makedirs(os.path.dirname("/data/pickled_information"),exist_ok=True)
     file = open(path_file, 'wb')
     pickle.dump(data, file)
     file.close()
@@ -149,25 +187,25 @@ def load_data_from_pickle_file(file_path):
     return client_weights
 
 
-def retrieve_gradient_from_dataset(model, X_data, y_data, metric):
-    tensors = tf.convert_to_tensor(X_data.to_numpy())  # Now passing a list of tensors.
-    # log(INFO, f"Tensors: {tensors}")
-    with tf.GradientTape() as tape:
-        recorded_model = model.get_model()
-        predictions = recorded_model(tensors)
-        # log(INFO, f"Predictions: {predictions}")
-        if metric == "MAE":
-            cce = keras.losses.MeanAbsoluteError()
-        else:
-            cce = keras.losses.CategoricalCrossentropy()
-        loss = cce(y_data, predictions)
-        # log(INFO, f"Loss: {loss}")
+# def retrieve_gradient_from_dataset(model, X_data, y_data, metric):
+#     tensors = tf.convert_to_tensor(X_data.to_numpy())  # Now passing a list of tensors.
+#     # log(INFO, f"Tensors: {tensors}")
+#     with tf.GradientTape() as tape:
+#         recorded_model = model.get_model()
+#         predictions = recorded_model(tensors)
+#         # log(INFO, f"Predictions: {predictions}")
+#         if metric == "MAE":
+#             cce = keras.losses.MeanAbsoluteError()
+#         else:
+#             cce = keras.losses.CategoricalCrossentropy()
+#         loss = cce(y_data, predictions)
+#         # log(INFO, f"Loss: {loss}")
 
-    # log(INFO, f"Trainable variables: {model.get_model().trainable_variables}")
-    gradients = tape.gradient(loss, recorded_model.trainable_variables)
-    # log(INFO, f"Gradients: {gradients}")
+#     # log(INFO, f"Trainable variables: {model.get_model().trainable_variables}")
+#     gradients = tape.gradient(loss, recorded_model.trainable_variables)
+#     # log(INFO, f"Gradients: {gradients}")
 
-    return gradients
+#     return gradients
 
 
 # def shapley_values_decentralized(server_round, client_weights):
@@ -195,4 +233,4 @@ if __name__ == "__main__":
     metric = 'SV_526283ec68ae4011a84156cb875adf9c'
     value = ('CrossEntropyLoss:0.08598822269603118,Accuracy:0.03999897530484682,F1Score:[0.015640382661589035, 0.20077469556912503],MCC:0.15639464215108562,F1ScoreMacro:0.10820753911535702,F1ScoreMicro:0.03999897530484682')
 
-    print(from_string_to_dict(value))
+    # print(from_string_to_dict(value))

@@ -1,0 +1,4243 @@
+Round,Evaluator,Classes,3,2,1,0
+0,0,Aspen,,,,
+0,0,Cottonwood/Willow,,,,
+0,0,Douglas-fir,,,,
+0,0,Krummholz,,,,
+0,0,Lodgepole Pine,,,,
+0,0,Ponderosa Pine,,,,
+0,0,Spruce/Fir,,,,
+0,1,Aspen,,,,
+0,1,Cottonwood/Willow,,,,
+0,1,Douglas-fir,,,,
+0,1,Krummholz,,,,
+0,1,Lodgepole Pine,,,,
+0,1,Ponderosa Pine,,,,
+0,1,Spruce/Fir,,,,
+0,2,Aspen,,,,
+0,2,Cottonwood/Willow,,,,
+0,2,Douglas-fir,,,,
+0,2,Krummholz,,,,
+0,2,Lodgepole Pine,,,,
+0,2,Ponderosa Pine,,,,
+0,2,Spruce/Fir,,,,
+0,3,Aspen,,,,
+0,3,Cottonwood/Willow,,,,
+0,3,Douglas-fir,,,,
+0,3,Krummholz,,,,
+0,3,Lodgepole Pine,,,,
+0,3,Ponderosa Pine,,,,
+0,3,Spruce/Fir,,,,
+0,Aggregated,Aspen,,,,
+0,Aggregated,Cottonwood/Willow,,,,
+0,Aggregated,Douglas-fir,,,,
+0,Aggregated,Krummholz,,,,
+0,Aggregated,Lodgepole Pine,,,,
+0,Aggregated,Ponderosa Pine,,,,
+0,Aggregated,Spruce/Fir,,,,
+0,Centralized,Aspen,,,,
+0,Centralized,Cottonwood/Willow,,,,
+0,Centralized,Douglas-fir,,,,
+0,Centralized,Krummholz,,,,
+0,Centralized,Lodgepole Pine,,,,
+0,Centralized,Ponderosa Pine,,,,
+0,Centralized,Spruce/Fir,,,,
+1,0,Aspen,-0.18638357820045973,-0.18523050881695344,-0.18638357820045978,-0.17303291540990548
+1,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+1,0,Douglas-fir,0.0,0.0,0.0,0.0
+1,0,Krummholz,-0.17430441898527005,-0.17430441898527005,-0.17430441898527005,-0.17430441898527005
+1,0,Lodgepole Pine,-0.11752872112054552,-0.11752872112054552,-0.11752872112054552,-0.11752872112054552
+1,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+1,0,Spruce/Fir,-0.2132889132679401,-0.2132889132679401,-0.2132889132679401,-0.2132889132679401
+1,1,Aspen,0.0,0.0,0.0,0.0
+1,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+1,1,Douglas-fir,0.0,0.0,0.0,0.0
+1,1,Krummholz,-0.2367824773413897,-0.2367824773413897,-0.2367824773413897,-0.2367824773413897
+1,1,Lodgepole Pine,-0.14277642682305358,-0.14277642682305358,-0.14277642682305358,-0.14277642682305358
+1,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+1,1,Spruce/Fir,-0.2350141043723554,-0.2350141043723554,-0.2350141043723554,-0.2350141043723554
+1,2,Aspen,-0.0695015460838916,-0.06910706876633736,-0.0695015460838916,-0.06831834741172417
+1,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+1,2,Douglas-fir,-0.1656242451108084,-0.1656242451108084,-0.1656242451108084,-0.1656242451108084
+1,2,Krummholz,-0.22279495990836198,-0.22279495990836198,-0.22279495990836198,-0.22279495990836198
+1,2,Lodgepole Pine,-0.10681317195237179,-0.10681317195237179,-0.10681317195237179,-0.10681317195237179
+1,2,Ponderosa Pine,-0.1922214804011353,-0.19222083074113464,-0.1922214804011353,-0.19223354309181262
+1,2,Spruce/Fir,-0.19774062632503484,-0.19774062632503484,-0.19774062632503484,-0.19774062632503484
+1,3,Aspen,0.0,0.0,0.0,0.0
+1,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+1,3,Douglas-fir,0.0,0.0,0.0,0.0
+1,3,Krummholz,0.0,0.0,0.0,0.0
+1,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+1,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+1,3,Spruce/Fir,0.0,0.0,0.0,0.0
+1,Aggregated,Aspen,-0.1158652195914385,-0.11516983105396178,-0.11586521959143851,-0.10985554482551985
+1,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+1,Aggregated,Douglas-fir,-0.07295223593188806,-0.07295223593188806,-0.07295223593188806,-0.07295223593188806
+1,Aggregated,Krummholz,-0.21234278323859526,-0.21234278323859526,-0.21234278323859526,-0.21234278323859526
+1,Aggregated,Lodgepole Pine,-0.11232790307958465,-0.11232790307958465,-0.11232790307958465,-0.11232790307958465
+1,Aggregated,Ponderosa Pine,-0.07710248789576019,-0.07710222730884642,-0.07710248789576019,-0.07710732639487068
+1,Aggregated,Spruce/Fir,-0.20877670181512015,-0.20877670181512015,-0.20877670181512015,-0.20877670181512015
+1,Centralized,Aspen,-0.0009969067150498651,-0.0002931372684938326,-0.0009969067150498651,0.005108812787950199
+1,Centralized,Cottonwood/Willow,-2.734970174157747e-05,-2.734970174157747e-05,-2.734970174157747e-05,8.204910522473241e-05
+1,Centralized,Douglas-fir,-2.0086018041311677e-05,4.0156909599797785e-06,-2.0086018041311677e-05,8.436097011836156e-05
+1,Centralized,Krummholz,0.0,0.0,0.0,0.0
+1,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+1,Centralized,Ponderosa Pine,6.258357496148151e-07,1.5201281045850352e-06,6.258357496148151e-07,-1.4303916581216252e-06
+1,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+2,0,Aspen,-0.0013169446883230906,-0.0013169446883230906,-0.0013169446883230906,-0.0013169446883230906
+2,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+2,0,Douglas-fir,0.0,0.0,0.0,0.0
+2,0,Krummholz,0.0,0.0,0.0,0.0
+2,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,0,Spruce/Fir,0.0,0.0,0.0,0.0
+2,1,Aspen,0.0,0.0,0.0,0.0
+2,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+2,1,Douglas-fir,0.0,0.0,0.0,0.0
+2,1,Krummholz,0.0,0.0,0.0,0.0
+2,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,1,Spruce/Fir,0.0,0.0,0.0,0.0
+2,2,Aspen,0.0,0.0,0.0,0.0
+2,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+2,2,Douglas-fir,0.0,0.0,0.0,0.0
+2,2,Krummholz,0.0,0.0,0.0,0.0
+2,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,2,Spruce/Fir,0.0,0.0,0.0,0.0
+2,3,Aspen,0.0,0.0,0.0,0.0
+2,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+2,3,Douglas-fir,0.0,0.0,0.0,0.0
+2,3,Krummholz,0.0,0.0,0.0,0.0
+2,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,3,Spruce/Fir,0.0,0.0,0.0,0.0
+2,Aggregated,Aspen,-0.0005223933264269008,-0.0005223933264269008,-0.0005223933264269008,-0.0005223933264269008
+2,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+2,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+2,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+2,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+2,Centralized,Aspen,-0.0005304101838755304,-0.0005304101838755304,-0.0005304101838755304,-0.0005304101838755304
+2,Centralized,Cottonwood/Willow,-2.733364202241184e-05,-2.733364202241184e-05,-2.733364202241184e-05,-2.733364202241184e-05
+2,Centralized,Douglas-fir,-8.03183554221043e-06,-8.03183554221043e-06,-8.03183554221043e-06,-8.03183554221043e-06
+2,Centralized,Krummholz,0.0,0.0,0.0,0.0
+2,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+2,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+2,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+3,0,Aspen,0.0,0.0,0.0,0.0
+3,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,0,Douglas-fir,0.0,0.0,0.0,0.0
+3,0,Krummholz,0.0,0.0,0.0,0.0
+3,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,0,Spruce/Fir,0.0,0.0,0.0,0.0
+3,1,Aspen,0.0,0.0,0.0,0.0
+3,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,1,Douglas-fir,0.0,0.0,0.0,0.0
+3,1,Krummholz,0.0,0.0,0.0,0.0
+3,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,1,Spruce/Fir,0.0,0.0,0.0,0.0
+3,2,Aspen,0.0,0.0,0.0,0.0
+3,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,2,Douglas-fir,0.0,0.0,0.0,0.0
+3,2,Krummholz,0.0,0.0,0.0,0.0
+3,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,2,Spruce/Fir,0.0,0.0,0.0,0.0
+3,3,Aspen,0.0,0.0,0.0,0.0
+3,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,3,Douglas-fir,0.0,0.0,0.0,0.0
+3,3,Krummholz,0.0,0.0,0.0,0.0
+3,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,3,Spruce/Fir,0.0,0.0,0.0,0.0
+3,Aggregated,Aspen,0.0,0.0,0.0,0.0
+3,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+3,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+3,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+3,Centralized,Aspen,0.0,0.0,0.0,0.0
+3,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+3,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+3,Centralized,Krummholz,0.0,0.0,0.0,0.0
+3,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+3,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+3,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+4,0,Aspen,0.0,0.0,0.0,0.0
+4,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,0,Douglas-fir,0.0,0.0,0.0,0.0
+4,0,Krummholz,0.0,0.0,0.0,0.0
+4,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,0,Spruce/Fir,0.0,0.0,0.0,0.0
+4,1,Aspen,0.0,0.0,0.0,0.0
+4,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,1,Douglas-fir,0.0,0.0,0.0,0.0
+4,1,Krummholz,0.0,0.0,0.0,0.0
+4,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,1,Spruce/Fir,0.0,0.0,0.0,0.0
+4,2,Aspen,0.0,0.0,0.0,0.0
+4,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,2,Douglas-fir,0.0,0.0,0.0,0.0
+4,2,Krummholz,0.0,0.0,0.0,0.0
+4,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,2,Spruce/Fir,0.0,0.0,0.0,0.0
+4,3,Aspen,0.0,0.0,0.0,0.0
+4,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,3,Douglas-fir,0.0,0.0,0.0,0.0
+4,3,Krummholz,0.0,0.0,0.0,0.0
+4,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,3,Spruce/Fir,0.0,0.0,0.0,0.0
+4,Aggregated,Aspen,0.0,0.0,0.0,0.0
+4,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+4,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+4,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+4,Centralized,Aspen,0.0,0.0,0.0,0.0
+4,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+4,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+4,Centralized,Krummholz,0.0,0.0,0.0,0.0
+4,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+4,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+4,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+5,0,Aspen,0.0,0.0,0.0,0.0
+5,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,0,Douglas-fir,0.0,0.0,0.0,0.0
+5,0,Krummholz,0.0,0.0,0.0,0.0
+5,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,0,Spruce/Fir,0.0,0.0,0.0,0.0
+5,1,Aspen,0.0,0.0,0.0,0.0
+5,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,1,Douglas-fir,0.0,0.0,0.0,0.0
+5,1,Krummholz,0.0,0.0,0.0,0.0
+5,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,1,Spruce/Fir,0.0,0.0,0.0,0.0
+5,2,Aspen,0.0,0.0,0.0,0.0
+5,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,2,Douglas-fir,0.0,0.0,0.0,0.0
+5,2,Krummholz,0.0,0.0,0.0,0.0
+5,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,2,Spruce/Fir,0.0,0.0,0.0,0.0
+5,3,Aspen,0.0,0.0,0.0,0.0
+5,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,3,Douglas-fir,0.0,0.0,0.0,0.0
+5,3,Krummholz,0.0,0.0,0.0,0.0
+5,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,3,Spruce/Fir,0.0,0.0,0.0,0.0
+5,Aggregated,Aspen,0.0,0.0,0.0,0.0
+5,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+5,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+5,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+5,Centralized,Aspen,0.0,0.0,0.0,0.0
+5,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+5,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+5,Centralized,Krummholz,0.0,0.0,0.0,0.0
+5,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+5,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+5,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+6,0,Aspen,0.0,0.0,0.0,0.0
+6,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,0,Douglas-fir,0.0,0.0,0.0,0.0
+6,0,Krummholz,0.0,0.0,0.0,0.0
+6,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,0,Spruce/Fir,0.0,0.0,0.0,0.0
+6,1,Aspen,0.0,0.0,0.0,0.0
+6,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,1,Douglas-fir,0.0,0.0,0.0,0.0
+6,1,Krummholz,0.0,0.0,0.0,0.0
+6,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,1,Spruce/Fir,0.0,0.0,0.0,0.0
+6,2,Aspen,0.0,0.0,0.0,0.0
+6,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,2,Douglas-fir,0.0,0.0,0.0,0.0
+6,2,Krummholz,0.0,0.0,0.0,0.0
+6,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,2,Spruce/Fir,0.0,0.0,0.0,0.0
+6,3,Aspen,0.0,0.0,0.0,0.0
+6,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,3,Douglas-fir,0.0,0.0,0.0,0.0
+6,3,Krummholz,0.0,0.0,0.0,0.0
+6,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,3,Spruce/Fir,0.0,0.0,0.0,0.0
+6,Aggregated,Aspen,0.0,0.0,0.0,0.0
+6,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+6,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+6,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+6,Centralized,Aspen,0.0,0.0,0.0,0.0
+6,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+6,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+6,Centralized,Krummholz,0.0,0.0,0.0,0.0
+6,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+6,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+6,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+7,0,Aspen,0.0,0.0,0.0,0.0
+7,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,0,Douglas-fir,0.0,0.0,0.0,0.0
+7,0,Krummholz,0.0,0.0,0.0,0.0
+7,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,0,Spruce/Fir,0.0,0.0,0.0,0.0
+7,1,Aspen,0.0,0.0,0.0,0.0
+7,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,1,Douglas-fir,0.0,0.0,0.0,0.0
+7,1,Krummholz,0.0,0.0,0.0,0.0
+7,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,1,Spruce/Fir,0.0,0.0,0.0,0.0
+7,2,Aspen,0.0,0.0,0.0,0.0
+7,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,2,Douglas-fir,0.0,0.0,0.0,0.0
+7,2,Krummholz,0.0,0.0,0.0,0.0
+7,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,2,Spruce/Fir,0.0,0.0,0.0,0.0
+7,3,Aspen,0.0,0.0,0.0,0.0
+7,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,3,Douglas-fir,0.0,0.0,0.0,0.0
+7,3,Krummholz,0.0,0.0,0.0,0.0
+7,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,3,Spruce/Fir,0.0,0.0,0.0,0.0
+7,Aggregated,Aspen,0.0,0.0,0.0,0.0
+7,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+7,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+7,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+7,Centralized,Aspen,0.0,0.0,0.0,0.0
+7,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+7,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+7,Centralized,Krummholz,0.0,0.0,0.0,0.0
+7,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+7,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+7,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+8,0,Aspen,0.0,0.0,0.0,0.0
+8,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,0,Douglas-fir,0.0,0.0,0.0,0.0
+8,0,Krummholz,0.0,0.0,0.0,0.0
+8,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,0,Spruce/Fir,0.0,0.0,0.0,0.0
+8,1,Aspen,0.0,0.0,0.0,0.0
+8,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,1,Douglas-fir,0.0,0.0,0.0,0.0
+8,1,Krummholz,0.0,0.0,0.0,0.0
+8,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,1,Spruce/Fir,0.0,0.0,0.0,0.0
+8,2,Aspen,0.0,0.0,0.0,0.0
+8,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,2,Douglas-fir,0.0,0.0,0.0,0.0
+8,2,Krummholz,0.0,0.0,0.0,0.0
+8,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,2,Spruce/Fir,0.0,0.0,0.0,0.0
+8,3,Aspen,0.0,0.0,0.0,0.0
+8,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,3,Douglas-fir,0.0,0.0,0.0,0.0
+8,3,Krummholz,0.0,0.0,0.0,0.0
+8,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,3,Spruce/Fir,0.0,0.0,0.0,0.0
+8,Aggregated,Aspen,0.0,0.0,0.0,0.0
+8,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+8,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+8,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+8,Centralized,Aspen,0.0,0.0,0.0,0.0
+8,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+8,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+8,Centralized,Krummholz,0.0,0.0,0.0,0.0
+8,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+8,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+8,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+9,0,Aspen,0.0,0.0,0.0,0.0
+9,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,0,Douglas-fir,0.0,0.0,0.0,0.0
+9,0,Krummholz,0.0,0.0,0.0,0.0
+9,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,0,Spruce/Fir,0.0,0.0,0.0,0.0
+9,1,Aspen,0.0,0.0,0.0,0.0
+9,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,1,Douglas-fir,0.0,0.0,0.0,0.0
+9,1,Krummholz,0.0,0.0,0.0,0.0
+9,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,1,Spruce/Fir,0.0,0.0,0.0,0.0
+9,2,Aspen,0.0,0.0,0.0,0.0
+9,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,2,Douglas-fir,0.0,0.0,0.0,0.0
+9,2,Krummholz,0.0,0.0,0.0,0.0
+9,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,2,Spruce/Fir,0.0,0.0,0.0,0.0
+9,3,Aspen,0.0,0.0,0.0,0.0
+9,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,3,Douglas-fir,0.0,0.0,0.0,0.0
+9,3,Krummholz,0.0,0.0,0.0,0.0
+9,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,3,Spruce/Fir,0.0,0.0,0.0,0.0
+9,Aggregated,Aspen,0.0,0.0,0.0,0.0
+9,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+9,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+9,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+9,Centralized,Aspen,0.0,0.0,0.0,0.0
+9,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+9,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+9,Centralized,Krummholz,0.0,0.0,0.0,0.0
+9,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+9,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+9,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+10,0,Aspen,0.0,0.0,0.0,0.0
+10,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,0,Douglas-fir,0.0,0.0,0.0,0.0
+10,0,Krummholz,0.0,0.0,0.0,0.0
+10,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,0,Spruce/Fir,0.0,0.0,0.0,0.0
+10,1,Aspen,0.0,0.0,0.0,0.0
+10,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,1,Douglas-fir,0.0,0.0,0.0,0.0
+10,1,Krummholz,0.0,0.0,0.0,0.0
+10,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,1,Spruce/Fir,0.0,0.0,0.0,0.0
+10,2,Aspen,0.0,0.0,0.0,0.0
+10,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,2,Douglas-fir,0.0,0.0,0.0,0.0
+10,2,Krummholz,0.0,0.0,0.0,0.0
+10,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,2,Spruce/Fir,0.0,0.0,0.0,0.0
+10,3,Aspen,0.0,0.0,0.0,0.0
+10,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,3,Douglas-fir,0.0,0.0,0.0,0.0
+10,3,Krummholz,0.0,0.0,0.0,0.0
+10,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,3,Spruce/Fir,0.0,0.0,0.0,0.0
+10,Aggregated,Aspen,0.0,0.0,0.0,0.0
+10,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+10,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+10,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+10,Centralized,Aspen,0.0,0.0,0.0,0.0
+10,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+10,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+10,Centralized,Krummholz,0.0,0.0,0.0,0.0
+10,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+10,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+10,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+11,0,Aspen,0.0,0.0,0.0,0.0
+11,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,0,Douglas-fir,0.0,0.0,0.0,0.0
+11,0,Krummholz,0.0,0.0,0.0,0.0
+11,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,0,Spruce/Fir,0.0,0.0,0.0,0.0
+11,1,Aspen,0.0,0.0,0.0,0.0
+11,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,1,Douglas-fir,0.0,0.0,0.0,0.0
+11,1,Krummholz,0.0,0.0,0.0,0.0
+11,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,1,Spruce/Fir,0.0,0.0,0.0,0.0
+11,2,Aspen,0.0,0.0,0.0,0.0
+11,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,2,Douglas-fir,0.0,0.0,0.0,0.0
+11,2,Krummholz,0.0,0.0,0.0,0.0
+11,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,2,Spruce/Fir,0.0,0.0,0.0,0.0
+11,3,Aspen,0.0,0.0,0.0,0.0
+11,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,3,Douglas-fir,0.0,0.0,0.0,0.0
+11,3,Krummholz,0.0,0.0,0.0,0.0
+11,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,3,Spruce/Fir,0.0,0.0,0.0,0.0
+11,Aggregated,Aspen,0.0,0.0,0.0,0.0
+11,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+11,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+11,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+11,Centralized,Aspen,0.0,0.0,0.0,0.0
+11,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+11,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+11,Centralized,Krummholz,0.0,0.0,0.0,0.0
+11,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+11,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+11,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+12,0,Aspen,0.0,0.0,0.0,0.0
+12,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,0,Douglas-fir,0.0,0.0,0.0,0.0
+12,0,Krummholz,0.0,0.0,0.0,0.0
+12,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,0,Spruce/Fir,0.0,0.0,0.0,0.0
+12,1,Aspen,0.0,0.0,0.0,0.0
+12,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,1,Douglas-fir,0.0,0.0,0.0,0.0
+12,1,Krummholz,0.0,0.0,0.0,0.0
+12,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,1,Spruce/Fir,0.0,0.0,0.0,0.0
+12,2,Aspen,0.0,0.0,0.0,0.0
+12,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,2,Douglas-fir,0.0,0.0,0.0,0.0
+12,2,Krummholz,0.0,0.0,0.0,0.0
+12,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,2,Spruce/Fir,0.0,0.0,0.0,0.0
+12,3,Aspen,0.0,0.0,0.0,0.0
+12,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,3,Douglas-fir,0.0,0.0,0.0,0.0
+12,3,Krummholz,0.0,0.0,0.0,0.0
+12,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,3,Spruce/Fir,0.0,0.0,0.0,0.0
+12,Aggregated,Aspen,0.0,0.0,0.0,0.0
+12,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+12,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+12,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+12,Centralized,Aspen,0.0,0.0,0.0,0.0
+12,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+12,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+12,Centralized,Krummholz,0.0,0.0,0.0,0.0
+12,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+12,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+12,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+13,0,Aspen,0.0,0.0,0.0,0.0
+13,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,0,Douglas-fir,0.0,0.0,0.0,0.0
+13,0,Krummholz,0.0,0.0,0.0,0.0
+13,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,0,Spruce/Fir,0.0,0.0,0.0,0.0
+13,1,Aspen,0.0,0.0,0.0,0.0
+13,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,1,Douglas-fir,0.0,0.0,0.0,0.0
+13,1,Krummholz,0.0,0.0,0.0,0.0
+13,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,1,Spruce/Fir,0.0,0.0,0.0,0.0
+13,2,Aspen,0.0,0.0,0.0,0.0
+13,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,2,Douglas-fir,0.0,0.0,0.0,0.0
+13,2,Krummholz,0.0,0.0,0.0,0.0
+13,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,2,Spruce/Fir,0.0,0.0,0.0,0.0
+13,3,Aspen,0.0,0.0,0.0,0.0
+13,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,3,Douglas-fir,0.0,0.0,0.0,0.0
+13,3,Krummholz,0.0,0.0,0.0,0.0
+13,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,3,Spruce/Fir,0.0,0.0,0.0,0.0
+13,Aggregated,Aspen,0.0,0.0,0.0,0.0
+13,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+13,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+13,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+13,Centralized,Aspen,0.0,0.0,0.0,0.0
+13,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+13,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+13,Centralized,Krummholz,0.0,0.0,0.0,0.0
+13,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+13,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+13,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+14,0,Aspen,0.0,0.0,0.0,0.0
+14,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,0,Douglas-fir,0.0,0.0,0.0,0.0
+14,0,Krummholz,0.0,0.0,0.0,0.0
+14,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,0,Spruce/Fir,0.0,0.0,0.0,0.0
+14,1,Aspen,0.0,0.0,0.0,0.0
+14,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,1,Douglas-fir,0.0,0.0,0.0,0.0
+14,1,Krummholz,0.0,0.0,0.0,0.0
+14,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,1,Spruce/Fir,0.0,0.0,0.0,0.0
+14,2,Aspen,0.0,0.0,0.0,0.0
+14,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,2,Douglas-fir,0.0,0.0,0.0,0.0
+14,2,Krummholz,0.0,0.0,0.0,0.0
+14,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,2,Spruce/Fir,0.0,0.0,0.0,0.0
+14,3,Aspen,0.0,0.0,0.0,0.0
+14,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,3,Douglas-fir,0.0,0.0,0.0,0.0
+14,3,Krummholz,0.0,0.0,0.0,0.0
+14,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,3,Spruce/Fir,0.0,0.0,0.0,0.0
+14,Aggregated,Aspen,0.0,0.0,0.0,0.0
+14,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+14,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+14,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+14,Centralized,Aspen,0.0,0.0,0.0,0.0
+14,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+14,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+14,Centralized,Krummholz,0.0,0.0,0.0,0.0
+14,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+14,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+14,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+15,0,Aspen,0.0,0.0,0.0,0.0
+15,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,0,Douglas-fir,0.0,0.0,0.0,0.0
+15,0,Krummholz,0.0,0.0,0.0,0.0
+15,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,0,Spruce/Fir,0.0,0.0,0.0,0.0
+15,1,Aspen,0.0,0.0,0.0,0.0
+15,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,1,Douglas-fir,0.0,0.0,0.0,0.0
+15,1,Krummholz,0.0,0.0,0.0,0.0
+15,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,1,Spruce/Fir,0.0,0.0,0.0,0.0
+15,2,Aspen,0.0,0.0,0.0,0.0
+15,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,2,Douglas-fir,0.0,0.0,0.0,0.0
+15,2,Krummholz,0.0,0.0,0.0,0.0
+15,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,2,Spruce/Fir,0.0,0.0,0.0,0.0
+15,3,Aspen,0.0,0.0,0.0,0.0
+15,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,3,Douglas-fir,0.0,0.0,0.0,0.0
+15,3,Krummholz,0.0,0.0,0.0,0.0
+15,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,3,Spruce/Fir,0.0,0.0,0.0,0.0
+15,Aggregated,Aspen,0.0,0.0,0.0,0.0
+15,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+15,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+15,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+15,Centralized,Aspen,0.0,0.0,0.0,0.0
+15,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+15,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+15,Centralized,Krummholz,0.0,0.0,0.0,0.0
+15,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+15,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+15,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+16,0,Aspen,0.0,0.0,0.0,0.0
+16,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,0,Douglas-fir,0.0,0.0,0.0,0.0
+16,0,Krummholz,0.0,0.0,0.0,0.0
+16,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,0,Spruce/Fir,0.0,0.0,0.0,0.0
+16,1,Aspen,0.0,0.0,0.0,0.0
+16,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,1,Douglas-fir,0.0,0.0,0.0,0.0
+16,1,Krummholz,0.0,0.0,0.0,0.0
+16,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,1,Spruce/Fir,0.0,0.0,0.0,0.0
+16,2,Aspen,0.0,0.0,0.0,0.0
+16,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,2,Douglas-fir,0.0,0.0,0.0,0.0
+16,2,Krummholz,0.0,0.0,0.0,0.0
+16,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,2,Spruce/Fir,0.0,0.0,0.0,0.0
+16,3,Aspen,0.0,0.0,0.0,0.0
+16,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,3,Douglas-fir,0.0,0.0,0.0,0.0
+16,3,Krummholz,0.0,0.0,0.0,0.0
+16,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,3,Spruce/Fir,0.0,0.0,0.0,0.0
+16,Aggregated,Aspen,0.0,0.0,0.0,0.0
+16,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+16,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+16,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+16,Centralized,Aspen,0.0,0.0,0.0,0.0
+16,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+16,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+16,Centralized,Krummholz,0.0,0.0,0.0,0.0
+16,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+16,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+16,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+17,0,Aspen,0.0,0.0,0.0,0.0
+17,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,0,Douglas-fir,0.0,0.0,0.0,0.0
+17,0,Krummholz,0.0,0.0,0.0,0.0
+17,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,0,Spruce/Fir,0.0,0.0,0.0,0.0
+17,1,Aspen,0.0,0.0,0.0,0.0
+17,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,1,Douglas-fir,0.0,0.0,0.0,0.0
+17,1,Krummholz,0.0,0.0,0.0,0.0
+17,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,1,Spruce/Fir,0.0,0.0,0.0,0.0
+17,2,Aspen,0.0,0.0,0.0,0.0
+17,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,2,Douglas-fir,0.0,0.0,0.0,0.0
+17,2,Krummholz,0.0,0.0,0.0,0.0
+17,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,2,Spruce/Fir,0.0,0.0,0.0,0.0
+17,3,Aspen,0.0,0.0,0.0,0.0
+17,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,3,Douglas-fir,0.0,0.0,0.0,0.0
+17,3,Krummholz,0.0,0.0,0.0,0.0
+17,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,3,Spruce/Fir,0.0,0.0,0.0,0.0
+17,Aggregated,Aspen,0.0,0.0,0.0,0.0
+17,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+17,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+17,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+17,Centralized,Aspen,0.0,0.0,0.0,0.0
+17,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+17,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+17,Centralized,Krummholz,0.0,0.0,0.0,0.0
+17,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+17,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+17,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+18,0,Aspen,0.0,0.0,0.0,0.0
+18,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,0,Douglas-fir,0.0,0.0,0.0,0.0
+18,0,Krummholz,0.0,0.0,0.0,0.0
+18,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,0,Spruce/Fir,0.0,0.0,0.0,0.0
+18,1,Aspen,0.0,0.0,0.0,0.0
+18,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,1,Douglas-fir,0.0,0.0,0.0,0.0
+18,1,Krummholz,0.0,0.0,0.0,0.0
+18,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,1,Spruce/Fir,0.0,0.0,0.0,0.0
+18,2,Aspen,0.0,0.0,0.0,0.0
+18,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,2,Douglas-fir,0.0,0.0,0.0,0.0
+18,2,Krummholz,0.0,0.0,0.0,0.0
+18,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,2,Spruce/Fir,0.0,0.0,0.0,0.0
+18,3,Aspen,0.0,0.0,0.0,0.0
+18,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,3,Douglas-fir,0.0,0.0,0.0,0.0
+18,3,Krummholz,0.0,0.0,0.0,0.0
+18,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,3,Spruce/Fir,0.0,0.0,0.0,0.0
+18,Aggregated,Aspen,0.0,0.0,0.0,0.0
+18,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+18,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+18,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+18,Centralized,Aspen,0.0,0.0,0.0,0.0
+18,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+18,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+18,Centralized,Krummholz,0.0,0.0,0.0,0.0
+18,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+18,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+18,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+19,0,Aspen,0.0,0.0,0.0,0.0
+19,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,0,Douglas-fir,0.0,0.0,0.0,0.0
+19,0,Krummholz,0.0,0.0,0.0,0.0
+19,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,0,Spruce/Fir,0.0,0.0,0.0,0.0
+19,1,Aspen,0.0,0.0,0.0,0.0
+19,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,1,Douglas-fir,0.0,0.0,0.0,0.0
+19,1,Krummholz,0.0,0.0,0.0,0.0
+19,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,1,Spruce/Fir,0.0,0.0,0.0,0.0
+19,2,Aspen,0.0,0.0,0.0,0.0
+19,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,2,Douglas-fir,0.0,0.0,0.0,0.0
+19,2,Krummholz,0.0,0.0,0.0,0.0
+19,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,2,Spruce/Fir,0.0,0.0,0.0,0.0
+19,3,Aspen,0.0,0.0,0.0,0.0
+19,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,3,Douglas-fir,0.0,0.0,0.0,0.0
+19,3,Krummholz,0.0,0.0,0.0,0.0
+19,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,3,Spruce/Fir,0.0,0.0,0.0,0.0
+19,Aggregated,Aspen,0.0,0.0,0.0,0.0
+19,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+19,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+19,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+19,Centralized,Aspen,0.0,0.0,0.0,0.0
+19,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+19,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+19,Centralized,Krummholz,0.0,0.0,0.0,0.0
+19,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+19,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+19,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+20,0,Aspen,0.0,0.0,0.0,0.0
+20,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,0,Douglas-fir,0.0,0.0,0.0,0.0
+20,0,Krummholz,0.0,0.0,0.0,0.0
+20,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,0,Spruce/Fir,0.0,0.0,0.0,0.0
+20,1,Aspen,0.0,0.0,0.0,0.0
+20,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,1,Douglas-fir,0.0,0.0,0.0,0.0
+20,1,Krummholz,0.0,0.0,0.0,0.0
+20,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,1,Spruce/Fir,0.0,0.0,0.0,0.0
+20,2,Aspen,0.0,0.0,0.0,0.0
+20,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,2,Douglas-fir,0.0,0.0,0.0,0.0
+20,2,Krummholz,0.0,0.0,0.0,0.0
+20,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,2,Spruce/Fir,0.0,0.0,0.0,0.0
+20,3,Aspen,0.0,0.0,0.0,0.0
+20,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,3,Douglas-fir,0.0,0.0,0.0,0.0
+20,3,Krummholz,0.0,0.0,0.0,0.0
+20,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,3,Spruce/Fir,0.0,0.0,0.0,0.0
+20,Aggregated,Aspen,0.0,0.0,0.0,0.0
+20,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+20,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+20,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+20,Centralized,Aspen,0.0,0.0,0.0,0.0
+20,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+20,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+20,Centralized,Krummholz,0.0,0.0,0.0,0.0
+20,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+20,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+20,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+21,0,Aspen,0.0,0.0,0.0,0.0
+21,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,0,Douglas-fir,0.0,0.0,0.0,0.0
+21,0,Krummholz,0.0,0.0,0.0,0.0
+21,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,0,Spruce/Fir,0.0,0.0,0.0,0.0
+21,1,Aspen,0.0,0.0,0.0,0.0
+21,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,1,Douglas-fir,0.0,0.0,0.0,0.0
+21,1,Krummholz,0.0,0.0,0.0,0.0
+21,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,1,Spruce/Fir,0.0,0.0,0.0,0.0
+21,2,Aspen,0.0,0.0,0.0,0.0
+21,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,2,Douglas-fir,0.0,0.0,0.0,0.0
+21,2,Krummholz,0.0,0.0,0.0,0.0
+21,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,2,Spruce/Fir,0.0,0.0,0.0,0.0
+21,3,Aspen,0.0,0.0,0.0,0.0
+21,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,3,Douglas-fir,0.0,0.0,0.0,0.0
+21,3,Krummholz,0.0,0.0,0.0,0.0
+21,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,3,Spruce/Fir,0.0,0.0,0.0,0.0
+21,Aggregated,Aspen,0.0,0.0,0.0,0.0
+21,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+21,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+21,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+21,Centralized,Aspen,0.0,0.0,0.0,0.0
+21,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+21,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+21,Centralized,Krummholz,0.0,0.0,0.0,0.0
+21,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+21,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+21,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+22,0,Aspen,0.0,0.0,0.0,0.0
+22,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,0,Douglas-fir,0.0,0.0,0.0,0.0
+22,0,Krummholz,0.0,0.0,0.0,0.0
+22,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,0,Spruce/Fir,0.0,0.0,0.0,0.0
+22,1,Aspen,0.0,0.0,0.0,0.0
+22,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,1,Douglas-fir,0.0,0.0,0.0,0.0
+22,1,Krummholz,0.0,0.0,0.0,0.0
+22,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,1,Spruce/Fir,0.0,0.0,0.0,0.0
+22,2,Aspen,0.0,0.0,0.0,0.0
+22,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,2,Douglas-fir,0.0,0.0,0.0,0.0
+22,2,Krummholz,0.0,0.0,0.0,0.0
+22,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,2,Spruce/Fir,0.0,0.0,0.0,0.0
+22,3,Aspen,0.0,0.0,0.0,0.0
+22,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,3,Douglas-fir,0.0,0.0,0.0,0.0
+22,3,Krummholz,0.0,0.0,0.0,0.0
+22,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,3,Spruce/Fir,0.0,0.0,0.0,0.0
+22,Aggregated,Aspen,0.0,0.0,0.0,0.0
+22,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+22,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+22,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+22,Centralized,Aspen,0.0,0.0,0.0,0.0
+22,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+22,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+22,Centralized,Krummholz,0.0,0.0,0.0,0.0
+22,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+22,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+22,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+23,0,Aspen,0.0,0.0,0.0,0.0
+23,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,0,Douglas-fir,0.0,0.0,0.0,0.0
+23,0,Krummholz,0.0,0.0,0.0,0.0
+23,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,0,Spruce/Fir,0.0,0.0,0.0,0.0
+23,1,Aspen,0.0,0.0,0.0,0.0
+23,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,1,Douglas-fir,0.0,0.0,0.0,0.0
+23,1,Krummholz,0.0,0.0,0.0,0.0
+23,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,1,Spruce/Fir,0.0,0.0,0.0,0.0
+23,2,Aspen,0.0,0.0,0.0,0.0
+23,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,2,Douglas-fir,0.0,0.0,0.0,0.0
+23,2,Krummholz,0.0,0.0,0.0,0.0
+23,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,2,Spruce/Fir,0.0,0.0,0.0,0.0
+23,3,Aspen,0.0,0.0,0.0,0.0
+23,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,3,Douglas-fir,0.0,0.0,0.0,0.0
+23,3,Krummholz,0.0,0.0,0.0,0.0
+23,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,3,Spruce/Fir,0.0,0.0,0.0,0.0
+23,Aggregated,Aspen,0.0,0.0,0.0,0.0
+23,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+23,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+23,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+23,Centralized,Aspen,0.0,0.0,0.0,0.0
+23,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+23,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+23,Centralized,Krummholz,0.0,0.0,0.0,0.0
+23,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+23,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+23,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+24,0,Aspen,0.0,0.0,0.0,0.0
+24,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,0,Douglas-fir,0.0,0.0,0.0,0.0
+24,0,Krummholz,0.0,0.0,0.0,0.0
+24,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,0,Spruce/Fir,0.0,0.0,0.0,0.0
+24,1,Aspen,0.0,0.0,0.0,0.0
+24,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,1,Douglas-fir,0.0,0.0,0.0,0.0
+24,1,Krummholz,0.0,0.0,0.0,0.0
+24,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,1,Spruce/Fir,0.0,0.0,0.0,0.0
+24,2,Aspen,0.0,0.0,0.0,0.0
+24,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,2,Douglas-fir,0.0,0.0,0.0,0.0
+24,2,Krummholz,0.0,0.0,0.0,0.0
+24,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,2,Spruce/Fir,0.0,0.0,0.0,0.0
+24,3,Aspen,0.0,0.0,0.0,0.0
+24,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,3,Douglas-fir,0.0,0.0,0.0,0.0
+24,3,Krummholz,0.0,0.0,0.0,0.0
+24,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,3,Spruce/Fir,0.0,0.0,0.0,0.0
+24,Aggregated,Aspen,0.0,0.0,0.0,0.0
+24,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+24,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+24,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+24,Centralized,Aspen,0.0,0.0,0.0,0.0
+24,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+24,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+24,Centralized,Krummholz,0.0,0.0,0.0,0.0
+24,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+24,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+24,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+25,0,Aspen,0.0,0.0,0.0,0.0
+25,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,0,Douglas-fir,0.0,0.0,0.0,0.0
+25,0,Krummholz,0.0,0.0,0.0,0.0
+25,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,0,Spruce/Fir,0.0,0.0,0.0,0.0
+25,1,Aspen,0.0,0.0,0.0,0.0
+25,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,1,Douglas-fir,0.0,0.0,0.0,0.0
+25,1,Krummholz,0.0,0.0,0.0,0.0
+25,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,1,Spruce/Fir,0.0,0.0,0.0,0.0
+25,2,Aspen,0.0,0.0,0.0,0.0
+25,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,2,Douglas-fir,0.0,0.0,0.0,0.0
+25,2,Krummholz,0.0,0.0,0.0,0.0
+25,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,2,Spruce/Fir,0.0,0.0,0.0,0.0
+25,3,Aspen,0.0,0.0,0.0,0.0
+25,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,3,Douglas-fir,0.0,0.0,0.0,0.0
+25,3,Krummholz,0.0,0.0,0.0,0.0
+25,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,3,Spruce/Fir,0.0,0.0,0.0,0.0
+25,Aggregated,Aspen,0.0,0.0,0.0,0.0
+25,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+25,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+25,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+25,Centralized,Aspen,0.0,0.0,0.0,0.0
+25,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+25,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+25,Centralized,Krummholz,0.0,0.0,0.0,0.0
+25,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+25,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+25,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+26,0,Aspen,0.0,0.0,0.0,0.0
+26,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,0,Douglas-fir,0.0,0.0,0.0,0.0
+26,0,Krummholz,0.0,0.0,0.0,0.0
+26,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,0,Spruce/Fir,0.0,0.0,0.0,0.0
+26,1,Aspen,0.0,0.0,0.0,0.0
+26,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,1,Douglas-fir,0.0,0.0,0.0,0.0
+26,1,Krummholz,0.0,0.0,0.0,0.0
+26,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,1,Spruce/Fir,0.0,0.0,0.0,0.0
+26,2,Aspen,0.0,0.0,0.0,0.0
+26,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,2,Douglas-fir,0.0,0.0,0.0,0.0
+26,2,Krummholz,0.0,0.0,0.0,0.0
+26,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,2,Spruce/Fir,0.0,0.0,0.0,0.0
+26,3,Aspen,0.0,0.0,0.0,0.0
+26,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,3,Douglas-fir,0.0,0.0,0.0,0.0
+26,3,Krummholz,0.0,0.0,0.0,0.0
+26,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,3,Spruce/Fir,0.0,0.0,0.0,0.0
+26,Aggregated,Aspen,0.0,0.0,0.0,0.0
+26,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+26,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+26,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+26,Centralized,Aspen,0.0,0.0,0.0,0.0
+26,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+26,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+26,Centralized,Krummholz,0.0,0.0,0.0,0.0
+26,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+26,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+26,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+27,0,Aspen,0.0,0.0,0.0,0.0
+27,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,0,Douglas-fir,0.0,0.0,0.0,0.0
+27,0,Krummholz,0.0,0.0,0.0,0.0
+27,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,0,Spruce/Fir,0.0,0.0,0.0,0.0
+27,1,Aspen,0.0,0.0,0.0,0.0
+27,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,1,Douglas-fir,0.0,0.0,0.0,0.0
+27,1,Krummholz,0.0,0.0,0.0,0.0
+27,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,1,Spruce/Fir,0.0,0.0,0.0,0.0
+27,2,Aspen,0.0,0.0,0.0,0.0
+27,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,2,Douglas-fir,0.0,0.0,0.0,0.0
+27,2,Krummholz,0.0,0.0,0.0,0.0
+27,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,2,Spruce/Fir,0.0,0.0,0.0,0.0
+27,3,Aspen,0.0,0.0,0.0,0.0
+27,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,3,Douglas-fir,0.0,0.0,0.0,0.0
+27,3,Krummholz,0.0,0.0,0.0,0.0
+27,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,3,Spruce/Fir,0.0,0.0,0.0,0.0
+27,Aggregated,Aspen,0.0,0.0,0.0,0.0
+27,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+27,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+27,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+27,Centralized,Aspen,0.0,0.0,0.0,0.0
+27,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+27,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+27,Centralized,Krummholz,0.0,0.0,0.0,0.0
+27,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+27,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+27,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+28,0,Aspen,0.0,0.0,0.0,0.0
+28,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,0,Douglas-fir,0.0,0.0,0.0,0.0
+28,0,Krummholz,0.0,0.0,0.0,0.0
+28,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,0,Spruce/Fir,0.0,0.0,0.0,0.0
+28,1,Aspen,0.0,0.0,0.0,0.0
+28,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,1,Douglas-fir,0.0,0.0,0.0,0.0
+28,1,Krummholz,0.0,0.0,0.0,0.0
+28,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,1,Spruce/Fir,0.0,0.0,0.0,0.0
+28,2,Aspen,0.0,0.0,0.0,0.0
+28,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,2,Douglas-fir,0.0,0.0,0.0,0.0
+28,2,Krummholz,0.0,0.0,0.0,0.0
+28,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,2,Spruce/Fir,0.0,0.0,0.0,0.0
+28,3,Aspen,0.0,0.0,0.0,0.0
+28,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,3,Douglas-fir,0.0,0.0,0.0,0.0
+28,3,Krummholz,0.0,0.0,0.0,0.0
+28,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,3,Spruce/Fir,0.0,0.0,0.0,0.0
+28,Aggregated,Aspen,0.0,0.0,0.0,0.0
+28,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+28,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+28,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+28,Centralized,Aspen,0.0,0.0,0.0,0.0
+28,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+28,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+28,Centralized,Krummholz,0.0,0.0,0.0,0.0
+28,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+28,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+28,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+29,0,Aspen,0.0,0.0,0.0,0.0
+29,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,0,Douglas-fir,0.0,0.0,0.0,0.0
+29,0,Krummholz,0.0,0.0,0.0,0.0
+29,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,0,Spruce/Fir,0.0,0.0,0.0,0.0
+29,1,Aspen,0.0,0.0,0.0,0.0
+29,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,1,Douglas-fir,0.0,0.0,0.0,0.0
+29,1,Krummholz,0.0,0.0,0.0,0.0
+29,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,1,Spruce/Fir,0.0,0.0,0.0,0.0
+29,2,Aspen,0.0,0.0,0.0,0.0
+29,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,2,Douglas-fir,0.0,0.0,0.0,0.0
+29,2,Krummholz,0.0,0.0,0.0,0.0
+29,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,2,Spruce/Fir,0.0,0.0,0.0,0.0
+29,3,Aspen,0.0,0.0,0.0,0.0
+29,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,3,Douglas-fir,0.0,0.0,0.0,0.0
+29,3,Krummholz,0.0,0.0,0.0,0.0
+29,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,3,Spruce/Fir,0.0,0.0,0.0,0.0
+29,Aggregated,Aspen,0.0,0.0,0.0,0.0
+29,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+29,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+29,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+29,Centralized,Aspen,0.0,0.0,0.0,0.0
+29,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+29,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+29,Centralized,Krummholz,0.0,0.0,0.0,0.0
+29,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+29,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+29,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+30,0,Aspen,0.0,0.0,0.0,0.0
+30,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,0,Douglas-fir,0.0,0.0,0.0,0.0
+30,0,Krummholz,0.0,0.0,0.0,0.0
+30,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,0,Spruce/Fir,0.0,0.0,0.0,0.0
+30,1,Aspen,0.0,0.0,0.0,0.0
+30,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,1,Douglas-fir,0.0,0.0,0.0,0.0
+30,1,Krummholz,0.0,0.0,0.0,0.0
+30,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,1,Spruce/Fir,0.0,0.0,0.0,0.0
+30,2,Aspen,0.0,0.0,0.0,0.0
+30,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,2,Douglas-fir,0.0,0.0,0.0,0.0
+30,2,Krummholz,0.0,0.0,0.0,0.0
+30,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,2,Spruce/Fir,0.0,0.0,0.0,0.0
+30,3,Aspen,0.0,0.0,0.0,0.0
+30,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,3,Douglas-fir,0.0,0.0,0.0,0.0
+30,3,Krummholz,0.0,0.0,0.0,0.0
+30,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,3,Spruce/Fir,0.0,0.0,0.0,0.0
+30,Aggregated,Aspen,0.0,0.0,0.0,0.0
+30,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+30,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+30,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+30,Centralized,Aspen,0.0,0.0,0.0,0.0
+30,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+30,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+30,Centralized,Krummholz,0.0,0.0,0.0,0.0
+30,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+30,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+30,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+31,0,Aspen,0.0,0.0,0.0,0.0
+31,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,0,Douglas-fir,0.0,0.0,0.0,0.0
+31,0,Krummholz,0.0,0.0,0.0,0.0
+31,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,0,Spruce/Fir,0.0,0.0,0.0,0.0
+31,1,Aspen,0.0,0.0,0.0,0.0
+31,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,1,Douglas-fir,0.0,0.0,0.0,0.0
+31,1,Krummholz,0.0,0.0,0.0,0.0
+31,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,1,Spruce/Fir,0.0,0.0,0.0,0.0
+31,2,Aspen,0.0,0.0,0.0,0.0
+31,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,2,Douglas-fir,0.0,0.0,0.0,0.0
+31,2,Krummholz,0.0,0.0,0.0,0.0
+31,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,2,Spruce/Fir,0.0,0.0,0.0,0.0
+31,3,Aspen,0.0,0.0,0.0,0.0
+31,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,3,Douglas-fir,0.0,0.0,0.0,0.0
+31,3,Krummholz,0.0,0.0,0.0,0.0
+31,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,3,Spruce/Fir,0.0,0.0,0.0,0.0
+31,Aggregated,Aspen,0.0,0.0,0.0,0.0
+31,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+31,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+31,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+31,Centralized,Aspen,0.0,0.0,0.0,0.0
+31,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+31,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+31,Centralized,Krummholz,0.0,0.0,0.0,0.0
+31,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+31,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+31,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+32,0,Aspen,0.0,0.0,0.0,0.0
+32,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,0,Douglas-fir,0.0,0.0,0.0,0.0
+32,0,Krummholz,0.0,0.0,0.0,0.0
+32,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,0,Spruce/Fir,0.0,0.0,0.0,0.0
+32,1,Aspen,0.0,0.0,0.0,0.0
+32,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,1,Douglas-fir,0.0,0.0,0.0,0.0
+32,1,Krummholz,0.0,0.0,0.0,0.0
+32,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,1,Spruce/Fir,0.0,0.0,0.0,0.0
+32,2,Aspen,0.0,0.0,0.0,0.0
+32,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,2,Douglas-fir,0.0,0.0,0.0,0.0
+32,2,Krummholz,0.0,0.0,0.0,0.0
+32,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,2,Spruce/Fir,0.0,0.0,0.0,0.0
+32,3,Aspen,0.0,0.0,0.0,0.0
+32,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,3,Douglas-fir,0.0,0.0,0.0,0.0
+32,3,Krummholz,0.0,0.0,0.0,0.0
+32,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,3,Spruce/Fir,0.0,0.0,0.0,0.0
+32,Aggregated,Aspen,0.0,0.0,0.0,0.0
+32,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+32,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+32,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+32,Centralized,Aspen,0.0,0.0,0.0,0.0
+32,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+32,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+32,Centralized,Krummholz,0.0,0.0,0.0,0.0
+32,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+32,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+32,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+33,0,Aspen,0.0,0.0,0.0,0.0
+33,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,0,Douglas-fir,0.0,0.0,0.0,0.0
+33,0,Krummholz,0.0,0.0,0.0,0.0
+33,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,0,Spruce/Fir,0.0,0.0,0.0,0.0
+33,1,Aspen,0.0,0.0,0.0,0.0
+33,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,1,Douglas-fir,0.0,0.0,0.0,0.0
+33,1,Krummholz,0.0,0.0,0.0,0.0
+33,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,1,Spruce/Fir,0.0,0.0,0.0,0.0
+33,2,Aspen,0.0,0.0,0.0,0.0
+33,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,2,Douglas-fir,0.0,0.0,0.0,0.0
+33,2,Krummholz,0.0,0.0,0.0,0.0
+33,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,2,Spruce/Fir,0.0,0.0,0.0,0.0
+33,3,Aspen,0.0,0.0,0.0,0.0
+33,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,3,Douglas-fir,0.0,0.0,0.0,0.0
+33,3,Krummholz,0.0,0.0,0.0,0.0
+33,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,3,Spruce/Fir,0.0,0.0,0.0,0.0
+33,Aggregated,Aspen,0.0,0.0,0.0,0.0
+33,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+33,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+33,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+33,Centralized,Aspen,0.0,0.0,0.0,0.0
+33,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+33,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+33,Centralized,Krummholz,0.0,0.0,0.0,0.0
+33,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+33,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+33,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+34,0,Aspen,0.0,0.0,0.0,0.0
+34,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,0,Douglas-fir,0.0,0.0,0.0,0.0
+34,0,Krummholz,0.0,0.0,0.0,0.0
+34,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,0,Spruce/Fir,0.0,0.0,0.0,0.0
+34,1,Aspen,0.0,0.0,0.0,0.0
+34,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,1,Douglas-fir,0.0,0.0,0.0,0.0
+34,1,Krummholz,0.0,0.0,0.0,0.0
+34,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,1,Spruce/Fir,0.0,0.0,0.0,0.0
+34,2,Aspen,0.0,0.0,0.0,0.0
+34,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,2,Douglas-fir,0.0,0.0,0.0,0.0
+34,2,Krummholz,0.0,0.0,0.0,0.0
+34,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,2,Spruce/Fir,0.0,0.0,0.0,0.0
+34,3,Aspen,0.0,0.0,0.0,0.0
+34,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,3,Douglas-fir,0.0,0.0,0.0,0.0
+34,3,Krummholz,0.0,0.0,0.0,0.0
+34,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,3,Spruce/Fir,0.0,0.0,0.0,0.0
+34,Aggregated,Aspen,0.0,0.0,0.0,0.0
+34,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+34,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+34,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+34,Centralized,Aspen,0.0,0.0,0.0,0.0
+34,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+34,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+34,Centralized,Krummholz,0.0,0.0,0.0,0.0
+34,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+34,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+34,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+35,0,Aspen,0.0,0.0,0.0,0.0
+35,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,0,Douglas-fir,0.0,0.0,0.0,0.0
+35,0,Krummholz,0.0,0.0,0.0,0.0
+35,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,0,Spruce/Fir,0.0,0.0,0.0,0.0
+35,1,Aspen,0.0,0.0,0.0,0.0
+35,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,1,Douglas-fir,0.0,0.0,0.0,0.0
+35,1,Krummholz,0.0,0.0,0.0,0.0
+35,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,1,Spruce/Fir,0.0,0.0,0.0,0.0
+35,2,Aspen,0.0,0.0,0.0,0.0
+35,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,2,Douglas-fir,0.0,0.0,0.0,0.0
+35,2,Krummholz,0.0,0.0,0.0,0.0
+35,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,2,Spruce/Fir,0.0,0.0,0.0,0.0
+35,3,Aspen,0.0,0.0,0.0,0.0
+35,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,3,Douglas-fir,0.0,0.0,0.0,0.0
+35,3,Krummholz,0.0,0.0,0.0,0.0
+35,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,3,Spruce/Fir,0.0,0.0,0.0,0.0
+35,Aggregated,Aspen,0.0,0.0,0.0,0.0
+35,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+35,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+35,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+35,Centralized,Aspen,0.0,0.0,0.0,0.0
+35,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+35,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+35,Centralized,Krummholz,0.0,0.0,0.0,0.0
+35,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+35,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+35,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+36,0,Aspen,0.0,0.0,0.0,0.0
+36,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,0,Douglas-fir,0.0,0.0,0.0,0.0
+36,0,Krummholz,0.0,0.0,0.0,0.0
+36,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,0,Spruce/Fir,0.0,0.0,0.0,0.0
+36,1,Aspen,0.0,0.0,0.0,0.0
+36,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,1,Douglas-fir,0.0,0.0,0.0,0.0
+36,1,Krummholz,0.0,0.0,0.0,0.0
+36,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,1,Spruce/Fir,0.0,0.0,0.0,0.0
+36,2,Aspen,0.0,0.0,0.0,0.0
+36,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,2,Douglas-fir,0.0,0.0,0.0,0.0
+36,2,Krummholz,0.0,0.0,0.0,0.0
+36,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,2,Spruce/Fir,0.0,0.0,0.0,0.0
+36,3,Aspen,0.0,0.0,0.0,0.0
+36,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,3,Douglas-fir,0.0,0.0,0.0,0.0
+36,3,Krummholz,0.0,0.0,0.0,0.0
+36,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,3,Spruce/Fir,0.0,0.0,0.0,0.0
+36,Aggregated,Aspen,0.0,0.0,0.0,0.0
+36,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+36,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+36,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+36,Centralized,Aspen,0.0,0.0,0.0,0.0
+36,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+36,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+36,Centralized,Krummholz,0.0,0.0,0.0,0.0
+36,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+36,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+36,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+37,0,Aspen,0.0,0.0,0.0,0.0
+37,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,0,Douglas-fir,0.0,0.0,0.0,0.0
+37,0,Krummholz,0.0,0.0,0.0,0.0
+37,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,0,Spruce/Fir,0.0,0.0,0.0,0.0
+37,1,Aspen,0.0,0.0,0.0,0.0
+37,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,1,Douglas-fir,0.0,0.0,0.0,0.0
+37,1,Krummholz,0.0,0.0,0.0,0.0
+37,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,1,Spruce/Fir,0.0,0.0,0.0,0.0
+37,2,Aspen,0.0,0.0,0.0,0.0
+37,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,2,Douglas-fir,0.0,0.0,0.0,0.0
+37,2,Krummholz,0.0,0.0,0.0,0.0
+37,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,2,Spruce/Fir,0.0,0.0,0.0,0.0
+37,3,Aspen,0.0,0.0,0.0,0.0
+37,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,3,Douglas-fir,0.0,0.0,0.0,0.0
+37,3,Krummholz,0.0,0.0,0.0,0.0
+37,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,3,Spruce/Fir,0.0,0.0,0.0,0.0
+37,Aggregated,Aspen,0.0,0.0,0.0,0.0
+37,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+37,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+37,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+37,Centralized,Aspen,0.0,0.0,0.0,0.0
+37,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+37,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+37,Centralized,Krummholz,0.0,0.0,0.0,0.0
+37,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+37,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+37,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+38,0,Aspen,0.0,0.0,0.0,0.0
+38,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,0,Douglas-fir,0.0,0.0,0.0,0.0
+38,0,Krummholz,0.0,0.0,0.0,0.0
+38,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,0,Spruce/Fir,0.0,0.0,0.0,0.0
+38,1,Aspen,0.0,0.0,0.0,0.0
+38,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,1,Douglas-fir,0.0,0.0,0.0,0.0
+38,1,Krummholz,0.0,0.0,0.0,0.0
+38,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,1,Spruce/Fir,0.0,0.0,0.0,0.0
+38,2,Aspen,0.0,0.0,0.0,0.0
+38,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,2,Douglas-fir,0.0,0.0,0.0,0.0
+38,2,Krummholz,0.0,0.0,0.0,0.0
+38,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,2,Spruce/Fir,0.0,0.0,0.0,0.0
+38,3,Aspen,0.0,0.0,0.0,0.0
+38,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,3,Douglas-fir,0.0,0.0,0.0,0.0
+38,3,Krummholz,0.0,0.0,0.0,0.0
+38,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,3,Spruce/Fir,0.0,0.0,0.0,0.0
+38,Aggregated,Aspen,0.0,0.0,0.0,0.0
+38,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+38,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+38,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+38,Centralized,Aspen,0.0,0.0,0.0,0.0
+38,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+38,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+38,Centralized,Krummholz,0.0,0.0,0.0,0.0
+38,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+38,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+38,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+39,0,Aspen,0.0,0.0,0.0,0.0
+39,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,0,Douglas-fir,0.0,0.0,0.0,0.0
+39,0,Krummholz,0.0,0.0,0.0,0.0
+39,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,0,Spruce/Fir,0.0,0.0,0.0,0.0
+39,1,Aspen,0.0,0.0,0.0,0.0
+39,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,1,Douglas-fir,0.0,0.0,0.0,0.0
+39,1,Krummholz,0.0,0.0,0.0,0.0
+39,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,1,Spruce/Fir,0.0,0.0,0.0,0.0
+39,2,Aspen,0.0,0.0,0.0,0.0
+39,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,2,Douglas-fir,0.0,0.0,0.0,0.0
+39,2,Krummholz,0.0,0.0,0.0,0.0
+39,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,2,Spruce/Fir,0.0,0.0,0.0,0.0
+39,3,Aspen,0.0,0.0,0.0,0.0
+39,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,3,Douglas-fir,0.0,0.0,0.0,0.0
+39,3,Krummholz,0.0,0.0,0.0,0.0
+39,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,3,Spruce/Fir,0.0,0.0,0.0,0.0
+39,Aggregated,Aspen,0.0,0.0,0.0,0.0
+39,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+39,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+39,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+39,Centralized,Aspen,0.0,0.0,0.0,0.0
+39,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+39,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+39,Centralized,Krummholz,0.0,0.0,0.0,0.0
+39,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+39,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+39,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+40,0,Aspen,0.0,0.0,0.0,0.0
+40,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,0,Douglas-fir,0.0,0.0,0.0,0.0
+40,0,Krummholz,0.0,0.0,0.0,0.0
+40,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,0,Spruce/Fir,0.0,0.0,0.0,0.0
+40,1,Aspen,0.0,0.0,0.0,0.0
+40,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,1,Douglas-fir,0.0,0.0,0.0,0.0
+40,1,Krummholz,0.0,0.0,0.0,0.0
+40,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,1,Spruce/Fir,0.0,0.0,0.0,0.0
+40,2,Aspen,0.0,0.0,0.0,0.0
+40,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,2,Douglas-fir,0.0,0.0,0.0,0.0
+40,2,Krummholz,0.0,0.0,0.0,0.0
+40,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,2,Spruce/Fir,0.0,0.0,0.0,0.0
+40,3,Aspen,0.0,0.0,0.0,0.0
+40,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,3,Douglas-fir,0.0,0.0,0.0,0.0
+40,3,Krummholz,0.0,0.0,0.0,0.0
+40,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,3,Spruce/Fir,0.0,0.0,0.0,0.0
+40,Aggregated,Aspen,0.0,0.0,0.0,0.0
+40,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+40,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+40,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+40,Centralized,Aspen,0.0,0.0,0.0,0.0
+40,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+40,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+40,Centralized,Krummholz,0.0,0.0,0.0,0.0
+40,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+40,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+40,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+41,0,Aspen,0.0,0.0,0.0,0.0
+41,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,0,Douglas-fir,0.0,0.0,0.0,0.0
+41,0,Krummholz,0.0,0.0,0.0,0.0
+41,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,0,Spruce/Fir,0.0,0.0,0.0,0.0
+41,1,Aspen,0.0,0.0,0.0,0.0
+41,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,1,Douglas-fir,0.0,0.0,0.0,0.0
+41,1,Krummholz,0.0,0.0,0.0,0.0
+41,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,1,Spruce/Fir,0.0,0.0,0.0,0.0
+41,2,Aspen,0.0,0.0,0.0,0.0
+41,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,2,Douglas-fir,0.0,0.0,0.0,0.0
+41,2,Krummholz,0.0,0.0,0.0,0.0
+41,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,2,Spruce/Fir,0.0,0.0,0.0,0.0
+41,3,Aspen,0.0,0.0,0.0,0.0
+41,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,3,Douglas-fir,0.0,0.0,0.0,0.0
+41,3,Krummholz,0.0,0.0,0.0,0.0
+41,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,3,Spruce/Fir,0.0,0.0,0.0,0.0
+41,Aggregated,Aspen,0.0,0.0,0.0,0.0
+41,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+41,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+41,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+41,Centralized,Aspen,0.0,0.0,0.0,0.0
+41,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+41,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+41,Centralized,Krummholz,0.0,0.0,0.0,0.0
+41,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+41,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+41,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+42,0,Aspen,0.0,0.0,0.0,0.0
+42,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,0,Douglas-fir,0.0,0.0,0.0,0.0
+42,0,Krummholz,0.0,0.0,0.0,0.0
+42,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,0,Spruce/Fir,0.0,0.0,0.0,0.0
+42,1,Aspen,0.0,0.0,0.0,0.0
+42,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,1,Douglas-fir,0.0,0.0,0.0,0.0
+42,1,Krummholz,0.0,0.0,0.0,0.0
+42,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,1,Spruce/Fir,0.0,0.0,0.0,0.0
+42,2,Aspen,0.0,0.0,0.0,0.0
+42,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,2,Douglas-fir,0.0,0.0,0.0,0.0
+42,2,Krummholz,0.0,0.0,0.0,0.0
+42,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,2,Spruce/Fir,0.0,0.0,0.0,0.0
+42,3,Aspen,0.0,0.0,0.0,0.0
+42,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,3,Douglas-fir,0.0,0.0,0.0,0.0
+42,3,Krummholz,0.0,0.0,0.0,0.0
+42,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,3,Spruce/Fir,0.0,0.0,0.0,0.0
+42,Aggregated,Aspen,0.0,0.0,0.0,0.0
+42,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+42,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+42,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+42,Centralized,Aspen,0.0,0.0,0.0,0.0
+42,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+42,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+42,Centralized,Krummholz,0.0,0.0,0.0,0.0
+42,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+42,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+42,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+43,0,Aspen,0.0,0.0,0.0,0.0
+43,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,0,Douglas-fir,0.0,0.0,0.0,0.0
+43,0,Krummholz,0.0,0.0,0.0,0.0
+43,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,0,Spruce/Fir,0.0,0.0,0.0,0.0
+43,1,Aspen,0.0,0.0,0.0,0.0
+43,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,1,Douglas-fir,0.0,0.0,0.0,0.0
+43,1,Krummholz,0.0,0.0,0.0,0.0
+43,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,1,Spruce/Fir,0.0,0.0,0.0,0.0
+43,2,Aspen,0.0,0.0,0.0,0.0
+43,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,2,Douglas-fir,0.0,0.0,0.0,0.0
+43,2,Krummholz,0.0,0.0,0.0,0.0
+43,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,2,Spruce/Fir,0.0,0.0,0.0,0.0
+43,3,Aspen,0.0,0.0,0.0,0.0
+43,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,3,Douglas-fir,0.0,0.0,0.0,0.0
+43,3,Krummholz,0.0,0.0,0.0,0.0
+43,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,3,Spruce/Fir,0.0,0.0,0.0,0.0
+43,Aggregated,Aspen,0.0,0.0,0.0,0.0
+43,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+43,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+43,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+43,Centralized,Aspen,0.0,0.0,0.0,0.0
+43,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+43,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+43,Centralized,Krummholz,0.0,0.0,0.0,0.0
+43,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+43,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+43,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+44,0,Aspen,0.0,0.0,0.0,0.0
+44,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,0,Douglas-fir,0.0,0.0,0.0,0.0
+44,0,Krummholz,0.0,0.0,0.0,0.0
+44,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,0,Spruce/Fir,0.0,0.0,0.0,0.0
+44,1,Aspen,0.0,0.0,0.0,0.0
+44,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,1,Douglas-fir,0.0,0.0,0.0,0.0
+44,1,Krummholz,0.0,0.0,0.0,0.0
+44,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,1,Spruce/Fir,0.0,0.0,0.0,0.0
+44,2,Aspen,0.0,0.0,0.0,0.0
+44,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,2,Douglas-fir,0.0,0.0,0.0,0.0
+44,2,Krummholz,0.0,0.0,0.0,0.0
+44,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,2,Spruce/Fir,0.0,0.0,0.0,0.0
+44,3,Aspen,0.0,0.0,0.0,0.0
+44,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,3,Douglas-fir,0.0,0.0,0.0,0.0
+44,3,Krummholz,0.0,0.0,0.0,0.0
+44,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,3,Spruce/Fir,0.0,0.0,0.0,0.0
+44,Aggregated,Aspen,0.0,0.0,0.0,0.0
+44,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+44,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+44,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+44,Centralized,Aspen,0.0,0.0,0.0,0.0
+44,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+44,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+44,Centralized,Krummholz,0.0,0.0,0.0,0.0
+44,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+44,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+44,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+45,0,Aspen,0.0,0.0,0.0,0.0
+45,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,0,Douglas-fir,0.0,0.0,0.0,0.0
+45,0,Krummholz,0.0,0.0,0.0,0.0
+45,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,0,Spruce/Fir,0.0,0.0,0.0,0.0
+45,1,Aspen,0.0,0.0,0.0,0.0
+45,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,1,Douglas-fir,0.0,0.0,0.0,0.0
+45,1,Krummholz,0.0,0.0,0.0,0.0
+45,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,1,Spruce/Fir,0.0,0.0,0.0,0.0
+45,2,Aspen,0.0,0.0,0.0,0.0
+45,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,2,Douglas-fir,0.0,0.0,0.0,0.0
+45,2,Krummholz,0.0,0.0,0.0,0.0
+45,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,2,Spruce/Fir,0.0,0.0,0.0,0.0
+45,3,Aspen,0.0,0.0,0.0,0.0
+45,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,3,Douglas-fir,0.0,0.0,0.0,0.0
+45,3,Krummholz,0.0,0.0,0.0,0.0
+45,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,3,Spruce/Fir,0.0,0.0,0.0,0.0
+45,Aggregated,Aspen,0.0,0.0,0.0,0.0
+45,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+45,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+45,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+45,Centralized,Aspen,0.0,0.0,0.0,0.0
+45,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+45,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+45,Centralized,Krummholz,0.0,0.0,0.0,0.0
+45,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+45,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+45,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+46,0,Aspen,0.0,0.0,0.0,0.0
+46,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,0,Douglas-fir,0.0,0.0,0.0,0.0
+46,0,Krummholz,0.0,0.0,0.0,0.0
+46,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,0,Spruce/Fir,0.0,0.0,0.0,0.0
+46,1,Aspen,0.0,0.0,0.0,0.0
+46,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,1,Douglas-fir,0.0,0.0,0.0,0.0
+46,1,Krummholz,0.0,0.0,0.0,0.0
+46,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,1,Spruce/Fir,0.0,0.0,0.0,0.0
+46,2,Aspen,0.0,0.0,0.0,0.0
+46,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,2,Douglas-fir,0.0,0.0,0.0,0.0
+46,2,Krummholz,0.0,0.0,0.0,0.0
+46,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,2,Spruce/Fir,0.0,0.0,0.0,0.0
+46,3,Aspen,0.0,0.0,0.0,0.0
+46,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,3,Douglas-fir,0.0,0.0,0.0,0.0
+46,3,Krummholz,0.0,0.0,0.0,0.0
+46,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,3,Spruce/Fir,0.0,0.0,0.0,0.0
+46,Aggregated,Aspen,0.0,0.0,0.0,0.0
+46,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+46,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+46,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+46,Centralized,Aspen,0.0,0.0,0.0,0.0
+46,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+46,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+46,Centralized,Krummholz,0.0,0.0,0.0,0.0
+46,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+46,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+46,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+47,0,Aspen,0.0,0.0,0.0,0.0
+47,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,0,Douglas-fir,0.0,0.0,0.0,0.0
+47,0,Krummholz,0.0,0.0,0.0,0.0
+47,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,0,Spruce/Fir,0.0,0.0,0.0,0.0
+47,1,Aspen,0.0,0.0,0.0,0.0
+47,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,1,Douglas-fir,0.0,0.0,0.0,0.0
+47,1,Krummholz,0.0,0.0,0.0,0.0
+47,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,1,Spruce/Fir,0.0,0.0,0.0,0.0
+47,2,Aspen,0.0,0.0,0.0,0.0
+47,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,2,Douglas-fir,0.0,0.0,0.0,0.0
+47,2,Krummholz,0.0,0.0,0.0,0.0
+47,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,2,Spruce/Fir,0.0,0.0,0.0,0.0
+47,3,Aspen,0.0,0.0,0.0,0.0
+47,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,3,Douglas-fir,0.0,0.0,0.0,0.0
+47,3,Krummholz,0.0,0.0,0.0,0.0
+47,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,3,Spruce/Fir,0.0,0.0,0.0,0.0
+47,Aggregated,Aspen,0.0,0.0,0.0,0.0
+47,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+47,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+47,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+47,Centralized,Aspen,0.0,0.0,0.0,0.0
+47,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+47,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+47,Centralized,Krummholz,0.0,0.0,0.0,0.0
+47,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+47,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+47,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+48,0,Aspen,0.0,0.0,0.0,0.0
+48,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,0,Douglas-fir,0.0,0.0,0.0,0.0
+48,0,Krummholz,0.0,0.0,0.0,0.0
+48,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,0,Spruce/Fir,0.0,0.0,0.0,0.0
+48,1,Aspen,0.0,0.0,0.0,0.0
+48,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,1,Douglas-fir,0.0,0.0,0.0,0.0
+48,1,Krummholz,0.0,0.0,0.0,0.0
+48,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,1,Spruce/Fir,0.0,0.0,0.0,0.0
+48,2,Aspen,0.0,0.0,0.0,0.0
+48,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,2,Douglas-fir,0.0,0.0,0.0,0.0
+48,2,Krummholz,0.0,0.0,0.0,0.0
+48,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,2,Spruce/Fir,0.0,0.0,0.0,0.0
+48,3,Aspen,0.0,0.0,0.0,0.0
+48,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,3,Douglas-fir,0.0,0.0,0.0,0.0
+48,3,Krummholz,0.0,0.0,0.0,0.0
+48,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,3,Spruce/Fir,0.0,0.0,0.0,0.0
+48,Aggregated,Aspen,0.0,0.0,0.0,0.0
+48,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+48,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+48,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+48,Centralized,Aspen,0.0,0.0,0.0,0.0
+48,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+48,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+48,Centralized,Krummholz,0.0,0.0,0.0,0.0
+48,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+48,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+48,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+49,0,Aspen,0.0,0.0,0.0,0.0
+49,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,0,Douglas-fir,0.0,0.0,0.0,0.0
+49,0,Krummholz,0.0,0.0,0.0,0.0
+49,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,0,Spruce/Fir,0.0,0.0,0.0,0.0
+49,1,Aspen,0.0,0.0,0.0,0.0
+49,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,1,Douglas-fir,0.0,0.0,0.0,0.0
+49,1,Krummholz,0.0,0.0,0.0,0.0
+49,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,1,Spruce/Fir,0.0,0.0,0.0,0.0
+49,2,Aspen,0.0,0.0,0.0,0.0
+49,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,2,Douglas-fir,0.0,0.0,0.0,0.0
+49,2,Krummholz,0.0,0.0,0.0,0.0
+49,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,2,Spruce/Fir,0.0,0.0,0.0,0.0
+49,3,Aspen,0.0,0.0,0.0,0.0
+49,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,3,Douglas-fir,0.0,0.0,0.0,0.0
+49,3,Krummholz,0.0,0.0,0.0,0.0
+49,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,3,Spruce/Fir,0.0,0.0,0.0,0.0
+49,Aggregated,Aspen,0.0,0.0,0.0,0.0
+49,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+49,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+49,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+49,Centralized,Aspen,0.0,0.0,0.0,0.0
+49,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+49,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+49,Centralized,Krummholz,0.0,0.0,0.0,0.0
+49,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+49,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+49,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+50,0,Aspen,0.0,0.0,0.0,0.0
+50,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,0,Douglas-fir,0.0,0.0,0.0,0.0
+50,0,Krummholz,0.0,0.0,0.0,0.0
+50,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,0,Spruce/Fir,0.0,0.0,0.0,0.0
+50,1,Aspen,0.0,0.0,0.0,0.0
+50,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,1,Douglas-fir,0.0,0.0,0.0,0.0
+50,1,Krummholz,0.0,0.0,0.0,0.0
+50,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,1,Spruce/Fir,0.0,0.0,0.0,0.0
+50,2,Aspen,0.0,0.0,0.0,0.0
+50,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,2,Douglas-fir,0.0,0.0,0.0,0.0
+50,2,Krummholz,0.0,0.0,0.0,0.0
+50,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,2,Spruce/Fir,0.0,0.0,0.0,0.0
+50,3,Aspen,0.0,0.0,0.0,0.0
+50,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,3,Douglas-fir,0.0,0.0,0.0,0.0
+50,3,Krummholz,0.0,0.0,0.0,0.0
+50,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,3,Spruce/Fir,0.0,0.0,0.0,0.0
+50,Aggregated,Aspen,0.0,0.0,0.0,0.0
+50,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+50,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+50,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+50,Centralized,Aspen,0.0,0.0,0.0,0.0
+50,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+50,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+50,Centralized,Krummholz,0.0,0.0,0.0,0.0
+50,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+50,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+50,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+51,0,Aspen,0.0,0.0,0.0,0.0
+51,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,0,Douglas-fir,0.0,0.0,0.0,0.0
+51,0,Krummholz,0.0,0.0,0.0,0.0
+51,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,0,Spruce/Fir,0.0,0.0,0.0,0.0
+51,1,Aspen,0.0,0.0,0.0,0.0
+51,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,1,Douglas-fir,0.0,0.0,0.0,0.0
+51,1,Krummholz,0.0,0.0,0.0,0.0
+51,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,1,Spruce/Fir,0.0,0.0,0.0,0.0
+51,2,Aspen,0.0,0.0,0.0,0.0
+51,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,2,Douglas-fir,0.0,0.0,0.0,0.0
+51,2,Krummholz,0.0,0.0,0.0,0.0
+51,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,2,Spruce/Fir,0.0,0.0,0.0,0.0
+51,3,Aspen,0.0,0.0,0.0,0.0
+51,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,3,Douglas-fir,0.0,0.0,0.0,0.0
+51,3,Krummholz,0.0,0.0,0.0,0.0
+51,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,3,Spruce/Fir,0.0,0.0,0.0,0.0
+51,Aggregated,Aspen,0.0,0.0,0.0,0.0
+51,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+51,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+51,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+51,Centralized,Aspen,0.0,0.0,0.0,0.0
+51,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+51,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+51,Centralized,Krummholz,0.0,0.0,0.0,0.0
+51,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+51,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+51,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+52,0,Aspen,0.0,0.0,0.0,0.0
+52,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,0,Douglas-fir,0.0,0.0,0.0,0.0
+52,0,Krummholz,0.0,0.0,0.0,0.0
+52,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,0,Spruce/Fir,0.0,0.0,0.0,0.0
+52,1,Aspen,0.0,0.0,0.0,0.0
+52,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,1,Douglas-fir,0.0,0.0,0.0,0.0
+52,1,Krummholz,0.0,0.0,0.0,0.0
+52,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,1,Spruce/Fir,0.0,0.0,0.0,0.0
+52,2,Aspen,0.0,0.0,0.0,0.0
+52,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,2,Douglas-fir,0.0,0.0,0.0,0.0
+52,2,Krummholz,0.0,0.0,0.0,0.0
+52,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,2,Spruce/Fir,0.0,0.0,0.0,0.0
+52,3,Aspen,0.0,0.0,0.0,0.0
+52,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,3,Douglas-fir,0.0,0.0,0.0,0.0
+52,3,Krummholz,0.0,0.0,0.0,0.0
+52,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,3,Spruce/Fir,0.0,0.0,0.0,0.0
+52,Aggregated,Aspen,0.0,0.0,0.0,0.0
+52,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+52,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+52,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+52,Centralized,Aspen,0.0,0.0,0.0,0.0
+52,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+52,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+52,Centralized,Krummholz,0.0,0.0,0.0,0.0
+52,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+52,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+52,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+53,0,Aspen,0.0,0.0,0.0,0.0
+53,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,0,Douglas-fir,0.0,0.0,0.0,0.0
+53,0,Krummholz,0.0,0.0,0.0,0.0
+53,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,0,Spruce/Fir,0.0,0.0,0.0,0.0
+53,1,Aspen,0.0,0.0,0.0,0.0
+53,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,1,Douglas-fir,0.0,0.0,0.0,0.0
+53,1,Krummholz,0.0,0.0,0.0,0.0
+53,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,1,Spruce/Fir,0.0,0.0,0.0,0.0
+53,2,Aspen,0.0,0.0,0.0,0.0
+53,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,2,Douglas-fir,0.0,0.0,0.0,0.0
+53,2,Krummholz,0.0,0.0,0.0,0.0
+53,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,2,Spruce/Fir,0.0,0.0,0.0,0.0
+53,3,Aspen,0.0,0.0,0.0,0.0
+53,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,3,Douglas-fir,0.0,0.0,0.0,0.0
+53,3,Krummholz,0.0,0.0,0.0,0.0
+53,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,3,Spruce/Fir,0.0,0.0,0.0,0.0
+53,Aggregated,Aspen,0.0,0.0,0.0,0.0
+53,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+53,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+53,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+53,Centralized,Aspen,0.0,0.0,0.0,0.0
+53,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+53,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+53,Centralized,Krummholz,0.0,0.0,0.0,0.0
+53,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+53,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+53,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+54,0,Aspen,0.0,0.0,0.0,0.0
+54,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,0,Douglas-fir,0.0,0.0,0.0,0.0
+54,0,Krummholz,0.0,0.0,0.0,0.0
+54,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,0,Spruce/Fir,0.0,0.0,0.0,0.0
+54,1,Aspen,0.0,0.0,0.0,0.0
+54,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,1,Douglas-fir,0.0,0.0,0.0,0.0
+54,1,Krummholz,0.0,0.0,0.0,0.0
+54,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,1,Spruce/Fir,0.0,0.0,0.0,0.0
+54,2,Aspen,0.0,0.0,0.0,0.0
+54,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,2,Douglas-fir,0.0,0.0,0.0,0.0
+54,2,Krummholz,0.0,0.0,0.0,0.0
+54,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,2,Spruce/Fir,0.0,0.0,0.0,0.0
+54,3,Aspen,0.0,0.0,0.0,0.0
+54,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,3,Douglas-fir,0.0,0.0,0.0,0.0
+54,3,Krummholz,0.0,0.0,0.0,0.0
+54,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,3,Spruce/Fir,0.0,0.0,0.0,0.0
+54,Aggregated,Aspen,0.0,0.0,0.0,0.0
+54,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+54,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+54,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+54,Centralized,Aspen,0.0,0.0,0.0,0.0
+54,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+54,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+54,Centralized,Krummholz,0.0,0.0,0.0,0.0
+54,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+54,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+54,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+55,0,Aspen,0.0,0.0,0.0,0.0
+55,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,0,Douglas-fir,0.0,0.0,0.0,0.0
+55,0,Krummholz,0.0,0.0,0.0,0.0
+55,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,0,Spruce/Fir,0.0,0.0,0.0,0.0
+55,1,Aspen,0.0,0.0,0.0,0.0
+55,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,1,Douglas-fir,0.0,0.0,0.0,0.0
+55,1,Krummholz,0.0,0.0,0.0,0.0
+55,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,1,Spruce/Fir,0.0,0.0,0.0,0.0
+55,2,Aspen,0.0,0.0,0.0,0.0
+55,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,2,Douglas-fir,0.0,0.0,0.0,0.0
+55,2,Krummholz,0.0,0.0,0.0,0.0
+55,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,2,Spruce/Fir,0.0,0.0,0.0,0.0
+55,3,Aspen,0.0,0.0,0.0,0.0
+55,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,3,Douglas-fir,0.0,0.0,0.0,0.0
+55,3,Krummholz,0.0,0.0,0.0,0.0
+55,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,3,Spruce/Fir,0.0,0.0,0.0,0.0
+55,Aggregated,Aspen,0.0,0.0,0.0,0.0
+55,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+55,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+55,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+55,Centralized,Aspen,0.0,0.0,0.0,0.0
+55,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+55,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+55,Centralized,Krummholz,0.0,0.0,0.0,0.0
+55,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+55,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+55,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+56,0,Aspen,0.0,0.0,0.0,0.0
+56,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,0,Douglas-fir,0.0,0.0,0.0,0.0
+56,0,Krummholz,0.0,0.0,0.0,0.0
+56,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,0,Spruce/Fir,0.0,0.0,0.0,0.0
+56,1,Aspen,0.0,0.0,0.0,0.0
+56,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,1,Douglas-fir,0.0,0.0,0.0,0.0
+56,1,Krummholz,0.0,0.0,0.0,0.0
+56,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,1,Spruce/Fir,0.0,0.0,0.0,0.0
+56,2,Aspen,0.0,0.0,0.0,0.0
+56,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,2,Douglas-fir,0.0,0.0,0.0,0.0
+56,2,Krummholz,0.0,0.0,0.0,0.0
+56,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,2,Spruce/Fir,0.0,0.0,0.0,0.0
+56,3,Aspen,0.0,0.0,0.0,0.0
+56,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,3,Douglas-fir,0.0,0.0,0.0,0.0
+56,3,Krummholz,0.0,0.0,0.0,0.0
+56,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,3,Spruce/Fir,0.0,0.0,0.0,0.0
+56,Aggregated,Aspen,0.0,0.0,0.0,0.0
+56,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+56,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+56,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+56,Centralized,Aspen,0.0,0.0,0.0,0.0
+56,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+56,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+56,Centralized,Krummholz,0.0,0.0,0.0,0.0
+56,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+56,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+56,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+57,0,Aspen,0.0,0.0,0.0,0.0
+57,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,0,Douglas-fir,0.0,0.0,0.0,0.0
+57,0,Krummholz,0.0,0.0,0.0,0.0
+57,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,0,Spruce/Fir,0.0,0.0,0.0,0.0
+57,1,Aspen,0.0,0.0,0.0,0.0
+57,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,1,Douglas-fir,0.0,0.0,0.0,0.0
+57,1,Krummholz,0.0,0.0,0.0,0.0
+57,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,1,Spruce/Fir,0.0,0.0,0.0,0.0
+57,2,Aspen,0.0,0.0,0.0,0.0
+57,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,2,Douglas-fir,0.0,0.0,0.0,0.0
+57,2,Krummholz,0.0,0.0,0.0,0.0
+57,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,2,Spruce/Fir,0.0,0.0,0.0,0.0
+57,3,Aspen,0.0,0.0,0.0,0.0
+57,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,3,Douglas-fir,0.0,0.0,0.0,0.0
+57,3,Krummholz,0.0,0.0,0.0,0.0
+57,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,3,Spruce/Fir,0.0,0.0,0.0,0.0
+57,Aggregated,Aspen,0.0,0.0,0.0,0.0
+57,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+57,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+57,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+57,Centralized,Aspen,0.0,0.0,0.0,0.0
+57,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+57,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+57,Centralized,Krummholz,0.0,0.0,0.0,0.0
+57,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+57,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+57,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+58,0,Aspen,0.0,0.0,0.0,0.0
+58,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,0,Douglas-fir,0.0,0.0,0.0,0.0
+58,0,Krummholz,0.0,0.0,0.0,0.0
+58,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,0,Spruce/Fir,0.0,0.0,0.0,0.0
+58,1,Aspen,0.0,0.0,0.0,0.0
+58,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,1,Douglas-fir,0.0,0.0,0.0,0.0
+58,1,Krummholz,0.0,0.0,0.0,0.0
+58,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,1,Spruce/Fir,0.0,0.0,0.0,0.0
+58,2,Aspen,0.0,0.0,0.0,0.0
+58,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,2,Douglas-fir,0.0,0.0,0.0,0.0
+58,2,Krummholz,0.0,0.0,0.0,0.0
+58,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,2,Spruce/Fir,0.0,0.0,0.0,0.0
+58,3,Aspen,0.0,0.0,0.0,0.0
+58,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,3,Douglas-fir,0.0,0.0,0.0,0.0
+58,3,Krummholz,0.0,0.0,0.0,0.0
+58,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,3,Spruce/Fir,0.0,0.0,0.0,0.0
+58,Aggregated,Aspen,0.0,0.0,0.0,0.0
+58,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+58,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+58,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+58,Centralized,Aspen,0.0,0.0,0.0,0.0
+58,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+58,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+58,Centralized,Krummholz,0.0,0.0,0.0,0.0
+58,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+58,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+58,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+59,0,Aspen,0.0,0.0,0.0,0.0
+59,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,0,Douglas-fir,0.0,0.0,0.0,0.0
+59,0,Krummholz,0.0,0.0,0.0,0.0
+59,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,0,Spruce/Fir,0.0,0.0,0.0,0.0
+59,1,Aspen,0.0,0.0,0.0,0.0
+59,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,1,Douglas-fir,0.0,0.0,0.0,0.0
+59,1,Krummholz,0.0,0.0,0.0,0.0
+59,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,1,Spruce/Fir,0.0,0.0,0.0,0.0
+59,2,Aspen,0.0,0.0,0.0,0.0
+59,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,2,Douglas-fir,0.0,0.0,0.0,0.0
+59,2,Krummholz,0.0,0.0,0.0,0.0
+59,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,2,Spruce/Fir,0.0,0.0,0.0,0.0
+59,3,Aspen,0.0,0.0,0.0,0.0
+59,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,3,Douglas-fir,0.0,0.0,0.0,0.0
+59,3,Krummholz,0.0,0.0,0.0,0.0
+59,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,3,Spruce/Fir,0.0,0.0,0.0,0.0
+59,Aggregated,Aspen,0.0,0.0,0.0,0.0
+59,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+59,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+59,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+59,Centralized,Aspen,0.0,0.0,0.0,0.0
+59,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+59,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+59,Centralized,Krummholz,0.0,0.0,0.0,0.0
+59,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+59,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+59,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+60,0,Aspen,0.0,0.0,0.0,0.0
+60,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,0,Douglas-fir,0.0,0.0,0.0,0.0
+60,0,Krummholz,0.0,0.0,0.0,0.0
+60,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,0,Spruce/Fir,0.0,0.0,0.0,0.0
+60,1,Aspen,0.0,0.0,0.0,0.0
+60,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,1,Douglas-fir,0.0,0.0,0.0,0.0
+60,1,Krummholz,0.0,0.0,0.0,0.0
+60,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,1,Spruce/Fir,0.0,0.0,0.0,0.0
+60,2,Aspen,0.0,0.0,0.0,0.0
+60,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,2,Douglas-fir,0.0,0.0,0.0,0.0
+60,2,Krummholz,0.0,0.0,0.0,0.0
+60,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,2,Spruce/Fir,0.0,0.0,0.0,0.0
+60,3,Aspen,0.0,0.0,0.0,0.0
+60,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,3,Douglas-fir,0.0,0.0,0.0,0.0
+60,3,Krummholz,0.0,0.0,0.0,0.0
+60,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,3,Spruce/Fir,0.0,0.0,0.0,0.0
+60,Aggregated,Aspen,0.0,0.0,0.0,0.0
+60,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+60,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+60,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+60,Centralized,Aspen,0.0,0.0,0.0,0.0
+60,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+60,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+60,Centralized,Krummholz,0.0,0.0,0.0,0.0
+60,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+60,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+60,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+61,0,Aspen,0.0,0.0,0.0,0.0
+61,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,0,Douglas-fir,0.0,0.0,0.0,0.0
+61,0,Krummholz,0.0,0.0,0.0,0.0
+61,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,0,Spruce/Fir,0.0,0.0,0.0,0.0
+61,1,Aspen,0.0,0.0,0.0,0.0
+61,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,1,Douglas-fir,0.0,0.0,0.0,0.0
+61,1,Krummholz,0.0,0.0,0.0,0.0
+61,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,1,Spruce/Fir,0.0,0.0,0.0,0.0
+61,2,Aspen,0.0,0.0,0.0,0.0
+61,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,2,Douglas-fir,0.0,0.0,0.0,0.0
+61,2,Krummholz,0.0,0.0,0.0,0.0
+61,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,2,Spruce/Fir,0.0,0.0,0.0,0.0
+61,3,Aspen,0.0,0.0,0.0,0.0
+61,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,3,Douglas-fir,0.0,0.0,0.0,0.0
+61,3,Krummholz,0.0,0.0,0.0,0.0
+61,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,3,Spruce/Fir,0.0,0.0,0.0,0.0
+61,Aggregated,Aspen,0.0,0.0,0.0,0.0
+61,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+61,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+61,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+61,Centralized,Aspen,0.0,0.0,0.0,0.0
+61,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+61,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+61,Centralized,Krummholz,0.0,0.0,0.0,0.0
+61,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+61,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+61,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+62,0,Aspen,0.0,0.0,0.0,0.0
+62,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,0,Douglas-fir,0.0,0.0,0.0,0.0
+62,0,Krummholz,0.0,0.0,0.0,0.0
+62,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,0,Spruce/Fir,0.0,0.0,0.0,0.0
+62,1,Aspen,0.0,0.0,0.0,0.0
+62,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,1,Douglas-fir,0.0,0.0,0.0,0.0
+62,1,Krummholz,0.0,0.0,0.0,0.0
+62,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,1,Spruce/Fir,0.0,0.0,0.0,0.0
+62,2,Aspen,0.0,0.0,0.0,0.0
+62,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,2,Douglas-fir,0.0,0.0,0.0,0.0
+62,2,Krummholz,0.0,0.0,0.0,0.0
+62,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,2,Spruce/Fir,0.0,0.0,0.0,0.0
+62,3,Aspen,0.0,0.0,0.0,0.0
+62,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,3,Douglas-fir,0.0,0.0,0.0,0.0
+62,3,Krummholz,0.0,0.0,0.0,0.0
+62,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,3,Spruce/Fir,0.0,0.0,0.0,0.0
+62,Aggregated,Aspen,0.0,0.0,0.0,0.0
+62,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+62,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+62,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+62,Centralized,Aspen,0.0,0.0,0.0,0.0
+62,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+62,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+62,Centralized,Krummholz,0.0,0.0,0.0,0.0
+62,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+62,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+62,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+63,0,Aspen,0.0,0.0,0.0,0.0
+63,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,0,Douglas-fir,0.0,0.0,0.0,0.0
+63,0,Krummholz,0.0,0.0,0.0,0.0
+63,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,0,Spruce/Fir,0.0,0.0,0.0,0.0
+63,1,Aspen,0.0,0.0,0.0,0.0
+63,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,1,Douglas-fir,0.0,0.0,0.0,0.0
+63,1,Krummholz,0.0,0.0,0.0,0.0
+63,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,1,Spruce/Fir,0.0,0.0,0.0,0.0
+63,2,Aspen,0.0,0.0,0.0,0.0
+63,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,2,Douglas-fir,0.0,0.0,0.0,0.0
+63,2,Krummholz,0.0,0.0,0.0,0.0
+63,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,2,Spruce/Fir,0.0,0.0,0.0,0.0
+63,3,Aspen,0.0,0.0,0.0,0.0
+63,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,3,Douglas-fir,0.0,0.0,0.0,0.0
+63,3,Krummholz,0.0,0.0,0.0,0.0
+63,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,3,Spruce/Fir,0.0,0.0,0.0,0.0
+63,Aggregated,Aspen,0.0,0.0,0.0,0.0
+63,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+63,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+63,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+63,Centralized,Aspen,0.0,0.0,0.0,0.0
+63,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+63,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+63,Centralized,Krummholz,0.0,0.0,0.0,0.0
+63,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+63,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+63,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+64,0,Aspen,0.0,0.0,0.0,0.0
+64,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,0,Douglas-fir,0.0,0.0,0.0,0.0
+64,0,Krummholz,0.0,0.0,0.0,0.0
+64,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,0,Spruce/Fir,0.0,0.0,0.0,0.0
+64,1,Aspen,0.0,0.0,0.0,0.0
+64,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,1,Douglas-fir,0.0,0.0,0.0,0.0
+64,1,Krummholz,0.0,0.0,0.0,0.0
+64,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,1,Spruce/Fir,0.0,0.0,0.0,0.0
+64,2,Aspen,0.0,0.0,0.0,0.0
+64,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,2,Douglas-fir,0.0,0.0,0.0,0.0
+64,2,Krummholz,0.0,0.0,0.0,0.0
+64,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,2,Spruce/Fir,0.0,0.0,0.0,0.0
+64,3,Aspen,0.0,0.0,0.0,0.0
+64,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,3,Douglas-fir,0.0,0.0,0.0,0.0
+64,3,Krummholz,0.0,0.0,0.0,0.0
+64,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,3,Spruce/Fir,0.0,0.0,0.0,0.0
+64,Aggregated,Aspen,0.0,0.0,0.0,0.0
+64,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+64,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+64,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+64,Centralized,Aspen,0.0,0.0,0.0,0.0
+64,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+64,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+64,Centralized,Krummholz,0.0,0.0,0.0,0.0
+64,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+64,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+64,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+65,0,Aspen,0.0,0.0,0.0,0.0
+65,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,0,Douglas-fir,0.0,0.0,0.0,0.0
+65,0,Krummholz,0.0,0.0,0.0,0.0
+65,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,0,Spruce/Fir,0.0,0.0,0.0,0.0
+65,1,Aspen,0.0,0.0,0.0,0.0
+65,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,1,Douglas-fir,0.0,0.0,0.0,0.0
+65,1,Krummholz,0.0,0.0,0.0,0.0
+65,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,1,Spruce/Fir,0.0,0.0,0.0,0.0
+65,2,Aspen,0.0,0.0,0.0,0.0
+65,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,2,Douglas-fir,0.0,0.0,0.0,0.0
+65,2,Krummholz,0.0,0.0,0.0,0.0
+65,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,2,Spruce/Fir,0.0,0.0,0.0,0.0
+65,3,Aspen,0.0,0.0,0.0,0.0
+65,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,3,Douglas-fir,0.0,0.0,0.0,0.0
+65,3,Krummholz,0.0,0.0,0.0,0.0
+65,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,3,Spruce/Fir,0.0,0.0,0.0,0.0
+65,Aggregated,Aspen,0.0,0.0,0.0,0.0
+65,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+65,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+65,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+65,Centralized,Aspen,0.0,0.0,0.0,0.0
+65,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+65,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+65,Centralized,Krummholz,0.0,0.0,0.0,0.0
+65,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+65,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+65,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+66,0,Aspen,0.0,0.0,0.0,0.0
+66,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,0,Douglas-fir,0.0,0.0,0.0,0.0
+66,0,Krummholz,0.0,0.0,0.0,0.0
+66,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,0,Spruce/Fir,0.0,0.0,0.0,0.0
+66,1,Aspen,0.0,0.0,0.0,0.0
+66,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,1,Douglas-fir,0.0,0.0,0.0,0.0
+66,1,Krummholz,0.0,0.0,0.0,0.0
+66,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,1,Spruce/Fir,0.0,0.0,0.0,0.0
+66,2,Aspen,0.0,0.0,0.0,0.0
+66,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,2,Douglas-fir,0.0,0.0,0.0,0.0
+66,2,Krummholz,0.0,0.0,0.0,0.0
+66,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,2,Spruce/Fir,0.0,0.0,0.0,0.0
+66,3,Aspen,0.0,0.0,0.0,0.0
+66,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,3,Douglas-fir,0.0,0.0,0.0,0.0
+66,3,Krummholz,0.0,0.0,0.0,0.0
+66,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,3,Spruce/Fir,0.0,0.0,0.0,0.0
+66,Aggregated,Aspen,0.0,0.0,0.0,0.0
+66,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+66,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+66,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+66,Centralized,Aspen,0.0,0.0,0.0,0.0
+66,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+66,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+66,Centralized,Krummholz,0.0,0.0,0.0,0.0
+66,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+66,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+66,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+67,0,Aspen,0.0,0.0,0.0,0.0
+67,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,0,Douglas-fir,0.0,0.0,0.0,0.0
+67,0,Krummholz,0.0,0.0,0.0,0.0
+67,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,0,Spruce/Fir,0.0,0.0,0.0,0.0
+67,1,Aspen,0.0,0.0,0.0,0.0
+67,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,1,Douglas-fir,0.0,0.0,0.0,0.0
+67,1,Krummholz,0.0,0.0,0.0,0.0
+67,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,1,Spruce/Fir,0.0,0.0,0.0,0.0
+67,2,Aspen,0.0,0.0,0.0,0.0
+67,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,2,Douglas-fir,0.0,0.0,0.0,0.0
+67,2,Krummholz,0.0,0.0,0.0,0.0
+67,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,2,Spruce/Fir,0.0,0.0,0.0,0.0
+67,3,Aspen,0.0,0.0,0.0,0.0
+67,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,3,Douglas-fir,0.0,0.0,0.0,0.0
+67,3,Krummholz,0.0,0.0,0.0,0.0
+67,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,3,Spruce/Fir,0.0,0.0,0.0,0.0
+67,Aggregated,Aspen,0.0,0.0,0.0,0.0
+67,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+67,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+67,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+67,Centralized,Aspen,0.0,0.0,0.0,0.0
+67,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+67,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+67,Centralized,Krummholz,0.0,0.0,0.0,0.0
+67,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+67,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+67,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+68,0,Aspen,0.0,0.0,0.0,0.0
+68,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,0,Douglas-fir,0.0,0.0,0.0,0.0
+68,0,Krummholz,0.0,0.0,0.0,0.0
+68,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,0,Spruce/Fir,0.0,0.0,0.0,0.0
+68,1,Aspen,0.0,0.0,0.0,0.0
+68,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,1,Douglas-fir,0.0,0.0,0.0,0.0
+68,1,Krummholz,0.0,0.0,0.0,0.0
+68,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,1,Spruce/Fir,0.0,0.0,0.0,0.0
+68,2,Aspen,0.0,0.0,0.0,0.0
+68,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,2,Douglas-fir,0.0,0.0,0.0,0.0
+68,2,Krummholz,0.0,0.0,0.0,0.0
+68,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,2,Spruce/Fir,0.0,0.0,0.0,0.0
+68,3,Aspen,0.0,0.0,0.0,0.0
+68,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,3,Douglas-fir,0.0,0.0,0.0,0.0
+68,3,Krummholz,0.0,0.0,0.0,0.0
+68,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,3,Spruce/Fir,0.0,0.0,0.0,0.0
+68,Aggregated,Aspen,0.0,0.0,0.0,0.0
+68,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+68,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+68,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+68,Centralized,Aspen,0.0,0.0,0.0,0.0
+68,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+68,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+68,Centralized,Krummholz,0.0,0.0,0.0,0.0
+68,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+68,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+68,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+69,0,Aspen,0.0,0.0,0.0,0.0
+69,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,0,Douglas-fir,0.0,0.0,0.0,0.0
+69,0,Krummholz,0.0,0.0,0.0,0.0
+69,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,0,Spruce/Fir,0.0,0.0,0.0,0.0
+69,1,Aspen,0.0,0.0,0.0,0.0
+69,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,1,Douglas-fir,0.0,0.0,0.0,0.0
+69,1,Krummholz,0.0,0.0,0.0,0.0
+69,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,1,Spruce/Fir,0.0,0.0,0.0,0.0
+69,2,Aspen,0.0,0.0,0.0,0.0
+69,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,2,Douglas-fir,0.0,0.0,0.0,0.0
+69,2,Krummholz,0.0,0.0,0.0,0.0
+69,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,2,Spruce/Fir,0.0,0.0,0.0,0.0
+69,3,Aspen,0.0,0.0,0.0,0.0
+69,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,3,Douglas-fir,0.0,0.0,0.0,0.0
+69,3,Krummholz,0.0,0.0,0.0,0.0
+69,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,3,Spruce/Fir,0.0,0.0,0.0,0.0
+69,Aggregated,Aspen,0.0,0.0,0.0,0.0
+69,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+69,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+69,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+69,Centralized,Aspen,0.0,0.0,0.0,0.0
+69,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+69,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+69,Centralized,Krummholz,0.0,0.0,0.0,0.0
+69,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+69,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+69,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+70,0,Aspen,0.0,0.0,0.0,0.0
+70,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,0,Douglas-fir,0.0,0.0,0.0,0.0
+70,0,Krummholz,0.0,0.0,0.0,0.0
+70,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,0,Spruce/Fir,0.0,0.0,0.0,0.0
+70,1,Aspen,0.0,0.0,0.0,0.0
+70,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,1,Douglas-fir,0.0,0.0,0.0,0.0
+70,1,Krummholz,0.0,0.0,0.0,0.0
+70,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,1,Spruce/Fir,0.0,0.0,0.0,0.0
+70,2,Aspen,0.0,0.0,0.0,0.0
+70,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,2,Douglas-fir,0.0,0.0,0.0,0.0
+70,2,Krummholz,0.0,0.0,0.0,0.0
+70,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,2,Spruce/Fir,0.0,0.0,0.0,0.0
+70,3,Aspen,0.0,0.0,0.0,0.0
+70,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,3,Douglas-fir,0.0,0.0,0.0,0.0
+70,3,Krummholz,0.0,0.0,0.0,0.0
+70,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,3,Spruce/Fir,0.0,0.0,0.0,0.0
+70,Aggregated,Aspen,0.0,0.0,0.0,0.0
+70,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+70,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+70,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+70,Centralized,Aspen,0.0,0.0,0.0,0.0
+70,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+70,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+70,Centralized,Krummholz,0.0,0.0,0.0,0.0
+70,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+70,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+70,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+71,0,Aspen,0.0,0.0,0.0,0.0
+71,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,0,Douglas-fir,0.0,0.0,0.0,0.0
+71,0,Krummholz,0.0,0.0,0.0,0.0
+71,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,0,Spruce/Fir,0.0,0.0,0.0,0.0
+71,1,Aspen,0.0,0.0,0.0,0.0
+71,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,1,Douglas-fir,0.0,0.0,0.0,0.0
+71,1,Krummholz,0.0,0.0,0.0,0.0
+71,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,1,Spruce/Fir,0.0,0.0,0.0,0.0
+71,2,Aspen,0.0,0.0,0.0,0.0
+71,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,2,Douglas-fir,0.0,0.0,0.0,0.0
+71,2,Krummholz,0.0,0.0,0.0,0.0
+71,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,2,Spruce/Fir,0.0,0.0,0.0,0.0
+71,3,Aspen,0.0,0.0,0.0,0.0
+71,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,3,Douglas-fir,0.0,0.0,0.0,0.0
+71,3,Krummholz,0.0,0.0,0.0,0.0
+71,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,3,Spruce/Fir,0.0,0.0,0.0,0.0
+71,Aggregated,Aspen,0.0,0.0,0.0,0.0
+71,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+71,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+71,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+71,Centralized,Aspen,0.0,0.0,0.0,0.0
+71,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+71,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+71,Centralized,Krummholz,0.0,0.0,0.0,0.0
+71,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+71,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+71,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+72,0,Aspen,0.0,0.0,0.0,0.0
+72,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,0,Douglas-fir,0.0,0.0,0.0,0.0
+72,0,Krummholz,0.0,0.0,0.0,0.0
+72,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,0,Spruce/Fir,0.0,0.0,0.0,0.0
+72,1,Aspen,0.0,0.0,0.0,0.0
+72,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,1,Douglas-fir,0.0,0.0,0.0,0.0
+72,1,Krummholz,0.0,0.0,0.0,0.0
+72,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,1,Spruce/Fir,0.0,0.0,0.0,0.0
+72,2,Aspen,0.0,0.0,0.0,0.0
+72,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,2,Douglas-fir,0.0,0.0,0.0,0.0
+72,2,Krummholz,0.0,0.0,0.0,0.0
+72,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,2,Spruce/Fir,0.0,0.0,0.0,0.0
+72,3,Aspen,0.0,0.0,0.0,0.0
+72,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,3,Douglas-fir,0.0,0.0,0.0,0.0
+72,3,Krummholz,0.0,0.0,0.0,0.0
+72,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,3,Spruce/Fir,0.0,0.0,0.0,0.0
+72,Aggregated,Aspen,0.0,0.0,0.0,0.0
+72,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+72,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+72,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+72,Centralized,Aspen,0.0,0.0,0.0,0.0
+72,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+72,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+72,Centralized,Krummholz,0.0,0.0,0.0,0.0
+72,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+72,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+72,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+73,0,Aspen,0.0,0.0,0.0,0.0
+73,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,0,Douglas-fir,0.0,0.0,0.0,0.0
+73,0,Krummholz,0.0,0.0,0.0,0.0
+73,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,0,Spruce/Fir,0.0,0.0,0.0,0.0
+73,1,Aspen,0.0,0.0,0.0,0.0
+73,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,1,Douglas-fir,0.0,0.0,0.0,0.0
+73,1,Krummholz,0.0,0.0,0.0,0.0
+73,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,1,Spruce/Fir,0.0,0.0,0.0,0.0
+73,2,Aspen,0.0,0.0,0.0,0.0
+73,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,2,Douglas-fir,0.0,0.0,0.0,0.0
+73,2,Krummholz,0.0,0.0,0.0,0.0
+73,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,2,Spruce/Fir,0.0,0.0,0.0,0.0
+73,3,Aspen,0.0,0.0,0.0,0.0
+73,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,3,Douglas-fir,0.0,0.0,0.0,0.0
+73,3,Krummholz,0.0,0.0,0.0,0.0
+73,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,3,Spruce/Fir,0.0,0.0,0.0,0.0
+73,Aggregated,Aspen,0.0,0.0,0.0,0.0
+73,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+73,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+73,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+73,Centralized,Aspen,0.0,0.0,0.0,0.0
+73,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+73,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+73,Centralized,Krummholz,0.0,0.0,0.0,0.0
+73,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+73,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+73,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+74,0,Aspen,0.0,0.0,0.0,0.0
+74,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,0,Douglas-fir,0.0,0.0,0.0,0.0
+74,0,Krummholz,0.0,0.0,0.0,0.0
+74,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,0,Spruce/Fir,0.0,0.0,0.0,0.0
+74,1,Aspen,0.0,0.0,0.0,0.0
+74,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,1,Douglas-fir,0.0,0.0,0.0,0.0
+74,1,Krummholz,0.0,0.0,0.0,0.0
+74,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,1,Spruce/Fir,0.0,0.0,0.0,0.0
+74,2,Aspen,0.0,0.0,0.0,0.0
+74,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,2,Douglas-fir,0.0,0.0,0.0,0.0
+74,2,Krummholz,0.0,0.0,0.0,0.0
+74,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,2,Spruce/Fir,0.0,0.0,0.0,0.0
+74,3,Aspen,0.0,0.0,0.0,0.0
+74,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,3,Douglas-fir,0.0,0.0,0.0,0.0
+74,3,Krummholz,0.0,0.0,0.0,0.0
+74,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,3,Spruce/Fir,0.0,0.0,0.0,0.0
+74,Aggregated,Aspen,0.0,0.0,0.0,0.0
+74,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+74,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+74,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+74,Centralized,Aspen,0.0,0.0,0.0,0.0
+74,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+74,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+74,Centralized,Krummholz,0.0,0.0,0.0,0.0
+74,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+74,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+74,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+75,0,Aspen,0.0,0.0,0.0,0.0
+75,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,0,Douglas-fir,0.0,0.0,0.0,0.0
+75,0,Krummholz,0.0,0.0,0.0,0.0
+75,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,0,Spruce/Fir,0.0,0.0,0.0,0.0
+75,1,Aspen,0.0,0.0,0.0,0.0
+75,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,1,Douglas-fir,0.0,0.0,0.0,0.0
+75,1,Krummholz,0.0,0.0,0.0,0.0
+75,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,1,Spruce/Fir,0.0,0.0,0.0,0.0
+75,2,Aspen,0.0,0.0,0.0,0.0
+75,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,2,Douglas-fir,0.0,0.0,0.0,0.0
+75,2,Krummholz,0.0,0.0,0.0,0.0
+75,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,2,Spruce/Fir,0.0,0.0,0.0,0.0
+75,3,Aspen,0.0,0.0,0.0,0.0
+75,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,3,Douglas-fir,0.0,0.0,0.0,0.0
+75,3,Krummholz,0.0,0.0,0.0,0.0
+75,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,3,Spruce/Fir,0.0,0.0,0.0,0.0
+75,Aggregated,Aspen,0.0,0.0,0.0,0.0
+75,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+75,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+75,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+75,Centralized,Aspen,0.0,0.0,0.0,0.0
+75,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+75,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+75,Centralized,Krummholz,0.0,0.0,0.0,0.0
+75,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+75,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+75,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+76,0,Aspen,0.0,0.0,0.0,0.0
+76,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,0,Douglas-fir,0.0,0.0,0.0,0.0
+76,0,Krummholz,0.0,0.0,0.0,0.0
+76,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,0,Spruce/Fir,0.0,0.0,0.0,0.0
+76,1,Aspen,0.0,0.0,0.0,0.0
+76,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,1,Douglas-fir,0.0,0.0,0.0,0.0
+76,1,Krummholz,0.0,0.0,0.0,0.0
+76,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,1,Spruce/Fir,0.0,0.0,0.0,0.0
+76,2,Aspen,0.0,0.0,0.0,0.0
+76,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,2,Douglas-fir,0.0,0.0,0.0,0.0
+76,2,Krummholz,0.0,0.0,0.0,0.0
+76,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,2,Spruce/Fir,0.0,0.0,0.0,0.0
+76,3,Aspen,0.0,0.0,0.0,0.0
+76,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,3,Douglas-fir,0.0,0.0,0.0,0.0
+76,3,Krummholz,0.0,0.0,0.0,0.0
+76,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,3,Spruce/Fir,0.0,0.0,0.0,0.0
+76,Aggregated,Aspen,0.0,0.0,0.0,0.0
+76,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+76,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+76,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+76,Centralized,Aspen,0.0,0.0,0.0,0.0
+76,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+76,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+76,Centralized,Krummholz,0.0,0.0,0.0,0.0
+76,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+76,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+76,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+77,0,Aspen,0.0,0.0,0.0,0.0
+77,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,0,Douglas-fir,0.0,0.0,0.0,0.0
+77,0,Krummholz,0.0,0.0,0.0,0.0
+77,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,0,Spruce/Fir,0.0,0.0,0.0,0.0
+77,1,Aspen,0.0,0.0,0.0,0.0
+77,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,1,Douglas-fir,0.0,0.0,0.0,0.0
+77,1,Krummholz,0.0,0.0,0.0,0.0
+77,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,1,Spruce/Fir,0.0,0.0,0.0,0.0
+77,2,Aspen,0.0,0.0,0.0,0.0
+77,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,2,Douglas-fir,0.0,0.0,0.0,0.0
+77,2,Krummholz,0.0,0.0,0.0,0.0
+77,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,2,Spruce/Fir,0.0,0.0,0.0,0.0
+77,3,Aspen,0.0,0.0,0.0,0.0
+77,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,3,Douglas-fir,0.0,0.0,0.0,0.0
+77,3,Krummholz,0.0,0.0,0.0,0.0
+77,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,3,Spruce/Fir,0.0,0.0,0.0,0.0
+77,Aggregated,Aspen,0.0,0.0,0.0,0.0
+77,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+77,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+77,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+77,Centralized,Aspen,0.0,0.0,0.0,0.0
+77,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+77,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+77,Centralized,Krummholz,0.0,0.0,0.0,0.0
+77,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+77,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+77,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+78,0,Aspen,0.0,0.0,0.0,0.0
+78,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,0,Douglas-fir,0.0,0.0,0.0,0.0
+78,0,Krummholz,0.0,0.0,0.0,0.0
+78,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,0,Spruce/Fir,0.0,0.0,0.0,0.0
+78,1,Aspen,0.0,0.0,0.0,0.0
+78,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,1,Douglas-fir,0.0,0.0,0.0,0.0
+78,1,Krummholz,0.0,0.0,0.0,0.0
+78,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,1,Spruce/Fir,0.0,0.0,0.0,0.0
+78,2,Aspen,0.0,0.0,0.0,0.0
+78,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,2,Douglas-fir,0.0,0.0,0.0,0.0
+78,2,Krummholz,0.0,0.0,0.0,0.0
+78,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,2,Spruce/Fir,0.0,0.0,0.0,0.0
+78,3,Aspen,0.0,0.0,0.0,0.0
+78,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,3,Douglas-fir,0.0,0.0,0.0,0.0
+78,3,Krummholz,0.0,0.0,0.0,0.0
+78,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,3,Spruce/Fir,0.0,0.0,0.0,0.0
+78,Aggregated,Aspen,0.0,0.0,0.0,0.0
+78,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+78,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+78,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+78,Centralized,Aspen,0.0,0.0,0.0,0.0
+78,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+78,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+78,Centralized,Krummholz,0.0,0.0,0.0,0.0
+78,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+78,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+78,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+79,0,Aspen,0.0,0.0,0.0,0.0
+79,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,0,Douglas-fir,0.0,0.0,0.0,0.0
+79,0,Krummholz,0.0,0.0,0.0,0.0
+79,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,0,Spruce/Fir,0.0,0.0,0.0,0.0
+79,1,Aspen,0.0,0.0,0.0,0.0
+79,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,1,Douglas-fir,0.0,0.0,0.0,0.0
+79,1,Krummholz,0.0,0.0,0.0,0.0
+79,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,1,Spruce/Fir,0.0,0.0,0.0,0.0
+79,2,Aspen,0.0,0.0,0.0,0.0
+79,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,2,Douglas-fir,0.0,0.0,0.0,0.0
+79,2,Krummholz,0.0,0.0,0.0,0.0
+79,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,2,Spruce/Fir,0.0,0.0,0.0,0.0
+79,3,Aspen,0.0,0.0,0.0,0.0
+79,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,3,Douglas-fir,0.0,0.0,0.0,0.0
+79,3,Krummholz,0.0,0.0,0.0,0.0
+79,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,3,Spruce/Fir,0.0,0.0,0.0,0.0
+79,Aggregated,Aspen,0.0,0.0,0.0,0.0
+79,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+79,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+79,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+79,Centralized,Aspen,0.0,0.0,0.0,0.0
+79,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+79,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+79,Centralized,Krummholz,0.0,0.0,0.0,0.0
+79,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+79,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+79,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+80,0,Aspen,0.0,0.0,0.0,0.0
+80,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,0,Douglas-fir,0.0,0.0,0.0,0.0
+80,0,Krummholz,0.0,0.0,0.0,0.0
+80,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,0,Spruce/Fir,0.0,0.0,0.0,0.0
+80,1,Aspen,0.0,0.0,0.0,0.0
+80,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,1,Douglas-fir,0.0,0.0,0.0,0.0
+80,1,Krummholz,0.0,0.0,0.0,0.0
+80,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,1,Spruce/Fir,0.0,0.0,0.0,0.0
+80,2,Aspen,0.0,0.0,0.0,0.0
+80,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,2,Douglas-fir,0.0,0.0,0.0,0.0
+80,2,Krummholz,0.0,0.0,0.0,0.0
+80,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,2,Spruce/Fir,0.0,0.0,0.0,0.0
+80,3,Aspen,0.0,0.0,0.0,0.0
+80,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,3,Douglas-fir,0.0,0.0,0.0,0.0
+80,3,Krummholz,0.0,0.0,0.0,0.0
+80,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,3,Spruce/Fir,0.0,0.0,0.0,0.0
+80,Aggregated,Aspen,0.0,0.0,0.0,0.0
+80,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+80,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+80,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+80,Centralized,Aspen,0.0,0.0,0.0,0.0
+80,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+80,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+80,Centralized,Krummholz,0.0,0.0,0.0,0.0
+80,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+80,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+80,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+81,0,Aspen,0.0,0.0,0.0,0.0
+81,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,0,Douglas-fir,0.0,0.0,0.0,0.0
+81,0,Krummholz,0.0,0.0,0.0,0.0
+81,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,0,Spruce/Fir,0.0,0.0,0.0,0.0
+81,1,Aspen,0.0,0.0,0.0,0.0
+81,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,1,Douglas-fir,0.0,0.0,0.0,0.0
+81,1,Krummholz,0.0,0.0,0.0,0.0
+81,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,1,Spruce/Fir,0.0,0.0,0.0,0.0
+81,2,Aspen,0.0,0.0,0.0,0.0
+81,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,2,Douglas-fir,0.0,0.0,0.0,0.0
+81,2,Krummholz,0.0,0.0,0.0,0.0
+81,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,2,Spruce/Fir,0.0,0.0,0.0,0.0
+81,3,Aspen,0.0,0.0,0.0,0.0
+81,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,3,Douglas-fir,0.0,0.0,0.0,0.0
+81,3,Krummholz,0.0,0.0,0.0,0.0
+81,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,3,Spruce/Fir,0.0,0.0,0.0,0.0
+81,Aggregated,Aspen,0.0,0.0,0.0,0.0
+81,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+81,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+81,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+81,Centralized,Aspen,0.0,0.0,0.0,0.0
+81,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+81,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+81,Centralized,Krummholz,0.0,0.0,0.0,0.0
+81,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+81,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+81,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+82,0,Aspen,0.0,0.0,0.0,0.0
+82,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,0,Douglas-fir,0.0,0.0,0.0,0.0
+82,0,Krummholz,0.0,0.0,0.0,0.0
+82,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,0,Spruce/Fir,0.0,0.0,0.0,0.0
+82,1,Aspen,0.0,0.0,0.0,0.0
+82,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,1,Douglas-fir,0.0,0.0,0.0,0.0
+82,1,Krummholz,0.0,0.0,0.0,0.0
+82,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,1,Spruce/Fir,0.0,0.0,0.0,0.0
+82,2,Aspen,0.0,0.0,0.0,0.0
+82,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,2,Douglas-fir,0.0,0.0,0.0,0.0
+82,2,Krummholz,0.0,0.0,0.0,0.0
+82,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,2,Spruce/Fir,0.0,0.0,0.0,0.0
+82,3,Aspen,0.0,0.0,0.0,0.0
+82,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,3,Douglas-fir,0.0,0.0,0.0,0.0
+82,3,Krummholz,0.0,0.0,0.0,0.0
+82,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,3,Spruce/Fir,0.0,0.0,0.0,0.0
+82,Aggregated,Aspen,0.0,0.0,0.0,0.0
+82,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+82,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+82,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+82,Centralized,Aspen,0.0,0.0,0.0,0.0
+82,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+82,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+82,Centralized,Krummholz,0.0,0.0,0.0,0.0
+82,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+82,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+82,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+83,0,Aspen,0.0,0.0,0.0,0.0
+83,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,0,Douglas-fir,0.0,0.0,0.0,0.0
+83,0,Krummholz,0.0,0.0,0.0,0.0
+83,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,0,Spruce/Fir,0.0,0.0,0.0,0.0
+83,1,Aspen,0.0,0.0,0.0,0.0
+83,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,1,Douglas-fir,0.0,0.0,0.0,0.0
+83,1,Krummholz,0.0,0.0,0.0,0.0
+83,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,1,Spruce/Fir,0.0,0.0,0.0,0.0
+83,2,Aspen,0.0,0.0,0.0,0.0
+83,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,2,Douglas-fir,0.0,0.0,0.0,0.0
+83,2,Krummholz,0.0,0.0,0.0,0.0
+83,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,2,Spruce/Fir,0.0,0.0,0.0,0.0
+83,3,Aspen,0.0,0.0,0.0,0.0
+83,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,3,Douglas-fir,0.0,0.0,0.0,0.0
+83,3,Krummholz,0.0,0.0,0.0,0.0
+83,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,3,Spruce/Fir,0.0,0.0,0.0,0.0
+83,Aggregated,Aspen,0.0,0.0,0.0,0.0
+83,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+83,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+83,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+83,Centralized,Aspen,0.0,0.0,0.0,0.0
+83,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+83,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+83,Centralized,Krummholz,0.0,0.0,0.0,0.0
+83,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+83,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+83,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+84,0,Aspen,0.0,0.0,0.0,0.0
+84,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,0,Douglas-fir,0.0,0.0,0.0,0.0
+84,0,Krummholz,0.0,0.0,0.0,0.0
+84,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,0,Spruce/Fir,0.0,0.0,0.0,0.0
+84,1,Aspen,0.0,0.0,0.0,0.0
+84,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,1,Douglas-fir,0.0,0.0,0.0,0.0
+84,1,Krummholz,0.0,0.0,0.0,0.0
+84,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,1,Spruce/Fir,0.0,0.0,0.0,0.0
+84,2,Aspen,0.0,0.0,0.0,0.0
+84,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,2,Douglas-fir,0.0,0.0,0.0,0.0
+84,2,Krummholz,0.0,0.0,0.0,0.0
+84,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,2,Spruce/Fir,0.0,0.0,0.0,0.0
+84,3,Aspen,0.0,0.0,0.0,0.0
+84,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,3,Douglas-fir,0.0,0.0,0.0,0.0
+84,3,Krummholz,0.0,0.0,0.0,0.0
+84,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,3,Spruce/Fir,0.0,0.0,0.0,0.0
+84,Aggregated,Aspen,0.0,0.0,0.0,0.0
+84,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+84,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+84,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+84,Centralized,Aspen,0.0,0.0,0.0,0.0
+84,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+84,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+84,Centralized,Krummholz,0.0,0.0,0.0,0.0
+84,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+84,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+84,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+85,0,Aspen,0.0,0.0,0.0,0.0
+85,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,0,Douglas-fir,0.0,0.0,0.0,0.0
+85,0,Krummholz,0.0,0.0,0.0,0.0
+85,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,0,Spruce/Fir,0.0,0.0,0.0,0.0
+85,1,Aspen,0.0,0.0,0.0,0.0
+85,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,1,Douglas-fir,0.0,0.0,0.0,0.0
+85,1,Krummholz,0.0,0.0,0.0,0.0
+85,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,1,Spruce/Fir,0.0,0.0,0.0,0.0
+85,2,Aspen,0.0,0.0,0.0,0.0
+85,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,2,Douglas-fir,0.0,0.0,0.0,0.0
+85,2,Krummholz,0.0,0.0,0.0,0.0
+85,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,2,Spruce/Fir,0.0,0.0,0.0,0.0
+85,3,Aspen,0.0,0.0,0.0,0.0
+85,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,3,Douglas-fir,0.0,0.0,0.0,0.0
+85,3,Krummholz,0.0,0.0,0.0,0.0
+85,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,3,Spruce/Fir,0.0,0.0,0.0,0.0
+85,Aggregated,Aspen,0.0,0.0,0.0,0.0
+85,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+85,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+85,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+85,Centralized,Aspen,0.0,0.0,0.0,0.0
+85,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+85,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+85,Centralized,Krummholz,0.0,0.0,0.0,0.0
+85,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+85,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+85,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+86,0,Aspen,0.0,0.0,0.0,0.0
+86,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,0,Douglas-fir,0.0,0.0,0.0,0.0
+86,0,Krummholz,0.0,0.0,0.0,0.0
+86,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,0,Spruce/Fir,0.0,0.0,0.0,0.0
+86,1,Aspen,0.0,0.0,0.0,0.0
+86,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,1,Douglas-fir,0.0,0.0,0.0,0.0
+86,1,Krummholz,0.0,0.0,0.0,0.0
+86,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,1,Spruce/Fir,0.0,0.0,0.0,0.0
+86,2,Aspen,0.0,0.0,0.0,0.0
+86,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,2,Douglas-fir,0.0,0.0,0.0,0.0
+86,2,Krummholz,0.0,0.0,0.0,0.0
+86,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,2,Spruce/Fir,0.0,0.0,0.0,0.0
+86,3,Aspen,0.0,0.0,0.0,0.0
+86,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,3,Douglas-fir,0.0,0.0,0.0,0.0
+86,3,Krummholz,0.0,0.0,0.0,0.0
+86,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,3,Spruce/Fir,0.0,0.0,0.0,0.0
+86,Aggregated,Aspen,0.0,0.0,0.0,0.0
+86,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+86,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+86,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+86,Centralized,Aspen,0.0,0.0,0.0,0.0
+86,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+86,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+86,Centralized,Krummholz,0.0,0.0,0.0,0.0
+86,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+86,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+86,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+87,0,Aspen,0.0,0.0,0.0,0.0
+87,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,0,Douglas-fir,0.0,0.0,0.0,0.0
+87,0,Krummholz,0.0,0.0,0.0,0.0
+87,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,0,Spruce/Fir,0.0,0.0,0.0,0.0
+87,1,Aspen,0.0,0.0,0.0,0.0
+87,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,1,Douglas-fir,0.0,0.0,0.0,0.0
+87,1,Krummholz,0.0,0.0,0.0,0.0
+87,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,1,Spruce/Fir,0.0,0.0,0.0,0.0
+87,2,Aspen,0.0,0.0,0.0,0.0
+87,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,2,Douglas-fir,0.0,0.0,0.0,0.0
+87,2,Krummholz,0.0,0.0,0.0,0.0
+87,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,2,Spruce/Fir,0.0,0.0,0.0,0.0
+87,3,Aspen,0.0,0.0,0.0,0.0
+87,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,3,Douglas-fir,0.0,0.0,0.0,0.0
+87,3,Krummholz,0.0,0.0,0.0,0.0
+87,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,3,Spruce/Fir,0.0,0.0,0.0,0.0
+87,Aggregated,Aspen,0.0,0.0,0.0,0.0
+87,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+87,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+87,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+87,Centralized,Aspen,0.0,0.0,0.0,0.0
+87,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+87,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+87,Centralized,Krummholz,0.0,0.0,0.0,0.0
+87,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+87,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+87,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+88,0,Aspen,0.0,0.0,0.0,0.0
+88,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,0,Douglas-fir,0.0,0.0,0.0,0.0
+88,0,Krummholz,0.0,0.0,0.0,0.0
+88,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,0,Spruce/Fir,0.0,0.0,0.0,0.0
+88,1,Aspen,0.0,0.0,0.0,0.0
+88,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,1,Douglas-fir,0.0,0.0,0.0,0.0
+88,1,Krummholz,0.0,0.0,0.0,0.0
+88,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,1,Spruce/Fir,0.0,0.0,0.0,0.0
+88,2,Aspen,0.0,0.0,0.0,0.0
+88,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,2,Douglas-fir,0.0,0.0,0.0,0.0
+88,2,Krummholz,0.0,0.0,0.0,0.0
+88,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,2,Spruce/Fir,0.0,0.0,0.0,0.0
+88,3,Aspen,0.0,0.0,0.0,0.0
+88,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,3,Douglas-fir,0.0,0.0,0.0,0.0
+88,3,Krummholz,0.0,0.0,0.0,0.0
+88,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,3,Spruce/Fir,0.0,0.0,0.0,0.0
+88,Aggregated,Aspen,0.0,0.0,0.0,0.0
+88,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+88,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+88,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+88,Centralized,Aspen,0.0,0.0,0.0,0.0
+88,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+88,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+88,Centralized,Krummholz,0.0,0.0,0.0,0.0
+88,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+88,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+88,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+89,0,Aspen,0.0,0.0,0.0,0.0
+89,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,0,Douglas-fir,0.0,0.0,0.0,0.0
+89,0,Krummholz,0.0,0.0,0.0,0.0
+89,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,0,Spruce/Fir,0.0,0.0,0.0,0.0
+89,1,Aspen,0.0,0.0,0.0,0.0
+89,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,1,Douglas-fir,0.0,0.0,0.0,0.0
+89,1,Krummholz,0.0,0.0,0.0,0.0
+89,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,1,Spruce/Fir,0.0,0.0,0.0,0.0
+89,2,Aspen,0.0,0.0,0.0,0.0
+89,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,2,Douglas-fir,0.0,0.0,0.0,0.0
+89,2,Krummholz,0.0,0.0,0.0,0.0
+89,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,2,Spruce/Fir,0.0,0.0,0.0,0.0
+89,3,Aspen,0.0,0.0,0.0,0.0
+89,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,3,Douglas-fir,0.0,0.0,0.0,0.0
+89,3,Krummholz,0.0,0.0,0.0,0.0
+89,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,3,Spruce/Fir,0.0,0.0,0.0,0.0
+89,Aggregated,Aspen,0.0,0.0,0.0,0.0
+89,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+89,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+89,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+89,Centralized,Aspen,0.0,0.0,0.0,0.0
+89,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+89,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+89,Centralized,Krummholz,0.0,0.0,0.0,0.0
+89,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+89,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+89,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+90,0,Aspen,0.0,0.0,0.0,0.0
+90,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,0,Douglas-fir,0.0,0.0,0.0,0.0
+90,0,Krummholz,0.0,0.0,0.0,0.0
+90,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,0,Spruce/Fir,0.0,0.0,0.0,0.0
+90,1,Aspen,0.0,0.0,0.0,0.0
+90,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,1,Douglas-fir,0.0,0.0,0.0,0.0
+90,1,Krummholz,0.0,0.0,0.0,0.0
+90,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,1,Spruce/Fir,0.0,0.0,0.0,0.0
+90,2,Aspen,0.0,0.0,0.0,0.0
+90,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,2,Douglas-fir,0.0,0.0,0.0,0.0
+90,2,Krummholz,0.0,0.0,0.0,0.0
+90,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,2,Spruce/Fir,0.0,0.0,0.0,0.0
+90,3,Aspen,0.0,0.0,0.0,0.0
+90,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,3,Douglas-fir,0.0,0.0,0.0,0.0
+90,3,Krummholz,0.0,0.0,0.0,0.0
+90,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,3,Spruce/Fir,0.0,0.0,0.0,0.0
+90,Aggregated,Aspen,0.0,0.0,0.0,0.0
+90,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+90,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+90,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+90,Centralized,Aspen,0.0,0.0,0.0,0.0
+90,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+90,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+90,Centralized,Krummholz,0.0,0.0,0.0,0.0
+90,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+90,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+90,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+91,0,Aspen,0.0,0.0,0.0,0.0
+91,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,0,Douglas-fir,0.0,0.0,0.0,0.0
+91,0,Krummholz,0.0,0.0,0.0,0.0
+91,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,0,Spruce/Fir,0.0,0.0,0.0,0.0
+91,1,Aspen,0.0,0.0,0.0,0.0
+91,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,1,Douglas-fir,0.0,0.0,0.0,0.0
+91,1,Krummholz,0.0,0.0,0.0,0.0
+91,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,1,Spruce/Fir,0.0,0.0,0.0,0.0
+91,2,Aspen,0.0,0.0,0.0,0.0
+91,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,2,Douglas-fir,0.0,0.0,0.0,0.0
+91,2,Krummholz,0.0,0.0,0.0,0.0
+91,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,2,Spruce/Fir,0.0,0.0,0.0,0.0
+91,3,Aspen,0.0,0.0,0.0,0.0
+91,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,3,Douglas-fir,0.0,0.0,0.0,0.0
+91,3,Krummholz,0.0,0.0,0.0,0.0
+91,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,3,Spruce/Fir,0.0,0.0,0.0,0.0
+91,Aggregated,Aspen,0.0,0.0,0.0,0.0
+91,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+91,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+91,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+91,Centralized,Aspen,0.0,0.0,0.0,0.0
+91,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+91,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+91,Centralized,Krummholz,0.0,0.0,0.0,0.0
+91,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+91,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+91,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+92,0,Aspen,0.0,0.0,0.0,0.0
+92,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,0,Douglas-fir,0.0,0.0,0.0,0.0
+92,0,Krummholz,0.0,0.0,0.0,0.0
+92,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,0,Spruce/Fir,0.0,0.0,0.0,0.0
+92,1,Aspen,0.0,0.0,0.0,0.0
+92,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,1,Douglas-fir,0.0,0.0,0.0,0.0
+92,1,Krummholz,0.0,0.0,0.0,0.0
+92,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,1,Spruce/Fir,0.0,0.0,0.0,0.0
+92,2,Aspen,0.0,0.0,0.0,0.0
+92,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,2,Douglas-fir,0.0,0.0,0.0,0.0
+92,2,Krummholz,0.0,0.0,0.0,0.0
+92,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,2,Spruce/Fir,0.0,0.0,0.0,0.0
+92,3,Aspen,0.0,0.0,0.0,0.0
+92,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,3,Douglas-fir,0.0,0.0,0.0,0.0
+92,3,Krummholz,0.0,0.0,0.0,0.0
+92,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,3,Spruce/Fir,0.0,0.0,0.0,0.0
+92,Aggregated,Aspen,0.0,0.0,0.0,0.0
+92,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+92,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+92,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+92,Centralized,Aspen,0.0,0.0,0.0,0.0
+92,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+92,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+92,Centralized,Krummholz,0.0,0.0,0.0,0.0
+92,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+92,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+92,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+93,0,Aspen,0.0,0.0,0.0,0.0
+93,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,0,Douglas-fir,0.0,0.0,0.0,0.0
+93,0,Krummholz,0.0,0.0,0.0,0.0
+93,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,0,Spruce/Fir,0.0,0.0,0.0,0.0
+93,1,Aspen,0.0,0.0,0.0,0.0
+93,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,1,Douglas-fir,0.0,0.0,0.0,0.0
+93,1,Krummholz,0.0,0.0,0.0,0.0
+93,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,1,Spruce/Fir,0.0,0.0,0.0,0.0
+93,2,Aspen,0.0,0.0,0.0,0.0
+93,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,2,Douglas-fir,0.0,0.0,0.0,0.0
+93,2,Krummholz,0.0,0.0,0.0,0.0
+93,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,2,Spruce/Fir,0.0,0.0,0.0,0.0
+93,3,Aspen,0.0,0.0,0.0,0.0
+93,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,3,Douglas-fir,0.0,0.0,0.0,0.0
+93,3,Krummholz,0.0,0.0,0.0,0.0
+93,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,3,Spruce/Fir,0.0,0.0,0.0,0.0
+93,Aggregated,Aspen,0.0,0.0,0.0,0.0
+93,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+93,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+93,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+93,Centralized,Aspen,0.0,0.0,0.0,0.0
+93,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+93,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+93,Centralized,Krummholz,0.0,0.0,0.0,0.0
+93,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+93,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+93,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+94,0,Aspen,0.0,0.0,0.0,0.0
+94,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,0,Douglas-fir,0.0,0.0,0.0,0.0
+94,0,Krummholz,0.0,0.0,0.0,0.0
+94,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,0,Spruce/Fir,0.0,0.0,0.0,0.0
+94,1,Aspen,0.0,0.0,0.0,0.0
+94,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,1,Douglas-fir,0.0,0.0,0.0,0.0
+94,1,Krummholz,0.0,0.0,0.0,0.0
+94,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,1,Spruce/Fir,0.0,0.0,0.0,0.0
+94,2,Aspen,0.0,0.0,0.0,0.0
+94,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,2,Douglas-fir,0.0,0.0,0.0,0.0
+94,2,Krummholz,0.0,0.0,0.0,0.0
+94,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,2,Spruce/Fir,0.0,0.0,0.0,0.0
+94,3,Aspen,0.0,0.0,0.0,0.0
+94,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,3,Douglas-fir,0.0,0.0,0.0,0.0
+94,3,Krummholz,0.0,0.0,0.0,0.0
+94,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,3,Spruce/Fir,0.0,0.0,0.0,0.0
+94,Aggregated,Aspen,0.0,0.0,0.0,0.0
+94,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+94,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+94,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+94,Centralized,Aspen,0.0,0.0,0.0,0.0
+94,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+94,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+94,Centralized,Krummholz,0.0,0.0,0.0,0.0
+94,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+94,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+94,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+95,0,Aspen,0.0,0.0,0.0,0.0
+95,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,0,Douglas-fir,0.0,0.0,0.0,0.0
+95,0,Krummholz,0.0,0.0,0.0,0.0
+95,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,0,Spruce/Fir,0.0,0.0,0.0,0.0
+95,1,Aspen,0.0,0.0,0.0,0.0
+95,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,1,Douglas-fir,0.0,0.0,0.0,0.0
+95,1,Krummholz,0.0,0.0,0.0,0.0
+95,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,1,Spruce/Fir,0.0,0.0,0.0,0.0
+95,2,Aspen,0.0,0.0,0.0,0.0
+95,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,2,Douglas-fir,0.0,0.0,0.0,0.0
+95,2,Krummholz,0.0,0.0,0.0,0.0
+95,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,2,Spruce/Fir,0.0,0.0,0.0,0.0
+95,3,Aspen,0.0,0.0,0.0,0.0
+95,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,3,Douglas-fir,0.0,0.0,0.0,0.0
+95,3,Krummholz,0.0,0.0,0.0,0.0
+95,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,3,Spruce/Fir,0.0,0.0,0.0,0.0
+95,Aggregated,Aspen,0.0,0.0,0.0,0.0
+95,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+95,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+95,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+95,Centralized,Aspen,0.0,0.0,0.0,0.0
+95,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+95,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+95,Centralized,Krummholz,0.0,0.0,0.0,0.0
+95,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+95,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+95,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+96,0,Aspen,0.0,0.0,0.0,0.0
+96,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,0,Douglas-fir,0.0,0.0,0.0,0.0
+96,0,Krummholz,0.0,0.0,0.0,0.0
+96,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,0,Spruce/Fir,0.0,0.0,0.0,0.0
+96,1,Aspen,0.0,0.0,0.0,0.0
+96,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,1,Douglas-fir,0.0,0.0,0.0,0.0
+96,1,Krummholz,0.0,0.0,0.0,0.0
+96,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,1,Spruce/Fir,0.0,0.0,0.0,0.0
+96,2,Aspen,0.0,0.0,0.0,0.0
+96,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,2,Douglas-fir,0.0,0.0,0.0,0.0
+96,2,Krummholz,0.0,0.0,0.0,0.0
+96,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,2,Spruce/Fir,0.0,0.0,0.0,0.0
+96,3,Aspen,0.0,0.0,0.0,0.0
+96,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,3,Douglas-fir,0.0,0.0,0.0,0.0
+96,3,Krummholz,0.0,0.0,0.0,0.0
+96,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,3,Spruce/Fir,0.0,0.0,0.0,0.0
+96,Aggregated,Aspen,0.0,0.0,0.0,0.0
+96,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+96,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+96,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+96,Centralized,Aspen,0.0,0.0,0.0,0.0
+96,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+96,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+96,Centralized,Krummholz,0.0,0.0,0.0,0.0
+96,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+96,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+96,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+97,0,Aspen,0.0,0.0,0.0,0.0
+97,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,0,Douglas-fir,0.0,0.0,0.0,0.0
+97,0,Krummholz,0.0,0.0,0.0,0.0
+97,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,0,Spruce/Fir,0.0,0.0,0.0,0.0
+97,1,Aspen,0.0,0.0,0.0,0.0
+97,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,1,Douglas-fir,0.0,0.0,0.0,0.0
+97,1,Krummholz,0.0,0.0,0.0,0.0
+97,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,1,Spruce/Fir,0.0,0.0,0.0,0.0
+97,2,Aspen,0.0,0.0,0.0,0.0
+97,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,2,Douglas-fir,0.0,0.0,0.0,0.0
+97,2,Krummholz,0.0,0.0,0.0,0.0
+97,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,2,Spruce/Fir,0.0,0.0,0.0,0.0
+97,3,Aspen,0.0,0.0,0.0,0.0
+97,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,3,Douglas-fir,0.0,0.0,0.0,0.0
+97,3,Krummholz,0.0,0.0,0.0,0.0
+97,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,3,Spruce/Fir,0.0,0.0,0.0,0.0
+97,Aggregated,Aspen,0.0,0.0,0.0,0.0
+97,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+97,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+97,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+97,Centralized,Aspen,0.0,0.0,0.0,0.0
+97,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+97,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+97,Centralized,Krummholz,0.0,0.0,0.0,0.0
+97,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+97,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+97,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+98,0,Aspen,0.0,0.0,0.0,0.0
+98,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,0,Douglas-fir,0.0,0.0,0.0,0.0
+98,0,Krummholz,0.0,0.0,0.0,0.0
+98,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,0,Spruce/Fir,0.0,0.0,0.0,0.0
+98,1,Aspen,0.0,0.0,0.0,0.0
+98,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,1,Douglas-fir,0.0,0.0,0.0,0.0
+98,1,Krummholz,0.0,0.0,0.0,0.0
+98,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,1,Spruce/Fir,0.0,0.0,0.0,0.0
+98,2,Aspen,0.0,0.0,0.0,0.0
+98,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,2,Douglas-fir,0.0,0.0,0.0,0.0
+98,2,Krummholz,0.0,0.0,0.0,0.0
+98,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,2,Spruce/Fir,0.0,0.0,0.0,0.0
+98,3,Aspen,0.0,0.0,0.0,0.0
+98,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,3,Douglas-fir,0.0,0.0,0.0,0.0
+98,3,Krummholz,0.0,0.0,0.0,0.0
+98,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,3,Spruce/Fir,0.0,0.0,0.0,0.0
+98,Aggregated,Aspen,0.0,0.0,0.0,0.0
+98,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+98,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+98,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+98,Centralized,Aspen,0.0,0.0,0.0,0.0
+98,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+98,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+98,Centralized,Krummholz,0.0,0.0,0.0,0.0
+98,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+98,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+98,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+99,0,Aspen,0.0,0.0,0.0,0.0
+99,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,0,Douglas-fir,0.0,0.0,0.0,0.0
+99,0,Krummholz,0.0,0.0,0.0,0.0
+99,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,0,Spruce/Fir,0.0,0.0,0.0,0.0
+99,1,Aspen,0.0,0.0,0.0,0.0
+99,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,1,Douglas-fir,0.0,0.0,0.0,0.0
+99,1,Krummholz,0.0,0.0,0.0,0.0
+99,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,1,Spruce/Fir,0.0,0.0,0.0,0.0
+99,2,Aspen,0.0,0.0,0.0,0.0
+99,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,2,Douglas-fir,0.0,0.0,0.0,0.0
+99,2,Krummholz,0.0,0.0,0.0,0.0
+99,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,2,Spruce/Fir,0.0,0.0,0.0,0.0
+99,3,Aspen,0.0,0.0,0.0,0.0
+99,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,3,Douglas-fir,0.0,0.0,0.0,0.0
+99,3,Krummholz,0.0,0.0,0.0,0.0
+99,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,3,Spruce/Fir,0.0,0.0,0.0,0.0
+99,Aggregated,Aspen,0.0,0.0,0.0,0.0
+99,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+99,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+99,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+99,Centralized,Aspen,0.0,0.0,0.0,0.0
+99,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+99,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+99,Centralized,Krummholz,0.0,0.0,0.0,0.0
+99,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+99,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+99,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0
+100,0,Aspen,0.0,0.0,0.0,0.0
+100,0,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,0,Douglas-fir,0.0,0.0,0.0,0.0
+100,0,Krummholz,0.0,0.0,0.0,0.0
+100,0,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,0,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,0,Spruce/Fir,0.0,0.0,0.0,0.0
+100,1,Aspen,0.0,0.0,0.0,0.0
+100,1,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,1,Douglas-fir,0.0,0.0,0.0,0.0
+100,1,Krummholz,0.0,0.0,0.0,0.0
+100,1,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,1,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,1,Spruce/Fir,0.0,0.0,0.0,0.0
+100,2,Aspen,0.0,0.0,0.0,0.0
+100,2,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,2,Douglas-fir,0.0,0.0,0.0,0.0
+100,2,Krummholz,0.0,0.0,0.0,0.0
+100,2,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,2,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,2,Spruce/Fir,0.0,0.0,0.0,0.0
+100,3,Aspen,0.0,0.0,0.0,0.0
+100,3,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,3,Douglas-fir,0.0,0.0,0.0,0.0
+100,3,Krummholz,0.0,0.0,0.0,0.0
+100,3,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,3,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,3,Spruce/Fir,0.0,0.0,0.0,0.0
+100,Aggregated,Aspen,0.0,0.0,0.0,0.0
+100,Aggregated,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,Aggregated,Douglas-fir,0.0,0.0,0.0,0.0
+100,Aggregated,Krummholz,0.0,0.0,0.0,0.0
+100,Aggregated,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,Aggregated,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,Aggregated,Spruce/Fir,0.0,0.0,0.0,0.0
+100,Centralized,Aspen,0.0,0.0,0.0,0.0
+100,Centralized,Cottonwood/Willow,0.0,0.0,0.0,0.0
+100,Centralized,Douglas-fir,0.0,0.0,0.0,0.0
+100,Centralized,Krummholz,0.0,0.0,0.0,0.0
+100,Centralized,Lodgepole Pine,0.0,0.0,0.0,0.0
+100,Centralized,Ponderosa Pine,0.0,0.0,0.0,0.0
+100,Centralized,Spruce/Fir,0.0,0.0,0.0,0.0

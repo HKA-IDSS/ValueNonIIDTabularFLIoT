@@ -27,41 +27,41 @@ def aggregate_trees(bst_prev_org: Optional[bytes], bst_curr_org: bytes) -> bytes
     if not bst_prev_org:
         return bst_curr_org
 
-    # Get the tree numbers
     tree_num_prev, _ = get_tree_nums(bst_prev_org)
-    _, paral_tree_num_curr = get_tree_nums(bst_curr_org)
+    tree_num_curr, paral_tree_num_curr = get_tree_nums(bst_curr_org)
 
     bst_prev = json.loads(bytearray(bst_prev_org))
     bst_curr = json.loads(bytearray(bst_curr_org))
 
+    # Total trees after aggregation
     bst_prev["learner"]["gradient_booster"]["model"]["gbtree_model_param"][
         "num_trees"
-    ] = str(tree_num_prev + paral_tree_num_curr)
-    iteration_indptr = bst_prev["learner"]["gradient_booster"]["model"][
-        "iteration_indptr"
-    ]
-    bst_prev["learner"]["gradient_booster"]["model"]["iteration_indptr"].append(
-        iteration_indptr[-1] + paral_tree_num_curr
-    )
+    ] = str(tree_num_prev + tree_num_curr)  # was: tree_num_prev + paral_tree_num_curr
 
-    # Aggregate new trees
+    # iteration_indptr tracks tree boundaries per boosting round.
+    # Each client model has its own indptr; we need to offset and append
+    # all its entries (skipping the leading 0) onto the global indptr.
+    global_indptr = bst_prev["learner"]["gradient_booster"]["model"]["iteration_indptr"]
+    client_indptr = bst_curr["learner"]["gradient_booster"]["model"]["iteration_indptr"]
+    offset = global_indptr[-1]
+    for entry in client_indptr[1:]:  # skip the leading 0
+        global_indptr.append(offset + entry)
+
+    # Append ALL trees from client model, with corrected IDs
     trees_curr = bst_curr["learner"]["gradient_booster"]["model"]["trees"]
-    for tree_count in range(paral_tree_num_curr):
-        trees_curr[tree_count]["id"] = tree_num_prev + tree_count
+    for tree_count in range(tree_num_curr):  # was: range(paral_tree_num_curr)
+        trees_curr[tree_count]["id"] = tree_num_prev + tree_count  # now covers all trees
         bst_prev["learner"]["gradient_booster"]["model"]["trees"].append(
             trees_curr[tree_count]
         )
         bst_prev["learner"]["gradient_booster"]["model"]["tree_info"].append(0)
 
-    bst_prev_bytes = bytes(json.dumps(bst_prev), "utf-8")
-
-    return bst_prev_bytes
+    return bytes(json.dumps(bst_prev), "utf-8")
 
 
-def aggregate_xgboost(local_models: list[list[bytes]], global_model: Optional[bytes]):
-    for model in local_models:
-        for bst in model:
-            global_model = aggregate_trees(global_model, bst)
+def aggregate_xgboost(local_models: list[bytes], global_model: Optional[bytes]) -> bytes:
+    for client_model in local_models:
+        global_model = aggregate_trees(global_model, client_model)
     return global_model
 
 

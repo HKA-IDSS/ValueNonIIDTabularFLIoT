@@ -1,11 +1,15 @@
-from experiment_parameters.TrainerFactory import dataset_model_dictionary
-from util.manual_partition_scripts.ManualSamplerUtil import return_dataframes_by_label_distribution, store_datasets
+import os
 
-if __name__ == "__main__":
+from experiment_parameters.TrainerFactory import dataset_model_dictionary
+from util.manual_partition_scripts.ManualSamplerUtil import return_dataframes_by_label_distribution, store_datasets, \
+    indexes_special_class_samples, store_maverick_removed_data
+
+
+def partition_har_1_maverick_laying(random_state):
     clients = ["client_0", "client_1", "client_2", "client_3", "client_4", "client_5"]
     X_train, y_train = dataset_model_dictionary["har"]().get_dataset().get_training_data()
     X_test, y_test = dataset_model_dictionary["har"]().get_dataset().get_test_data()
-    partition_name = "HAR_1_Maverick_Laying"
+    partition_name = "HAR_1_Maverick_Laying" + os.sep + str(random_state)
 
     labels = y_train.columns
     total_label_distribution_train = [len(y_train[y_train[label] == 1.0]) for label in labels]
@@ -23,9 +27,9 @@ if __name__ == "__main__":
         label_distribution_client_test[client_number].insert(0, 0)
 
     X_dataframes_train, y_dataframes_train = \
-        return_dataframes_by_label_distribution(X_train, y_train, labels, label_distribution_client_train)
+        return_dataframes_by_label_distribution(X_train, y_train, labels, label_distribution_client_train, random_state)
     X_dataframes_test, y_dataframes_test = \
-        return_dataframes_by_label_distribution(X_test, y_test, labels, label_distribution_client_test)
+        return_dataframes_by_label_distribution(X_test, y_test, labels, label_distribution_client_test, random_state)
 
     store_datasets(clients,
                    X_dataframes_train,
@@ -33,3 +37,21 @@ if __name__ == "__main__":
                    X_dataframes_test,
                    y_dataframes_test,
                    partition_name)
+
+    X_dataframe_removed_maverick_train = X_dataframes_train[0]
+    X_dataframe_removed_maverick_test = X_dataframes_test[0]
+    y_dataframe_removed_maverick_train = y_dataframes_train[0]
+    y_dataframe_removed_maverick_test = y_dataframes_test[0]
+
+    indexes_to_remove_train, indexes_to_remove_test = indexes_special_class_samples(y_dataframe_removed_maverick_train,
+                                                                                    y_dataframe_removed_maverick_test,
+                                                                                    "LAYING")
+    store_maverick_removed_data(X_dataframe_removed_maverick_train,
+                                y_dataframe_removed_maverick_train,
+                                X_dataframe_removed_maverick_test,
+                                y_dataframe_removed_maverick_test,
+                                partition_name,
+                                0,
+                                indexes_to_remove_train,
+                                indexes_to_remove_test)
+
