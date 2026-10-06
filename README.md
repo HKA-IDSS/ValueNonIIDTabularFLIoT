@@ -1,8 +1,5 @@
 # Value NonIID Tabular FL IoT data
 
-**(Comment: We will upload on 05.10.2026/06.10.2026 a revised version of the repository, with the times for SV and a refactored version of
-the code. We would like to request you for your kind patience.)**
-
 Experimentation setup for the paper *On the Utility of Non-i.i.d. Tabular IoT Data for Federated Learning*. 
 The setup works by encapsulating the [Flower Federated Learning framework](https://flower.ai/), and extending it with functionality
 for simulation of different scenarios and data quality measurements. We also provide the results obtained in our
@@ -82,6 +79,10 @@ and Shapley_Values contains the SV computation results for each metric.
 
 To visualize training results, we recommend the use of a notebook. We have included all necessary notebooks to check
 the results contained in the paper. The results of the paper can be checked in notebook _TransferLearning.ipynb_.
+
+### Time analysis
+
+The analysis of times can be found in [JUCS_Appendix.pdf](https://github.com/HKA-IDSS/ValueNonIIDTabularFLIoT/blob/main/JUCS_Appendix.pdf).
 
 ## Known and possible errors
 
